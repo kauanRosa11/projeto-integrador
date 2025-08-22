@@ -1,0 +1,29 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.8vw);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* === TOPO === */
+
+header{
+    padding: 3vw 6vw 3vw 6vw;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 10px 0 10px;
+}
