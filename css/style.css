@@ -4,19 +4,20 @@ html{
 }
 nav a.Home {
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
 nav a {
     text-decoration: none;
-    color: gray;
+    color: white;
  
 }
 /* === TOPO === */
 
 header{
-    padding: 3vw 6vw 3vw 6vw;
+    padding: 2vw 6vw 2vw 6vw;
+    background-color: #451B7A;
 }
 header nav{
     display: flex;
@@ -24,8 +25,12 @@ header nav{
     align-items: center;
 }
 header nav h1{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
+}
+header nav h1 a{
+    display: flex;
+    align-items: center;
 }
 header nav ul{
     display: flex;
@@ -33,4 +38,70 @@ header nav ul{
 header nav ul li{
     margin: 0 10px 0 10px;
     padding: 0 15px 0 15px;
+}
+
+/* === Parte Um === */
+
+section.parteUm{
+background-color: #451B7A;
+}
+section.parteUm ul{
+    text-align: center;
+}
+
+section.parteUm ul li{
+padding: 2vw 2vw 2vw 2vw;
+background-color: #FDEEFF;
+border-bottom-left-radius: 70px;
+border-bottom-right-radius: 70px;
+display: flex;
+}
+section.parteUm ul.imagens li{
+    width: 238px ;
+    height: 458px;
+    box-sizing: border-box;
+}
+section.parteUm ul.imagens li p{
+    text-align: center;
+    padding: 30% 0 0 0;
+    
+}
+section.parteUm ul.imagens {
+display: flex;
+}
+section.parteUm ul.imagens li.saude{
+background: url(../src/images/blackpower.png);
+padding: 16vw 0 0 0;
+}
+section.parteUm ul.imagens li.corpo{
+background: url(../src/images/muiecomhalter.png);
+padding: 16vw 0 0 0;
+}
+section.parteUm ul.imagens li.mente{
+background: url(../src/images/bksedu.png);
+padding: 19.8vw 0 0 0;
+}
+section.parteUm ul.imagens li.saude button {
+    background-color: #F38E34;
+    color: white;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    border: none;
+    border-radius: 11px;
+    font-size: 0.9rem;
+}
+section.parteUm ul.imagens li.corpo button {
+    background-color: #338B96;
+    color: white;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    border: none;
+    border-radius: 11px;
+    font-size: 0.9rem;
+}
+section.parteUm ul.imagens li.mente button {
+    background-color: #9A282A;
+    color: white;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    border: none;
+    border-radius: 11px;
+    font-size: 0.9rem;
 }
