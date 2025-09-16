@@ -1,3 +1,4 @@
+
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8vw);
@@ -50,7 +51,7 @@ section.parteUm ul{
 }
 
 section.parteUm ul li{
-padding: 2vw 2vw 2vw 2vw;
+padding: 2vw 4vw 2vw 4vw;
 background-color: #FDEEFF;
 border-bottom-left-radius: 70px;
 border-bottom-right-radius: 70px;
@@ -68,18 +69,20 @@ section.parteUm ul.imagens li p{
 }
 section.parteUm ul.imagens {
 display: flex;
+gap: 20px;
+padding: 0 0 0 30.8vw;
 }
 section.parteUm ul.imagens li.saude{
 background: url(../src/images/blackpower.png);
-padding: 16vw 0 0 0;
+padding: 17vw 0 0 3.4vw;
 }
 section.parteUm ul.imagens li.corpo{
 background: url(../src/images/muiecomhalter.png);
-padding: 16vw 0 0 0;
+padding: 17vw 0 0 3.4vw;
 }
 section.parteUm ul.imagens li.mente{
 background: url(../src/images/bksedu.png);
-padding: 19.8vw 0 0 0;
+padding: 17vw 0 0 3.4vw;
 }
 section.parteUm ul.imagens li.saude button {
     background-color: #F38E34;
@@ -104,4 +107,30 @@ section.parteUm ul.imagens li.mente button {
     border: none;
     border-radius: 11px;
     font-size: 0.9rem;
+}
+section.parteUm div{
+text-align: left;
+padding: 0 0 0 5vw;
+}
+section.parteUm div h2{
+font-size: 2rem;
+color: #431A78;
+font-weight: bold;
+}
+section.parteUm div p {
+    color: gray;
+    padding: 2vw 0 1vw 0;
+    font-size: 0.9rem;
+}
+section.parteUm div button {
+padding: 0.7vw 3vw 0.7vw 3vw;
+font-weight: bold;
+background-color: #451B7A;
+border: none;
+border-radius: 26px;
+font-size: 0.7rem;
+}
+section.parteUm div button a {
+color: white;
+text-decoration: none;
 }
