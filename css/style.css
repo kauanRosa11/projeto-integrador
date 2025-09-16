@@ -40,7 +40,14 @@ header nav ul li{
     margin: 0 10px 0 10px;
     padding: 0 15px 0 15px;
 }
-
+        header nav ul li:hover ul {
+            display: block;
+            background-color: red;
+        }
+        header nav ul li ul{
+            position: absolute;
+            display: none;
+        }
 /* === Parte Um === */
 
 section.parteUm{
