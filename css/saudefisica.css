@@ -18,7 +18,7 @@ nav a {
 
 header{
     padding: 2vw 6vw 2vw 6vw;
-    background-color: #451B7A;
+    background-color: #2CABA6;
 }
 header nav{
     display: flex;
@@ -39,4 +39,63 @@ header nav ul{
 header nav ul li{
     margin: 0 10px 0 10px;
     padding: 0 15px 0 15px;
+}
+section.saudefisica{
+    display: flex;
+    background-color: #236C74;
+}
+section.saudefisica div{
+    padding: 0vw 0 0vw 7vw;
+}
+section.saudefisica div h2{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #F38E34;
+    padding: 0 0 2vw 0;
+    margin-top: 7.5vw;
+    line-height: 110%;
+    margin-right: 3vw;
+}
+section.saudefisica div p{
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 1.5vw;
+    font-weight: bold;
+
+}
+section.saudefisica div img{
+    height: 35vw;
+}
+section.atividadefisica{
+    background-color: #2CABA6;
+    display: flex;
+    height: 50vw;
+}
+section.atividadefisica div{
+    color: #ffffff;
+
+}
+section.atividadefisica h2{
+    padding-left: 200%;
+    font-size: 3rem;
+}
+section.atividadefisica h2 strong{
+    line-height: 140%;
+}
+section.atividadefisica h2 strong.atv{
+    background-color: #F436A0;
+}
+section.atividadefisica h2 strong.fisica{
+    background-color: #F436A0;
+}
+section.atividadefisica div p.um{
+    font-weight: bold;
+    padding: 2vw 10vw 0 2vw;
+    font-size: 1.5rem;
+    line-height: 110%;
+}
+section.atividadefisica div p.dois{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 110%;
 }
