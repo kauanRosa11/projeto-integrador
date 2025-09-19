@@ -1,8 +1,8 @@
-
-html{
+html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8vw);
 }
+
 nav a.Home {
     text-decoration: none;
     color: white;
@@ -12,85 +12,102 @@ nav a.Home {
 nav a {
     text-decoration: none;
     color: white;
- 
+
 }
+
 /* === TOPO === */
 
-header{
-    padding: 2vw 6vw 2vw 6vw;
+header {
+    padding: 2vw 6vw 2vw 8vw;
     background-color: #451B7A;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header nav h1{
+
+header nav h1 {
     font-size: 1.5rem;
     font-weight: bold;
 }
-header nav h1 a{
+
+header nav h1 a {
     display: flex;
     align-items: center;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
 }
-header nav ul li{
+
+header nav ul li {
     margin: 0 10px 0 10px;
     padding: 0 15px 0 15px;
 }
-        header nav ul li:hover ul {
-            display: block;
-            background-color: red;
-        }
-        header nav ul li ul{
-            position: absolute;
-            display: none;
-        }
+
+header nav ul li:hover ul {
+    display: block;
+    background-color: red;
+}
+
+header nav ul li ul {
+    position: absolute;
+    display: none;
+}
+
 /* === Parte Um === */
 
-section.parteUm{
-background-color: #451B7A;
+section.parteUm {
+    background-color: #451B7A;
 }
-section.parteUm ul{
+
+section.parteUm ul {
     text-align: center;
 }
 
-section.parteUm ul li{
-padding: 2vw 4vw 2vw 4vw;
-background-color: #FDEEFF;
-border-bottom-left-radius: 70px;
-border-bottom-right-radius: 70px;
-display: flex;
+section.parteUm ul li {
+    padding: 2vw 4vw 2vw 4vw;
+    background-color: #FDEEFF;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    display: flex;
 }
-section.parteUm ul.imagens li{
-    width: 238px ;
+
+section.parteUm ul.imagens li {
+    width: 238px;
     height: 458px;
     box-sizing: border-box;
 }
-section.parteUm ul.imagens li p{
+
+section.parteUm ul.imagens li p {
     text-align: center;
     padding: 30% 0 0 0;
-    
+
 }
+
 section.parteUm ul.imagens {
-display: flex;
-gap: 20px;
-padding: 0 0 0 30.8vw;
+    display: flex;
+    gap: 20px;
+    padding: 0 0 0 30.8vw;
 }
-section.parteUm ul.imagens li.saude{
-background: url(../src/images/blackpower.png);
-padding: 17vw 0 0 3.4vw;
+
+section.parteUm ul.imagens li.saude {
+    background: url(../src/images/blackpower.png);
+    padding: 17vw 0 0 3.4vw;
 }
-section.parteUm ul.imagens li.corpo{
-background: url(../src/images/muiecomhalter.png);
-padding: 17vw 0 0 3.4vw;
+
+section.parteUm ul.imagens li.corpo {
+    background: url(../src/images/muiecomhalter.png);
+    padding: 17vw 0 0 3.4vw;
 }
-section.parteUm ul.imagens li.mente{
-background: url(../src/images/bksedu.png);
-padding: 17vw 0 0 3.4vw;
+
+section.parteUm ul.imagens li.mente {
+    background: url(../src/images/bksedu.png);
+    padding: 17vw 0 0 3.4vw;
 }
+
 section.parteUm ul.imagens li.saude button {
     background-color: #F38E34;
     color: white;
@@ -99,6 +116,7 @@ section.parteUm ul.imagens li.saude button {
     border-radius: 11px;
     font-size: 0.9rem;
 }
+
 section.parteUm ul.imagens li.corpo button {
     background-color: #338B96;
     color: white;
@@ -107,6 +125,7 @@ section.parteUm ul.imagens li.corpo button {
     border-radius: 11px;
     font-size: 0.9rem;
 }
+
 section.parteUm ul.imagens li.mente button {
     background-color: #9A282A;
     color: white;
@@ -115,29 +134,141 @@ section.parteUm ul.imagens li.mente button {
     border-radius: 11px;
     font-size: 0.9rem;
 }
-section.parteUm div{
-text-align: left;
-padding: 0 0 0 5vw;
+
+section.parteUm div {
+    text-align: left;
+    padding: 0 0 0 5vw;
 }
-section.parteUm div h2{
-font-size: 2rem;
-color: #431A78;
-font-weight: bold;
+
+section.parteUm div h2 {
+    font-size: 3rem;
+    color: #431A78;
+    font-weight: bold;
 }
+
 section.parteUm div p {
     color: gray;
     padding: 2vw 0 1vw 0;
     font-size: 0.9rem;
 }
+
 section.parteUm div button {
-padding: 0.7vw 3vw 0.7vw 3vw;
-font-weight: bold;
-background-color: #451B7A;
-border: none;
-border-radius: 26px;
-font-size: 0.7rem;
+    padding: 0.7vw 3vw 0.7vw 3vw;
+
+    background-color: #451B7A;
+    border: none;
+    border-radius: 26px;
+    font-size: 0.7rem;
 }
+
 section.parteUm div button a {
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+/*    PARTE DOIS    */
+
+section.parteDois {
+    background-color: #451B7A;
+    color: white;
+    padding: 4px;
+}
+
+section.parteDois div ul.um {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.parteDois div h3 {
+    font-size: 4rem;
+    margin: 5vw 2vw 4vw 9.2vw;
+    font-weight: bold;
+    padding: 8px 0 0 0;
+}
+
+section.parteDois div br {
+    display: block;
+    margin-bottom: 8px;
+}
+section.parteDois div p {
+    margin: 4vw 8vw 4vw 1vw;
+    font-size: 1.8rem;
+}
+
+section.parteDois div ul.dois li {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;     
+  justify-content: center;  
+  text-align: center;    
+
+}
+section.parteDois div ul.dois li button{
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    width: 7rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0.5vw 0 0.5vw 0;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+section.parteDois div ul.dois li h4{
+    font-size: 2rem;
+}
+
+section.parteDois div ul li.um{
+    background-color: #F436A0;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    margin: 3vw 12vw 5vw 9.2vw;
+    border-radius: 50px;
+}
+section.parteDois div ul li.dois{
+    background-color: #F38E34;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    margin: 3vw 12vw 5vw 9.2vw;
+    border-radius: 50px;
+}
+section.parteDois div ul li.tres{
+    background-color: #2CABA6;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    margin: 3vw 12vw 5vw 9.2vw;
+    border-radius: 50px;
+}
+section.parteDois div ul li.quatro{
+    background-color: #F436A0;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    margin: 3vw 12vw 5vw 9.2vw;
+    border-radius: 50px;
+}
+section.parteDois div ul li.cinco{
+    background-color: #F38E34;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    margin: 3vw 12vw 5vw 9.2vw;
+    border-radius: 50px;
+}
+
+/*   PARTE TRES    */
+
+section.parteTres {
+    display: flex;
+    border-radius: 70px 70px 0 0;
+    background-color: white;
+    padding: 7px;
+}
+section.parteTres div {
+    display: flex;
+    justify-items: center;
+    margin: 35px;
+}
+section.parteTres div ol li {
+    background-color: #431A78;
+}
+section.parteTres div ol li h4 {
+    color: #F38E34;
+}
+section.parteTres div ol li p{
+    color: white;
 }
