@@ -1,0 +1,112 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #251B51;
+}
+
+
+section.banner {
+    background-color: #FDEEFF;
+    display: flex;
+    padding: 0 5vw 5vw 5vw;
+    border-radius: 0 0 5vw 5vw;
+}
+
+section.banner div h1 {
+    font-size: 150px;
+    width: 807px;
+    color: #3C1869;
+    font-weight: bold;
+}
+
+section.banner div p {
+    font-size: 50px;
+    width: 516px;
+    color: #3C1869;
+    opacity: 80%;
+    text-align: start;
+    padding: 40px 20px 0 0;
+
+}
+
+section.alimentacao {
+    display: flex;
+    justify-content: center;
+    margin: 5vw;
+}
+
+section.alimentacao div {
+    background-color: #F38E34;
+    width: 1250px;
+    border-radius: 2vw;
+}
+
+section.alimentacao div p {
+    padding: 4vw;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+
+}
+
+section p {
+
+    padding: 4vw;
+    font-size: 40px;
+
+    color: white;
+    width: 1100px;
+    text-align: center;
+}
+
+section.variacao {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+section.sugstoes h1 {
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 6px 3px #8D5EC8;
+    color: white;
+    font-size: 4vw;
+    width: 1078px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    
+
+}
+
+section.sugstoes div.container {
+    display: flex;
+    justify-content: center;
+    background-color: #FDEEFF;
+    padding: 4vw 5vw 2vw 5vw;
+    border-radius: 1.5vw;
+    margin-top: 3vw;
+    
+
+}
+
+section.sugstoes div {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    margin: auto;
+    font-size: 24px;
+    color: #F436A0;
+    font-weight: 600;
+    
+
+}
+
+section.sugstoes div.container div ul {
+    list-style: disc;
+
+}
+
