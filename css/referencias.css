@@ -46,7 +46,7 @@ header nav ul li{
 }
         header nav ul li:hover ul {
             display: block;
-            background-color: red;
+            background-color: gray;
         }
         header nav ul li ul{
             position: absolute;
