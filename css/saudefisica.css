@@ -16,29 +16,44 @@ nav a {
 
 /* === TOPO === */
 
-header{
-    padding: 2vw 6vw 2vw 6vw;
-    background-color: #2CABA6;
+header {
+    padding: 2vw 6vw 2vw 8vw;
+    background-color: #2caba6;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header nav h1{
+
+header nav h1 {
     font-size: 1.5rem;
     font-weight: bold;
 }
-header nav h1 a{
+
+header nav h1 a {
     display: flex;
     align-items: center;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
 }
-header nav ul li{
+
+header nav ul li {
     margin: 0 10px 0 10px;
     padding: 0 15px 0 15px;
+}
+
+header nav ul li:hover ul {
+    display: block;
+    background-color: gray;
+}
+
+header nav ul li ul {
+    position: absolute;
+    display: none;
 }
 section.saudefisica{
     display: flex;
