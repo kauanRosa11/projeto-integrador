@@ -1,7 +1,8 @@
-* {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.8vw);
+    text-decoration: none;
 }
-
 
 
 body {
@@ -27,7 +28,6 @@ header {
     padding: 2vw 6vw 2vw 8vw;
     background-color: #451B7A;
 }
-
 header nav {
     display: flex;
     justify-content: space-between;
@@ -63,6 +63,7 @@ header nav ul li ul {
     display: none;
 }
 
+/* === sections === */
 
 section.banner {
     background-color: #FDEEFF;
