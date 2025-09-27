@@ -26,8 +26,9 @@ nav a {
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #451B7A;
+    background-color: #B10072;
 }
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -44,11 +45,11 @@ header nav h1 a {
     align-items: center;
 }
 
-header nav ul {
+header nav div ul {
     display: flex;
 }
 
-header nav ul li {
+header nav div ul li {
     margin: 0 10px 0 10px;
     padding: 0 15px 0 15px;
 }
@@ -86,7 +87,6 @@ section.banner div p {
     opacity: 80%;
     text-align: start;
     padding: 40px 20px 0 0;
-
 }
 
 section.alimentacao {
@@ -156,9 +156,10 @@ section.sugstoes div {
     justify-content: center;
     width: 1400px;
     margin: auto;
-    font-size: 24px;
+    font-size: 30px;
     color: #F436A0;
     font-weight: 600;
+    margin-bottom: 8vw;
     
 
 }
@@ -168,3 +169,32 @@ section.sugstoes div.container div ul {
 
 }
 
+/* FOOTER */
+footer {
+
+    background-color: #B10072;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.8rem;
+    margin: 0;
+}
+
+footer a.logo img {
+    height: 4rem;
+    width: 4rem;
+    margin: 0 0 0 2rem;
+}
+
+footer ul {
+    display: flex;
+}
+footer ul li{
+justify-content: space-between;
+}
+footer ul img {
+    height: 3rem;
+    width: 3.2rem;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+}

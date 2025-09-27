@@ -20,38 +20,45 @@ nav a {
 }
 /* === TOPO === */
 
-header{
-    padding: 2vw 6vw 2vw 6vw;
+header {
+    padding: 2vw 6vw 2vw 8vw;
     background-color: #F38E34;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header nav h1{
+
+header nav h1 {
     font-size: 1.5rem;
     font-weight: bold;
 }
-header nav h1 a{
+
+header nav h1 a {
     display: flex;
     align-items: center;
 }
-header nav ul{
+
+header nav div ul {
     display: flex;
 }
-header nav ul li{
+
+header nav div ul li {
     margin: 0 10px 0 10px;
     padding: 0 15px 0 15px;
 }
-        header nav ul li:hover ul {
-            display: block;
-            background-color: grey;
-        }
-        header nav ul li ul{
-            position: absolute;
-            display: none;
-        }
+
+header nav ul li:hover ul {
+    display: block;
+    background-color: gray;
+}
+
+header nav ul li ul {
+    position: absolute;
+    display: none;
+}
 
 /* ref preta*/ 
 main {
@@ -65,7 +72,7 @@ main section.b {
 
 main section.a {
     
-    margin-top: 10vw;
+  
     margin-bottom: 10vw;
 }
 
@@ -77,6 +84,7 @@ main section div.j p
     text-align: center;
 }
 main section h1 {
+    padding-top: 10vw;
 font-size: 200px;
 font-weight: bold;
 margin-bottom: 4vw;
@@ -90,6 +98,18 @@ main section.b div {
     padding: 2vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
+    
+}
+
+main section div.peido {
+margin: 8vw 10vw 0 10vw;
+    align-items: center;
+    
+}
+main section div.peido p {
+text-align: center;
+padding: 1vw;
+
 }
 
 
@@ -109,10 +129,12 @@ h2{
     color: #732751;
 }
 
+
 /* conteudo */
 
 main h2 {
     font-size: 70px;
+    
 }
 
 /* footer */

@@ -18,7 +18,7 @@ nav a {
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #2caba6;
+    background-color: #2CABA6;
 }
 
 header nav {
@@ -37,11 +37,11 @@ header nav h1 a {
     align-items: center;
 }
 
-header nav ul {
+header nav div ul {
     display: flex;
 }
 
-header nav ul li {
+header nav div ul li {
     margin: 0 10px 0 10px;
     padding: 0 15px 0 15px;
 }
@@ -55,6 +55,7 @@ header nav ul li ul {
     position: absolute;
     display: none;
 }
+
 section.saudefisica{
     display: flex;
     background-color: #236C74;
