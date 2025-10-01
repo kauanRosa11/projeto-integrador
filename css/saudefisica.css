@@ -1,8 +1,8 @@
-
-html{
+html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8vw);
 }
+
 nav a.Home {
     text-decoration: none;
     color: white;
@@ -56,62 +56,44 @@ header nav ul li ul {
     display: none;
 }
 
-section.saudefisica{
+/*SAUDE FISICA*/
+section.saudefisica {
     display: flex;
-    background-color: #236C74;
+    background-color: #F436A0;
+    height: 48vw;
 }
-section.saudefisica div{
+
+section.saudefisica div {
     padding: 0vw 0 0vw 7vw;
 }
-section.saudefisica div h2{
+
+section.saudefisica div h2 {
     font-size: 4.5rem;
     font-weight: bold;
-    color: #F38E34;
+    color: white;
     padding: 0 0 2vw 0;
-    margin-top: 7.5vw;
+    margin-top: 5vw;
     line-height: 110%;
     margin-right: 3vw;
 }
-section.saudefisica div p{
+
+section.saudefisica div p {
     color: #ffffff;
     font-size: 1.4rem;
     margin-bottom: 1.5vw;
     font-weight: bold;
+    padding: 3vw 3vw 0 0;
 
 }
-section.saudefisica div img{
-    height: 35vw;
-}
-section.atividadefisica{
-    background-color: #2CABA6;
-    display: flex;
-    height: 50vw;
-}
-section.atividadefisica div{
-    color: #ffffff;
 
+section.saudefisica div img {
+    height: 48vw;
 }
-section.atividadefisica h2{
-    padding-left: 200%;
-    font-size: 3rem;
+
+section.saudefisica div a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3vw;
 }
-section.atividadefisica h2 strong{
-    line-height: 140%;
-}
-section.atividadefisica h2 strong.atv{
-    background-color: #F436A0;
-}
-section.atividadefisica h2 strong.fisica{
-    background-color: #F436A0;
-}
-section.atividadefisica div p.um{
-    font-weight: bold;
-    padding: 2vw 10vw 0 2vw;
-    font-size: 1.5rem;
-    line-height: 110%;
-}
-section.atividadefisica div p.dois{
-    font-weight: bold;
-    font-size: 1.5rem;
-    line-height: 110%;
-}
+
+
