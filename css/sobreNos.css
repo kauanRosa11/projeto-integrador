@@ -1,0 +1,89 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.8vw);
+}
+nav a.Home {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: #F436A0;
+}
+/* === TOPO === */
+
+header {
+    padding: 2vw 6vw 2vw 8vw;
+    background-color: #85289A;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+header nav h1 a {
+    display: flex;
+    align-items: center;
+}
+header nav div ul {
+    display: flex;
+}
+
+header nav div ul li {
+    margin: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
+}
+
+header nav ul li:hover ul {
+    display: block;
+    background-color: gray;
+}
+
+header nav ul li ul {
+    position: absolute;
+    display: none;
+}
+header nav h1{
+    font-size: 2.5em;
+    color: #FFFFFF;
+    padding-top: 2vw;
+}
+/* === Sobre Nós === */
+section.sobrenos{
+    background-color: #85289A;
+    color: #FFFFFF;
+    height: 23vw;
+    border-radius: 0 0 4vw 4vw;
+    text-align: left;
+}
+section.sobrenos div{
+    display: flex;
+    padding-top: 3vw;
+    text-align: center;
+}
+section.sobrenos div p{
+    font-size: 170%;
+    padding: 0 0 0 10vw;
+}
+/* === Nosso Projeto === */
+section.nossoprojeto{
+    padding-top: 5vw;
+}
+section.nossoprojeto div{
+    background-color: #85289A;
+    color: #FFFFFF;
+    height: 18vw;
+    border-radius: 3vw;
+}
+section.nossoprojeto div h3{
+    padding: 2vw 0 3vw 5vw;
+}
