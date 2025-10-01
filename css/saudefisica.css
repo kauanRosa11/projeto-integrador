@@ -57,16 +57,24 @@ header nav ul li ul {
 }
 
 /*SAUDE FISICA*/
-section.saudefisica {
+section{
+    background-color: #2CABA6;
+}
+section.saudefisica ul{
     display: flex;
+    justify-content: space-between;
     background-color: #F436A0;
     height: 48vw;
+    border-radius: 0 0 6vw 6vw;
+    
 }
 
-section.saudefisica div {
+section.saudefisica div.texto {
     padding: 0vw 0 0vw 7vw;
 }
-
+section.saudefisica div.img {
+    padding: 0vw 0 0vw 7vw;
+}
 section.saudefisica div h2 {
     font-size: 4.5rem;
     font-weight: bold;
@@ -97,3 +105,43 @@ section.saudefisica div a {
 }
 
 
+/* ATIVIDADE FISICA*/
+section.atvF {
+    background-color: #2CABA6;
+    color: white;
+    padding: 6vw;
+}
+section.atvF div{
+
+    justify-content: right;
+    gap: 3vw;  
+}
+section.atvF div p{
+    font-size: 2vw;
+}
+.atvF div ul li {
+     padding: 1.3vw 10vw;
+     background-color: #F436A0;
+     margin-bottom: 3vw;
+     border-radius: 5vw;
+}
+section.atvF div h3{
+    font-size: 1.7rem;
+}
+strong {
+    font-weight: bold;
+}
+section.atvF p{
+    font-size: 2vw;
+}
+
+section.atvF div.container{
+    display: flex;
+    align-items: center;
+}
+.info p {
+    margin-bottom: 3vw;
+}
+.container {
+    display: flex;
+}
