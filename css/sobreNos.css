@@ -77,13 +77,18 @@ section.sobrenos div p{
 /* === Nosso Projeto === */
 section.nossoprojeto{
     padding-top: 5vw;
+    padding: 6vw 5vw 5vw 5vw;
 }
 section.nossoprojeto div{
     background-color: #85289A;
     color: #FFFFFF;
-    height: 18vw;
+    height: 16vw;
     border-radius: 3vw;
+
 }
 section.nossoprojeto div h3{
     padding: 2vw 0 3vw 5vw;
+}
+section.nossoprojeto div ol li p{
+    padding: 0 2vw 0.2vw 4vw;
 }
