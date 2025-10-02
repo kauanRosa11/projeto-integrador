@@ -59,13 +59,46 @@
 <section class="main">
    <form action="#">
 
-    <div>
-        <label for="pergunta1"></label>
-    </div>
+    <section class="per">
+ <div class="pgt1">
+            <fieldset>
+                <legend>Você possui alguma restrição para atividades físicas?</legend>
+                <textarea placeholder="espaço pra resposta!"></textarea>
+            </fieldset>
+            </div>
+            <div class="pgt2">
+
+            <fieldset>
+                <legend>Você tem preferência em práticas esportivas e periodicidade?</legend>
+                <textarea placeholder="espaço pra resposta!"></textarea>
+            </fieldset>
+        </div>
+</section>
+        <div class="email">
+        <label for="email">Email para contato:</label>
+        <br>
+        <input type="text" id="email" placeholder="Informe o seu email!" />
+</div>
+
+
+<div class="genero">
+        <fieldset class="genderoptions">
+            <legend>Gênero</legend>
+            <label><input type="radio" name="genero" value="feminino" /> Feminino</label>
+            <label><input type="radio" name="genero" value="masculino" /> Masculino</label>
+            <label><input type="radio" name="genero" value="outro" /> Outro</label>
+            <label><input type="radio" name="genero" value="nao_dizer" /> Prefiro não dizer</label>
+        </fieldset>
+        </div>
+        <p><button>Enviar resposta</button></p>
    </form>
 
 </section>
+
+
+       
     </main>
+    
     <footer>
     
     </footer>

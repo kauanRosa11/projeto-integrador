@@ -68,6 +68,7 @@ main h1 {
     display: flex;
     background: #391665;
     border-radius: 0 0 5vw 5vw;
+    margin-bottom: 5vw;
 }
 
 .banner div {
@@ -77,4 +78,88 @@ main h1 {
 .banner img {
     margin-left: 12vw;
 }
+
+body {
+    background: #F38E34;
+
+}
+
+.main {
+    padding: 2vw 6vw 2vw 8vw;
+}
+
+.per {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8vw;
+}
+
+legend {
+    font-size: 26px;
+    color: #ffffff;
+    margin-bottom: 2vw;
+}
+
+textarea {
+    background: #d9d9d9;
+    opacity: 40%;
+    border-radius: 10px;
+    width: 100%;
+    height: 7vw;
+    font-size: 30px;
+    align-items: center;
+    resize: none;
+    margin-bottom: 3vw;
+}
+
+.email label {
+    font-size: 30px;
+    color: #ffffff;
     
+    
+}
+
+.email input {
+    background: #d9d9d9;
+    opacity: 40%;
+    border-radius: 10px;
+   width: 40%;
+  padding: 1vw 1vw 1vw 1vw;
+  font-size: 30px;
+  margin-top: 2vw;
+margin-bottom: 2vw;
+border: none;
+}
+
+.genero {
+    font-size: 30px;
+
+}
+
+.genderoptions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.genderoptions label {
+    width: 50%;
+    margin-bottom: 2vw;
+    padding-left: 0vw;
+    text-align: left;
+    font-size: 25px;
+    
+    }
+
+    form button {
+        background: #d9d9d9;
+        opacity: 40%;
+        border-radius: 10px;
+        font-size: 20px;
+        
+        padding: 1vw;
+    
+    }
+
+
+
