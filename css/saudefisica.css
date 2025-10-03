@@ -1,152 +1,261 @@
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(12px + 0.8vw);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: calc(12px + 0.8vw);
 }
+
 
 nav a.Home {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
 }
 
+
 nav a {
-    text-decoration: none;
-    color: white;
+   text-decoration: none;
+   color: white;
 }
+
 
 /* === TOPO === */
 
+
 header {
-    padding: 2vw 6vw 2vw 8vw;
-    background-color: #2CABA6;
+   padding: 2vw 6vw 2vw 8vw;
+   background-color: #2CABA6;
 }
+
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
+
 
 header nav h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
+   font-size: 1.5rem;
+   font-weight: bold;
 }
+
 
 header nav h1 a {
-    display: flex;
-    align-items: center;
+   display: flex;
+   align-items: center;
 }
+
 
 header nav div ul {
-    display: flex;
+   display: flex;
 }
+
 
 header nav div ul li {
-    margin: 0 10px 0 10px;
-    padding: 0 15px 0 15px;
+   margin: 0 10px 0 10px;
+   padding: 0 15px 0 15px;
 }
+
 
 header nav ul li:hover ul {
-    display: block;
-    background-color: gray;
+   display: block;
+   background-color: gray;
 }
 
+
 header nav ul li ul {
-    position: absolute;
-    display: none;
+   position: absolute;
+   display: none;
 }
+
 
 /*SAUDE FISICA*/
 section {
-    background-color: #2CABA6;
+   background-color: #2CABA6;
 }
+
 
 section.saudefisica ul {
-    display: flex;
-    justify-content: space-between;
-    background-color: #F436A0;
-    height: 48vw;
-    border-radius: 0 0 6vw 6vw;
+   display: flex;
+   justify-content: space-between;
+   background-color: #F436A0;
+   height: 48vw;
+   border-radius: 0 0 6vw 6vw;
 }
+
 
 section.saudefisica div.texto {
-    padding: 0vw 0 0vw 7vw;
+   padding: 0vw 0 0vw 7vw;
 }
+
 
 section.saudefisica div.img {
-    padding: 0vw 0 0vw 7vw;
+   padding: 0vw 0 0vw 7vw;
 }
+
 
 section.saudefisica div h2 {
-    font-size: 4.5rem;
-    font-weight: bold;
-    color: white;
-    padding: 0 0 2vw 0;
-    margin-top: 5vw;
-    line-height: 110%;
-    margin-right: 3vw;
+   font-size: 4.5rem;
+   font-weight: bold;
+   color: white;
+   padding: 0 0 2vw 0;
+   margin-top: 5vw;
+   line-height: 110%;
+   margin-right: 3vw;
 }
+
 
 section.saudefisica div p {
-    color: #ffffff;
-    font-size: 1.4rem;
-    margin-bottom: 1.5vw;
-    font-weight: bold;
-    padding: 3vw 3vw 0 0;
+   color: #ffffff;
+   font-size: 1.4rem;
+   margin-bottom: 1.5vw;
+   font-weight: bold;
+   padding: 3vw 3vw 0 0;
+
 
 }
+
 
 section.saudefisica div img {
-    height: 48vw;
+   height: 48vw;
 }
 
+
 section.saudefisica div a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.3vw;
+   text-decoration: none;
+   color: white;
+   font-size: 1.3vw;
 }
+
+
 
 
 /* ATIVIDADE FISICA*/
 section.atvF {
-    background-color: #2CABA6;
-    color: white;
-    padding: 6vw;
+   background-color: #2CABA6;
+   color: white;
+   padding: 6vw;
 }
+
 
 strong {
-    font-weight: bold;
+   font-weight: bold;
 }
+
+
 .info {
-    width: 50%;
+   width: 50%;
 }
+
+
 .info p {
-    margin-bottom: 3vw;
-    font-size: 2vw;
+   margin-bottom: 3vw;
+   font-size: 2vw;
 }
+
 
 .container {
-    display: flex;
+   display: flex;
 }
+
 
 .atv-list {
-    position: absolute;
-    right: -2vw;
+   position: absolute;
+   right: -2vw;
 }
 
-.atvF .atv-list div {
-    padding: 1vw 10vw 1vw 3vw;
-    background-color: #F436A0;
-    margin-bottom: 2vw;
-    border-radius: 5vw;
-}
 
 section.atvF div p {
-    font-size: 1.5rem;
-    font-weight: 600;
+   font-size: 1.5rem;
+   font-weight: 300;
+   text-shadow: 0.3vw 0.6vw 0.8vw gray;
 }
 
-#left {
-    
+
+h3 {
+   font-size: 3vw;
 }
 
+
+.pratica {
+   color: #F38E34;
+   text-shadow: 0.3vw 0.6vw 0.8 #D3741F;
+}
+
+
+h3 .atividade {
+   width: 4vw;
+}
+
+
+.cardI {
+   padding: 1vw 10vw 1vw 3vw;
+   background-color: #F436A0;
+   margin-bottom: 2vw;
+   border-radius: 5vw;
+   width: 30vw;
+   height: 3vw;
+}
+
+
+.cardII {
+   padding: 1vw 10vw 1vw 3vw;
+   background-color: #F436A0;
+   margin-bottom: 2vw;
+   border-radius: 5vw;
+   width: 20vw;
+   height: 3vw;
+   margin-left: 10vw;
+}
+
+
+/* COMO INTEGRAR ATV FIS NA ROTINA*/
+.cardIseg {
+   padding: 1vw 10vw 1vw 3vw;
+   background-color: #F436A0;
+   margin-bottom: 2vw;
+   border-radius: 5vw;
+   width: 15vw;
+   height: 1.5vw;
+   width: auto;
+   min-width: 30vw;
+   padding: 1vw 2vw;
+}
+
+
+.cardIIseg {
+   padding: 1vw 10vw 1vw 3vw;
+   background-color: #F436A0;
+   margin-bottom: 2vw;
+   border-radius: 5vw;
+   width: 10vw;
+   height: 1.5vw;
+   margin-right: 10vw;
+   width: auto;
+   min-width: 30vw;
+   padding: 1vw 2vw;
+}
+
+
+.como {
+   position: absolute;
+   left: -2vw;
+
+
+}
+
+
+.como h3 {
+   color: #ffffff;
+   line-height: 1.6vw;
+   font-size: 1.8vw;
+}
+
+
+section.integrar {
+   background-color: #2CABA6;
+}
+
+
+body {
+   background: #2CABA6;
+}
