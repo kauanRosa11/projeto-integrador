@@ -10,6 +10,12 @@ nav a.Home {
     font-weight: bold;
 }
 
+/*#431A78 roxo escuro
+#9F68E4 lilaz
+escurinho
+#F6B3FF rosa 
+clarinho
+*/
 nav a {
     text-decoration: none;
     color: white;
@@ -20,7 +26,7 @@ nav a {
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #451B7A;
+    background-color: #9F68E4;
 }
 
 header nav {
@@ -61,7 +67,7 @@ header nav ul li ul {
 /* === Parte Um === */
 
 section.parteUm {
-    background-color: #451B7A;
+    background-color: #9F68E4;
 }
 
 section.parteUm ul {
@@ -70,7 +76,7 @@ section.parteUm ul {
 
 section.parteUm ul li {
     padding: 2vw 4vw 2vw 4vw;
-    background-color: #FDEEFF;
+    background-color: #F6B3FF;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     display: flex;
@@ -110,7 +116,7 @@ section.parteUm ul.imagens li.mente {
 }
 
 section.parteUm ul.imagens li.saude button {
-    background-color: #F38E34;
+    background-color: #9F68E4;
     color: white;
     padding: 0.5vw 1vw 0.5vw 1vw;
     border: none;
@@ -119,7 +125,7 @@ section.parteUm ul.imagens li.saude button {
 }
 
 section.parteUm ul.imagens li.corpo button {
-    background-color: #338B96;
+    background-color: #9F68E4;
     color: white;
     padding: 0.5vw 1vw 0.5vw 1vw;
     border: none;
@@ -128,7 +134,7 @@ section.parteUm ul.imagens li.corpo button {
 }
 
 section.parteUm ul.imagens li.mente button {
-    background-color: #9A282A;
+    background-color: #9F68E4;
     color: white;
     padding: 0.5vw 1vw 0.5vw 1vw;
     border: none;
@@ -148,7 +154,7 @@ section.parteUm div h2 {
 }
 
 section.parteUm div p {
-    color: gray;
+    color: #000000;
     padding: 2vw 0 1vw 0;
     font-size: 0.9rem;
 }
@@ -156,7 +162,7 @@ section.parteUm div p {
 section.parteUm div button {
     padding: 0.7vw 3vw 0.7vw 3vw;
 
-    background-color: #451B7A;
+    background-color: #431A78;
     border: none;
     border-radius: 26px;
     font-size: 0.7rem;
@@ -170,7 +176,7 @@ section.parteUm div button a {
 /*    PARTE DOIS    */
 
 section.parteDois {
-    background-color: #451B7A;
+    background-color: #9F68E4;
     color: white;
     padding: 4px;
 }
@@ -230,35 +236,35 @@ section.parteDois div ul.dois p{
 }
 
 section.parteDois div ul li.um {
-    background-color: #F436A0;
+    background-color: #431A78;
     padding: 0.5vw 1vw 0.5vw 1vw;
     margin: 3vw 12vw 5vw 9.2vw;
     border-radius: 50px;
 }
 
 section.parteDois div ul li.dois {
-    background-color: #F38E34;
+    background-color: #431A78;
     padding: 0.5vw 1vw 0.5vw 1vw;
     margin: 3vw 12vw 5vw 9.2vw;
     border-radius: 50px;
 }
 
 section.parteDois div ul li.tres {
-    background-color: #2CABA6;
+    background-color: #431A78;
     padding: 0.5vw 1vw 0.5vw 1vw;
     margin: 3vw 12vw 5vw 9.2vw;
     border-radius: 50px;
 }
 
 section.parteDois div ul li.quatro {
-    background-color: #F436A0;
+    background-color: #431A78;
     padding: 0.5vw 1vw 0.5vw 1vw;
     margin: 3vw 12vw 5vw 9.2vw;
     border-radius: 50px;
 }
 
 section.parteDois div ul li.cinco {
-    background-color: #F38E34;
+    background-color: #431A78;
     padding: 0.5vw 1vw 0.5vw 1vw;
     margin: 3vw 12vw 5vw 9.2vw;
     border-radius: 50px;
@@ -268,21 +274,22 @@ section.parteDois div ul li.cinco {
 
 section.parteTres {
     display: flex;
-    background-color: #451B7A;
+    background-color: #9F68E4;
     justify-content: space-between;
 }
 
 section.parteTres div {
     display: flex;
     align-items: center;
-    padding: 8rem 5.49rem 13rem 9rem;
-    background-color: #704F99;
+    padding: 8rem 7.3rem 13rem 9rem;
+    background-color: #F6B3FF ;
     border-radius: 4rem 4rem 0 0;
 }
 
 section.parteTres div img {
     height: 30rem;
     width: 25rem;
+
 }
 
 section.parteTres div ol li {
@@ -292,7 +299,7 @@ section.parteTres div ol li {
 }
 
 section.parteTres div ol li h4 {
-    color: #F38E34;
+    color: #ffffff;
     padding: 2rem;
     text-align: center;
     font-size: 2rem;
@@ -302,8 +309,11 @@ section.parteTres div ol li h4 {
 
 section.parteTres div ol li p {
     color: white;
-    padding: 4px 200px 4px 200px;
+    padding: 40px 200px 0 200px;
+    font-size: 30px;
 }
+
+
 
 section.parteTres div ol li.p {
     border-radius: 0 0 1.8rem 1.8rem;
@@ -316,19 +326,19 @@ section.parteTres div ol li.titulo {
 /* PARTE QUATRO */
 
 section.parteQuatro {
-    background-color: #704F99;
+    background-color: #F6B3FF;
 }
 
 section.parteQuatro div {
-    background-color: #FFEEFD;
+    background-color: #9F68E4;
     border-radius: 4rem 4rem 0 0;
 }
 
 section.parteQuatro div h4 {
-    color: #85289A;
+    color: #ffffff;
     font-size: 5rem;
     font-weight: bold;
-    padding: 0.8rem 5rem 5rem 5rem;
+    padding: 5.8rem 5rem 5rem 8.5rem;
     text-shadow: 4px 5.2px 3px #431A78;
 }
 
@@ -366,28 +376,28 @@ section.parteQuatro div ul.segundo li {
 }
 
 section.parteQuatro div ul.primeiro li.rosa {
-    background-color: #F436A0;
+    background-color: #431A78;
 }
 
 section.parteQuatro div ul.primeiro li.verde {
-    background-color: #2CABA6;
+    background-color: #431A78;
 }
 
 section.parteQuatro div ul.segundo li.rosa {
-    background-color: #2CABA6;
+    background-color: #431A78;
 }
 
 section.parteQuatro div ul.segundo li.verde {
-    background-color: #F436A0;
+    background-color: #431A78;
 }
 
 section.parteQuatro div ul h5 {
-    color: #431A78;
+    color: #ffffff;
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
     text-shadow: 1.6px 2px 10px #FDEEFF;
-    padding: 0.2rem 1rem 1rem 1rem;
+    padding: 0.2rem 2rem 1rem 2rem;
 }
 
 /* FOOTER */

@@ -6,7 +6,7 @@ html {
 
 
 body {
-    background-color: #251B51;
+    background-color: #8D5EC8;
 }
 
 
@@ -26,7 +26,7 @@ nav a {
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #B10072;
+    background-color: #9F68E4;
 }
 
 header nav {
@@ -67,7 +67,7 @@ header nav ul li ul {
 /* === sections === */
 
 section.banner {
-    background-color: #FDEEFF;
+    background-color: #F6B3FF;
     display: flex;
     padding: 0 5vw 5vw 5vw;
     border-radius: 0 0 5vw 5vw;
@@ -76,14 +76,15 @@ section.banner {
 section.banner div h1 {
     font-size: 150px;
     width: 807px;
-    color: #3C1869;
+    color: #431A78;
     font-weight: bold;
+    margin-top: 7vw;
 }
 
 section.banner div p {
     font-size: 50px;
     width: 516px;
-    color: #3C1869;
+    color: #431A78;
     opacity: 80%;
     text-align: start;
     padding: 40px 20px 0 0;
@@ -96,7 +97,7 @@ section.alimentacao {
 }
 
 section.alimentacao div {
-    background-color: #F38E34;
+    background-color: #431A78;
     width: 1250px;
     border-radius: 2vw;
 }
@@ -129,7 +130,7 @@ section.variacao {
 section.sugstoes h1 {
     display: flex;
     justify-content: center;
-    text-shadow: 2px 6px 3px #8D5EC8;
+    text-shadow: 2px 6px 3px #9F68E4;
     color: white;
     font-size: 4vw;
     width: 1078px;
@@ -142,8 +143,8 @@ section.sugstoes h1 {
 
 section.sugstoes div.container {
     display: flex;
-    justify-content: center;
-    background-color: #FDEEFF;
+    justify-content: space-between;
+    background-color: #F6B3FF;
     padding: 4vw 5vw 2vw 5vw;
     border-radius: 1.5vw;
     margin-top: 3vw;
@@ -156,8 +157,8 @@ section.sugstoes div {
     justify-content: center;
     width: 1400px;
     margin: auto;
-    font-size: 30px;
-    color: #F436A0;
+    font-size: 35px;
+    color: #ffffff;
     font-weight: 600;
     margin-bottom: 8vw;
     
@@ -172,7 +173,7 @@ section.sugstoes div.container div ul {
 /* FOOTER */
 footer {
 
-    background-color: #B10072;
+    background-color: #431A78;
     display: flex;
     align-items: center;
     justify-content: space-between;

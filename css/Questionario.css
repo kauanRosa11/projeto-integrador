@@ -20,7 +20,7 @@ nav a {
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #F38E34;
+    background-color: #9F68E4;
 }
 
 header nav {
@@ -66,7 +66,7 @@ main h1 {
 
 .banner {
     display: flex;
-    background: #391665;
+    background: #F6B3FF;
     border-radius: 0 0 5vw 5vw;
     margin-bottom: 5vw;
 }
@@ -77,10 +77,11 @@ main h1 {
 
 .banner img {
     margin-left: 12vw;
+    
 }
 
 body {
-    background: #F38E34;
+    background: #9F68E4;
 
 }
 
