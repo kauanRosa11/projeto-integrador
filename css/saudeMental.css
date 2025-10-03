@@ -1,7 +1,8 @@
-html{
+html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8vw);
 }
+
 nav a.Home {
     text-decoration: none;
     color: white;
@@ -12,97 +13,80 @@ nav a {
     text-decoration: none;
     color: white;
 }
+
 main {
-    background-color: #B10072;
+    background-color: #391665;
 }
-body { 
+
+body {
     margin: 0;
     padding: 0;
-    background-color: #B10072;
+    background-color: #391665;
 }
 
 /* === TOPO === */
 
+
+
 header {
-    padding: 1.5vw 6vw;
-    background-color: #B10072;
+    padding: 2vw 6vw 2vw 8vw;
+    background-color: #9F68E4;
 }
+
 
 header nav {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
 }
 
+
 header nav h1 {
-    display: flex;
-    align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
-    margin: 0;
 }
+
 
 header nav h1 a {
     display: flex;
     align-items: center;
-    text-decoration: none;
-    color: white;
-    gap: 0.5rem;
-}
-header nav img {
-    margin: 0 0 0 4vw;
 }
 
-header nav > ul {
+
+header nav div ul {
     display: flex;
-    gap: 2rem;        
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
-header nav > ul > li {
-    position: relative;
+
+header nav div ul li {
+    margin: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
 }
 
-header nav > ul > li > a {
-    color: white;
-    text-decoration: none;
-    font-weight: normal;
+
+header nav ul li:hover ul {
+    display: block;
+    border-radius: 0.3vw;
+    background-color: white;
+    line-height: 3vw;
 }
 
-header nav > ul > li > a:hover {
-    text-decoration: underline;
+header nav ul li:hover ul li a {
+    color: #3c0a5a;
 }
 
 header nav ul li ul {
     position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #B10072;
-    list-style: none;
-    padding: 0;
-    margin: 0;
     display: none;
-    flex-direction: column;
-    min-width: 200px;
-    z-index: 10;
 }
 
-header nav ul li ul li a {
-    display: block;
-    padding: 8px 12px;
-    color: white;
-    text-decoration: none;
-    white-space: nowrap;
+header nav ul li ul li {
+    color: #391665;
 }
 
 header nav ul li ul li a:hover {
-    background-color: #91105e;
-}
-
-header nav ul li:hover ul {
-    display: flex;
+    background-color: #3c0a5a;
+    color: white;
 }
 
 /* =================================
@@ -113,12 +97,13 @@ header nav ul li:hover ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F38E34; 
-    border-radius: 7vw;       
-    padding: 5rem 6rem;
+    background-color: #F38E34;
+    border-radius: 0 0 7vw 7vw;
+    padding: rem 6rem;
     margin: 2rem auto;
     color: white;
-    overflow: hidden;        
+    overflow: hidden;
+    height: 40vw;
 }
 
 .banner-texto {
@@ -134,9 +119,9 @@ header nav ul li:hover ul {
 }
 
 .banner-texto p {
-    font-size:1.7rem;
+    font-size: 1.7rem;
     font-weight: 300;
-    color: #ffe0c2; 
+    color: #ffe0c2;
     max-width: 300px;
 }
 
@@ -144,43 +129,45 @@ header nav ul li:hover ul {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    /* mantém grudada embaixo */
+    /* evita ultrapassar o container */
 }
 
 .banner-imagem img {
-    max-height: 400px;
-    display: block;
-    object-fit: contain;
-    align-self: flex-end;
+    width: 50vw;
+    /* defina um valor fixo próximo ao do Figma */
+    height: auto;
 }
+
 /* ==============================
            SEGUNDA SEÇÃO
    ============================== */
 
 .relaxamento {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #B10072; 
-  padding: 40px;
-  gap: 30px;
-  font-weight: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B10072;
+    padding: 40px;
+    gap: 30px;
+    font-weight: 1;
 }
 
 .relaxamento img {
-  width: 500px; 
-  border-radius: 15px; 
+    width: 500px;
+    border-radius: 15px;
 }
 
 .relaxamento div:last-child {
-  background-color: #391665; 
-  color: white; 
-  padding: 1vw 5vw;
-  border-radius: 2vw;
-  max-width: 400px;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  text-align: center; 
+    background-color: #391665;
+    color: white;
+    padding: 1vw 5vw;
+    border-radius: 2vw;
+    max-width: 400px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
 
 }
 
@@ -205,11 +192,11 @@ section.lista h2 {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 3vw;
-     text-shadow: 7px 7px 9px #391665;
+    text-shadow: 7px 7px 9px #391665;
 }
 
 section.lista div {
-    background-color: #3c0a5a; 
+    background-color: #3c0a5a;
     border-radius: 15px;
     padding: 2vw;
     text-align: left;
@@ -269,6 +256,7 @@ section.lista div.muscular li {
 section.lista div.respiracao p {
     margin-bottom: 2vw;
 }
+
 section.lista div.respiracao li {
     margin-bottom: 30px;
 }
@@ -298,6 +286,7 @@ section.playlists {
     font-size: 1rem;
     margin: 3vw 0 4vw 3vw;
 }
+
 /* FOOTER */
 footer {
     background-color: #431A78;
@@ -317,9 +306,11 @@ footer a.logo img {
 footer ul {
     display: flex;
 }
-footer ul li{
-justify-content: space-between;
+
+footer ul li {
+    justify-content: space-between;
 }
+
 footer ul img {
     height: 3rem;
     width: 3.2rem;
