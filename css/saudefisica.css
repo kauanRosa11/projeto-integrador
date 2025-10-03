@@ -172,13 +172,14 @@ section.atvF div p {
 
 
 h3 {
-   font-size: 3vw;
+   font-size: 4vw;
+   line-height: 2.7vw;
 }
 
 
 .pratica {
    color: #F38E34;
-   text-shadow: 0.3vw 0.6vw 0.8 #D3741F;
+   text-shadow: 0.4vw 0.7vw 0.8 #ffffff;
 }
 
 
@@ -214,10 +215,10 @@ h3 .atividade {
    background-color: #F436A0;
    margin-bottom: 2vw;
    border-radius: 5vw;
-   width: 15vw;
+   width: 6vw;
    height: 1.5vw;
    width: auto;
-   min-width: 30vw;
+   min-width: 27vw;
    padding: 1vw 2vw;
 }
 
@@ -239,15 +240,14 @@ h3 .atividade {
 .como {
    position: absolute;
    left: -2vw;
-
-
 }
 
 
 .como h3 {
    color: #ffffff;
    line-height: 1.6vw;
-   font-size: 1.8vw;
+   font-size: 2vw;
+   padding-left: 4vw;
 }
 
 
@@ -255,7 +255,26 @@ section.integrar {
    background-color: #2CABA6;
 }
 
-
 body {
    background: #2CABA6;
+}
+
+div.lis {
+   padding-top: 20vw;
+   color: #ffffff;
+}
+
+div.lis ul {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 30%;
+}
+
+div.lis ul li {
+   background-color: #F38E34;
+   border-radius: 2vw;
+   padding: 6vw;
+   height: 6vw;
+   width: 17vw;
 }
