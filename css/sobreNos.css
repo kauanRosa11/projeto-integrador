@@ -19,7 +19,7 @@ body{
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #85289A;
+    background-color: #F436A0;
 }
 header nav {
     display: flex;
@@ -102,10 +102,12 @@ section.nossoprojeto{
 }
 section.nossoprojeto div h3{
     text-align: left;
-    padding: 2vw 0 3vw 0vw;
+    padding: 0.7vw 0 3vw 0vw;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 section.nossoprojeto div ol li{
+    margin-bottom: 1.4vw;
     h3{
         text-align: left;
     }
@@ -115,32 +117,41 @@ section.nossoprojeto div ol li{
     }
 }
 /* === Nossa Equipe === */
-section.nossaequipe{
+.nossoprojeto ul li p{
+    margin-bottom: 2vw;
+}
+.nossoprojeto div ul li h3{
+    font-weight: bold;
+
+}
+section.nossoprojeto ul li h3 {
+    padding-bottom: 1vw;
+}
+/* FOOTER */
+footer {
+    background-color: #85289A;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 2rem;
+    margin: 0;
 }
 
-section.nossaequipe div{
-    background-color: #85289A;
-    color: #FFFFFF;
-    height: 50vw;
-    width: 90%;
-    border-radius: 3vw;
-}
-section.nossaequipe div h2{
-    padding: 3vw 0 0 4vw;
-    font-size: 1.4rem;
-}
-section.nossaequipe div ul{
-    padding: 4vw 5vw 0 4vw;
-    margin-bottom: 3vw;
+footer a.logo img {
+    height: 4rem;
+    width: 4rem;
+    margin: 0 0 0 2rem;
 }
 
-.nossaequipe li {
-    margin-bottom: 3vw;
+footer ul {
+    display: flex;
 }
-.nossaequipe div ul li h3{
-    font-weight: bold;
-    margin-bottom: 1vw;
+footer ul li{
+justify-content: space-between;
+}
+footer ul img {
+    height: 3rem;
+    width: 3.2rem;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
 }
