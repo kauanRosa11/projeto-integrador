@@ -12,42 +12,291 @@ nav a {
     text-decoration: none;
     color: white;
 }
+main {
+    background-color: #B10072;
+}
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: #B10072;
+}
+
 /* === TOPO === */
 
 header {
-    padding: 2vw 6vw 2vw 8vw;
+    padding: 1.5vw 6vw;
     background-color: #B10072;
 }
+
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
 }
+
 header nav h1 {
+    display: flex;
+    align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
+    margin: 0;
 }
+
 header nav h1 a {
     display: flex;
     align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 0.5rem;
 }
-header nav div ul {
+header nav img {
+    margin: 0 0 0 4vw;
+}
+
+header nav > ul {
     display: flex;
+    gap: 2rem;        
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-header nav div ul li {
-    margin: 0 10px 0 10px;
-    padding: 0 15px 0 15px;
+header nav > ul > li {
+    position: relative;
 }
 
-header nav ul li:hover ul {
-    display: block;
-    background-color: gray;
+header nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+header nav > ul > li > a:hover {
+    text-decoration: underline;
 }
 
 header nav ul li ul {
     position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #B10072;
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: none;
+    flex-direction: column;
+    min-width: 200px;
+    z-index: 10;
+}
+
+header nav ul li ul li a {
+    display: block;
+    padding: 8px 12px;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+header nav ul li ul li a:hover {
+    background-color: #91105e;
+}
+
+header nav ul li:hover ul {
+    display: flex;
+}
+
+/* =================================
+            PRIMEIRA SEÇÃO
+   ================================= */
+
+.banner-saude {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F38E34; 
+    border-radius: 7vw;       
+    padding: 5rem 6rem;
+    margin: 2rem auto;
+    color: white;
+    overflow: hidden;        
+}
+
+.banner-texto {
+    flex: 1;
+}
+
+.banner-texto h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.banner-texto p {
+    font-size:1.7rem;
+    font-weight: 300;
+    color: #ffe0c2; 
+    max-width: 300px;
+}
+
+.banner-imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-imagem img {
+    max-height: 400px;
+    display: block;
+    object-fit: contain;
+    align-self: flex-end;
+}
+/* ==============================
+           SEGUNDA SEÇÃO
+   ============================== */
+
+.relaxamento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #B10072; 
+  padding: 40px;
+  gap: 30px;
+  font-weight: 1;
+}
+
+.relaxamento img {
+  width: 500px; 
+  border-radius: 15px; 
+}
+
+.relaxamento div:last-child {
+  background-color: #391665; 
+  color: white; 
+  padding: 1vw 5vw;
+  border-radius: 2vw;
+  max-width: 400px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: center; 
+
+}
+
+.relaxamento strong {
+    font-weight: 900;
+}
+
+
+
+/* ====================================
+             TERCEIRA SEÇÃO
+   ==================================== */
+
+section.lista {
+    padding: 2vw;
+    text-align: center;
+    color: white;
+    border-radius: 2vw;
+}
+
+section.lista h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3vw;
+     text-shadow: 7px 7px 9px #391665;
+}
+
+section.lista div {
+    background-color: #3c0a5a; 
+    border-radius: 15px;
+    padding: 2vw;
+    text-align: left;
+    margin: 0 auto;
+}
+
+section.lista h3 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section.lista img {
+    width: 6vw;
+    height: 4vw;
+    display: flex;
+    margin: 0 0 0 1vw;
+}
+
+section.lista p {
+    margin: 10px 0;
+    line-height: 2.6rem;
+    font-size: 2rem;
+}
+
+section.lista strong {
+    font-weight: bold;
+}
+
+section.lista ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+    color: white;
+}
+
+section.lista li {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+
+section.lista div.meditacao p {
+    margin-bottom: 2vw;
+}
+
+section.lista div.muscular p {
+    margin-bottom: 2vw;
+}
+
+section.lista div.muscular li {
+    margin-bottom: 30px;
+}
+
+section.lista div.respiracao p {
+    margin-bottom: 2vw;
+}
+section.lista div.respiracao li {
+    margin-bottom: 30px;
+}
+
+section.lista div.alongamento p {
+    margin-bottom: 2vw;
+}
+
+section.lista div:nth-child(2) {
+    margin-top: 2vw;
+}
+
+section.lista div:nth-child(3) {
+    margin-top: 2vw;
+}
+
+section.lista div:nth-child(4) {
+    margin-top: 2vw;
+}
+
+section.lista div:nth-child(5) {
+    margin-top: 2vw;
+}
+
+section.playlists {
+    color: white;
+    font-size: 1rem;
+    margin: 3vw 0 4vw 3vw;
 }
 /* FOOTER */
 footer {
