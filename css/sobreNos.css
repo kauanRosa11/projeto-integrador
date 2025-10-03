@@ -1,7 +1,7 @@
 html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8vw);
-}
+    }
 nav a.Home {
     text-decoration: none;
     color: white;
@@ -61,34 +61,86 @@ header nav h1{
 section.sobrenos{
     background-color: #85289A;
     color: #FFFFFF;
-    height: 23vw;
+    height: fit-content;
+    padding-bottom: 3vw;
     border-radius: 0 0 4vw 4vw;
+
+    h2 {
+    font-weight:bold;
     text-align: left;
+    font-size: 4em;
+    color: #FFFFFF;
+    padding-bottom: 4vw;
+    }
 }
 section.sobrenos div{
-    display: flex;
     padding-top: 3vw;
-    text-align: center;
+    justify-content: start;
+    margin-left: 8vw;
 }
 section.sobrenos div p{
-    font-size: 170%;
-    padding: 0 0 0 10vw;
+    font-size: 3vw;
+    font-weight: bold;
+    color: #d6d6d6;
+    opacity: 0.8;
 }
 /* === Nosso Projeto === */
 section.nossoprojeto{
     padding-top: 5vw;
     padding: 6vw 5vw 5vw 5vw;
 }
-section.nossoprojeto div{
+.nossoprojeto div{
+    margin-bottom: 4rem;
     background-color: #85289A;
     color: #FFFFFF;
-    height: 16vw;
+    height: fit-content;
     border-radius: 3vw;
-
+    padding: 2rem 2rem;
+    h2 {
+        font-size: 1.5rem;
+    }
 }
 section.nossoprojeto div h3{
-    padding: 2vw 0 3vw 5vw;
+    text-align: left;
+    padding: 2vw 0 3vw 0vw;
+    font-size: 1.2rem;
 }
-section.nossoprojeto div ol li p{
-    padding: 0 2vw 0.2vw 4vw;
+section.nossoprojeto div ol li{
+    h3{
+        text-align: left;
+    }
+    p {
+        text-align: left;
+            
+    }
+}
+/* === Nossa Equipe === */
+section.nossaequipe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.nossaequipe div{
+    background-color: #85289A;
+    color: #FFFFFF;
+    height: 50vw;
+    width: 90%;
+    border-radius: 3vw;
+}
+section.nossaequipe div h2{
+    padding: 3vw 0 0 4vw;
+    font-size: 1.4rem;
+}
+section.nossaequipe div ul{
+    padding: 4vw 5vw 0 4vw;
+    margin-bottom: 3vw;
+}
+
+.nossaequipe li {
+    margin-bottom: 3vw;
+}
+.nossaequipe div ul li h3{
+    font-weight: bold;
+    margin-bottom: 1vw;
 }
