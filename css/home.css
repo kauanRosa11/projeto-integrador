@@ -9,7 +9,9 @@ nav a.Home {
     color: white;
     font-weight: bold;
 }
-
+button{
+    text-decoration: none;
+}
 /*#431A78 roxo escuro
 #9F68E4 lilaz
 escurinho
@@ -169,7 +171,7 @@ section.parteUm div h2 {
 }
 
 section.parteUm div p {
-    color: #000000;
+    color: #ffffff;
     padding: 2vw 0 1vw 0;
     font-size: 0.9rem;
 }
@@ -195,7 +197,9 @@ section.parteDois {
     color: white;
     padding: 4px;
 }
-
+section.parteDois div{
+    text-align: center;
+}
 section.parteDois div ul.um {
     display: flex;
     justify-content: space-between;
@@ -217,7 +221,11 @@ section.parteDois div p {
     margin: 9vw 8vw 4vw 1vw;
     font-size: 1.8rem;
 }
+section.parteDois ul.dois {
+    text-align: center;
+    margin: 0 auto; /* empurra igualmente dos dois lados */
 
+}
 section.parteDois div ul.dois li {
     display: flex;
     flex-direction: column;
@@ -238,6 +246,7 @@ section.parteDois div ul.dois li button {
     background-color: transparent;
     border-color: white;
     cursor: pointer;
+
 }
 
 section.parteDois div ul.dois li h4 {
@@ -293,10 +302,10 @@ section.parteTres {
     justify-content: space-between;
 }
 
-section.parteTres div {
+section.parteTres div{
     display: flex;
     align-items: center;
-    padding: 8rem 7.3rem 13rem 9rem;
+    padding: 8rem 5.55rem 13rem 9rem;
     background-color: #F6B3FF ;
     border-radius: 4rem 4rem 0 0;
 }
@@ -304,7 +313,6 @@ section.parteTres div {
 section.parteTres div img {
     height: 30rem;
     width: 25rem;
-
 }
 
 section.parteTres div ol li {

@@ -58,28 +58,29 @@ header nav div ul li {
 
 
 header nav ul li:hover ul {
-    display: block;
-    border-radius: 0.3vw;
-    background-color: white;
-    line-height: 3vw;
+   display: block;
+   border-radius: 0.3vw;
+   background-color: white;
+   line-height: 3vw;
 }
 
 header nav ul li:hover ul li a {
-    color: #3c0a5a;
+   color: #3c0a5a;
 }
 
 header nav ul li ul {
-    position: absolute;
-    display: none;
+   position: absolute;
+   display: none;
+   z-index: 999;
 }
 
 header nav ul li ul li {
-    color: #391665;
+   color: #391665;
 }
 
 header nav ul li ul li a:hover {
-    background-color: #3c0a5a;
-    color: white;
+   background-color: #3c0a5a;
+   color: white;
 }
 
 /*SAUDE FISICA*/
@@ -102,19 +103,16 @@ section.saudefisica div.texto {
 }
 
 
-section.saudefisica div.img {
-   padding: 0vw 0 0vw 0vw;
+section.saudefisica .img img {
+   transform: translateY(-11.3px);
    height: 48vw;
-}
-section.saudefisica .img img{
-     transform: translateY(-7px);
 }
 
 
 section.saudefisica div h2 {
    font-size: 5.5rem;
    font-weight: bold;
-   color:  #3c0a5a;
+   color: #3c0a5a;
    padding: 0 0 0 0;
    margin-top: 5vw;
    line-height: 110%;
@@ -123,7 +121,7 @@ section.saudefisica div h2 {
 
 
 section.saudefisica div p {
-   color: #ffffff ;
+   color: #ffffff;
    font-size: 1.2rem;
    margin-bottom: 1.5vw;
    font-weight: bold;
@@ -229,9 +227,10 @@ h3 .atividade {
 
 
 /* COMO INTEGRAR ATV FIS NA ROTINA*/
-section.integrar{
+section.integrar {
    padding-bottom: 6vw;
 }
+
 .cardIseg {
    padding: 1vw 10vw 1vw 3vw;
    background-color: #431A78;
@@ -276,6 +275,7 @@ section.integrar{
 body {
    background: #9F68E4;
 }
+
 div.lis {
    padding-top: 20vw;
    color: #391665;
@@ -286,16 +286,19 @@ div.lis ul {
    display: flex;
    flex-wrap: wrap;
    gap: 9vw;
-   justify-content: center; /* <--- centraliza sem jogar os blocos para as bordas */
+   justify-content: center;
+   /* <--- centraliza sem jogar os blocos para as bordas */
 }
 
 div.lis ul li {
    background-color: #F6B3FF;
    border-radius: 2vw;
    padding: 3.2vw;
-   height: auto; /* <--- melhor deixar o height livre */
+   height: auto;
+   /* <--- melhor deixar o height livre */
    width: 29vw;
-   margin-bottom: 1vw; /* <--- menos espaço entre blocos */
+   margin-bottom: 1vw;
+   /* <--- menos espaço entre blocos */
 }
 
 /* PRE E POS TREINO*/
@@ -304,86 +307,100 @@ section.prepos {
    border-radius: 5vw 5vw 0 0;
    padding: 0 0 4vw 0;
 }
-section.prepos h3{
+
+section.prepos h3 {
    color: white;
    text-align: center;
    font-size: 4rem;
    padding: 4vw;
 }
-section.prepos h4{
+
+section.prepos h4 {
    color: #9F68E4;
    text-shadow: 0.3vw 0.2vw 0.3vw #431A78;
    font-size: 2rem;
    text-align: center;
    padding: 4vw 0;
 }
-.pretreino{
+
+.pretreino {
    background-color: #9F68E4;
    padding: 6vw;
    margin: 1vw 8vw;
    border-radius: 2vw;
    color: #3c0a5a;
 }
+
 .pretreino ol {
-   list-style-type:decimal;
+   list-style-type: decimal;
    padding: 2vw;
 }
-.pretreino ul{
+
+.pretreino ul {
    list-style-type: disc;
    padding: 2vw;
 }
-.postreino ul{
-   list-style-type:disc ;
+
+.postreino ul {
+   list-style-type: disc;
    padding: 2vw;
 }
-li{
+
+li {
    padding: 0.7vw;
 }
-.postreino{
+
+.postreino {
    background-color: #9F68E4;
    padding: 6vw;
    margin: 1vw 8vw;
    border-radius: 2vw;
    color: #3c0a5a;
 }
-.prep{
+
+.prep {
    color: #ffffff;
    font-size: 1.5rem;
 }
-.suges{
+
+.suges {
    color: #F6B3FF;
    font-size: 1.5rem;
 }
-.desc{
+
+.desc {
    color: white;
    font-size: 1.5rem;
    padding-bottom: 2vw;
 }
+
 /* FOOTER */
-   footer {
-    background-color: #9F68E4;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2.8rem;
-    margin: 0;
+footer {
+   background-color: #9F68E4;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 2.8rem;
+   margin: 0;
 }
 
 footer a.logo img {
-    height: 4rem;
-    width: 4rem;
-    margin: 0 0 0 2rem;
+   height: 4rem;
+   width: 4rem;
+   margin: 0 0 0 2rem;
 }
 
 footer ul {
-    display: flex;
+   display: flex;
 }
-footer ul li{
-justify-content: space-between;
+
+footer ul li {
+   justify-content: space-between;
 }
+
 footer ul img {
-    height: 3rem;
-    width: 3.2rem;
-    margin: 0 1rem 0 0;
-    cursor: pointer;
+   height: 3rem;
+   width: 3.2rem;
+   margin: 0 1rem 0 0;
+   cursor: pointer;
 }
