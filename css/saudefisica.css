@@ -103,14 +103,18 @@ section.saudefisica div.texto {
 
 
 section.saudefisica div.img {
-   padding: 0vw 0 0vw 7vw;
+   padding: 0vw 0 0vw 0vw;
+   height: 48vw;
+}
+section.saudefisica .img img{
+     transform: translateY(-7px);
 }
 
 
 section.saudefisica div h2 {
    font-size: 5.5rem;
    font-weight: bold;
-   color: white;
+   color:  #3c0a5a;
    padding: 0 0 0 0;
    margin-top: 5vw;
    line-height: 110%;
@@ -119,7 +123,7 @@ section.saudefisica div h2 {
 
 
 section.saudefisica div p {
-   color: #431A78 ;
+   color: #ffffff ;
    font-size: 1.2rem;
    margin-bottom: 1.5vw;
    font-weight: bold;
@@ -136,7 +140,7 @@ section.saudefisica div img {
 
 section.saudefisica div a {
    text-decoration: none;
-   color: white;
+   color: #ffffff;
    font-size: 1.3vw;
 }
 
@@ -148,6 +152,7 @@ section.atvF {
    background-color: #9F68E4;
    color: white;
    padding: 6vw;
+   margin-top: 7vw;
 }
 
 
@@ -186,7 +191,7 @@ section.atvF div p {
 
 
 h3 {
-   font-size: 4vw;
+   font-size: 6vw;
    line-height: 2.7vw;
 }
 
@@ -203,22 +208,22 @@ h3 .atividade {
 
 
 .cardI {
-   padding: 1vw 10vw 1vw 3vw;
+   padding: 3vw 10vw 1vw 3vw;
    background-color: #431A78;
    margin-bottom: 2vw;
    border-radius: 5vw 0 0 5vw;
    width: 30vw;
-   height: 3vw;
+   height: 5vw;
 }
 
 
 .cardII {
-   padding: 1vw 10vw 1vw 3vw;
+   padding: 3vw 10vw 1vw 3vw;
    background-color: #431A78;
    margin-bottom: 2vw;
    border-radius: 5vw 0 0 5vw;
    width: 20vw;
-   height: 3vw;
+   height: 5vw;
    margin-left: 10vw;
 }
 
@@ -233,7 +238,7 @@ section.integrar{
    margin-bottom: 2vw;
    border-radius: 5vw;
    width: 6vw;
-   height: 1.5vw;
+   height: 2vw;
    width: auto;
    min-width: 27vw;
    padding: 1vw 2vw;
@@ -246,7 +251,7 @@ section.integrar{
    margin-bottom: 2vw;
    border-radius: 5vw;
    width: 10vw;
-   height: 1.5vw;
+   height: 2vw;
    margin-right: 10vw;
    width: auto;
    min-width: 30vw;
@@ -263,7 +268,7 @@ section.integrar{
 .como h3 {
    color: #ffffff;
    line-height: 1.6vw;
-   font-size: 2vw;
+   font-size: 3vw;
    padding-left: 4vw;
 }
 
@@ -273,8 +278,8 @@ body {
 }
 div.lis {
    padding-top: 20vw;
-   color: #ffffff;
-   font-size: 1.8vw;
+   color: #391665;
+   font-size: 2vw;
 }
 
 div.lis ul {
@@ -285,7 +290,7 @@ div.lis ul {
 }
 
 div.lis ul li {
-   background-color: #F38E34;
+   background-color: #F6B3FF;
    border-radius: 2vw;
    padding: 3.2vw;
    height: auto; /* <--- melhor deixar o height livre */
@@ -295,6 +300,90 @@ div.lis ul li {
 
 /* PRE E POS TREINO*/
 section.prepos {
-   background-color: #F38E34;
+   background-color: #3c0a5a;
    border-radius: 5vw 5vw 0 0;
+   padding: 0 0 4vw 0;
+}
+section.prepos h3{
+   color: white;
+   text-align: center;
+   font-size: 4rem;
+   padding: 4vw;
+}
+section.prepos h4{
+   color: #9F68E4;
+   text-shadow: 0.3vw 0.2vw 0.3vw #431A78;
+   font-size: 2rem;
+   text-align: center;
+   padding: 4vw 0;
+}
+.pretreino{
+   background-color: #9F68E4;
+   padding: 6vw;
+   margin: 1vw 8vw;
+   border-radius: 2vw;
+   color: #3c0a5a;
+}
+.pretreino ol {
+   list-style-type:decimal;
+   padding: 2vw;
+}
+.pretreino ul{
+   list-style-type: disc;
+   padding: 2vw;
+}
+.postreino ul{
+   list-style-type:disc ;
+   padding: 2vw;
+}
+li{
+   padding: 0.7vw;
+}
+.postreino{
+   background-color: #9F68E4;
+   padding: 6vw;
+   margin: 1vw 8vw;
+   border-radius: 2vw;
+   color: #3c0a5a;
+}
+.prep{
+   color: #ffffff;
+   font-size: 1.5rem;
+}
+.suges{
+   color: #F6B3FF;
+   font-size: 1.5rem;
+}
+.desc{
+   color: white;
+   font-size: 1.5rem;
+   padding-bottom: 2vw;
+}
+/* FOOTER */
+   footer {
+    background-color: #9F68E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.8rem;
+    margin: 0;
+}
+
+footer a.logo img {
+    height: 4rem;
+    width: 4rem;
+    margin: 0 0 0 2rem;
+}
+
+footer ul {
+    display: flex;
+}
+footer ul li{
+justify-content: space-between;
+}
+footer ul img {
+    height: 3rem;
+    width: 3.2rem;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
 }

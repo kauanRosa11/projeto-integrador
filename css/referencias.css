@@ -52,12 +52,27 @@ header nav div ul li {
 
 header nav ul li:hover ul {
     display: block;
-    background-color: gray;
+    border-radius: 0.3vw;
+    background-color: white;
+    line-height: 3vw;
+}
+
+header nav ul li:hover ul li a {
+    color: #3c0a5a;
 }
 
 header nav ul li ul {
     position: absolute;
     display: none;
+}
+
+header nav ul li ul li {
+    color: #391665;
+}
+
+header nav ul li ul li a:hover {
+    background-color: #3c0a5a;
+    color: white;
 }
 
 /* ref preta*/ 
