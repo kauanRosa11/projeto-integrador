@@ -92,3 +92,15 @@ section.beneficios div{
     justify-content: start;
     margin-left: 8vw;
 }
+/* img */
+section.img img{
+    height: 80%;
+    width: 80%;
+    
+}
+section.img {
+    height: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
