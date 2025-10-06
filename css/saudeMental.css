@@ -96,7 +96,7 @@ header nav ul li ul li a:hover {
 .banner-saude {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
     background-color: #F6B3FF;
     border-radius: 0 0 7vw 7vw;
     color: white;
@@ -109,10 +109,12 @@ header nav ul li ul li a:hover {
 }
 
 .banner-texto h2 {
+    margin-top: 7vw;
     font-size: 5.5rem;
     font-weight: bold;
     line-height: 1;
     margin-bottom: 1rem;
+
     color: #3c0a5a;
 }
 
@@ -122,14 +124,12 @@ header nav ul li ul li a:hover {
     color: #431A78;
 }
 
-.banner-imagem {
-    display: flex;
-    justify-content: center;
-}
 
 .banner-imagem img {
     width: auto;
-    height: 50vw;
+    align-items: start;
+    height: 40vw;
+    padding-right: 15vw;
 }
 
 /* ==============================
