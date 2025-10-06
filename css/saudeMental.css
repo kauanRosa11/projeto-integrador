@@ -100,7 +100,8 @@ header nav ul li ul li a:hover {
     background-color: #F6B3FF;
     border-radius: 0 0 7vw 7vw;
     color: white;
-    height: 40vw;
+    height: 48vw;
+    overflow: hidden;
 }
 
 .banner-texto {
@@ -114,14 +115,21 @@ header nav ul li ul li a:hover {
     font-weight: bold;
     line-height: 1;
     margin-bottom: 1rem;
-
+    font-size: 6.5rem;
+    font-weight: bold;
     color: #3c0a5a;
+    margin-top: 1.7vw;
+    line-height: 110%;
+    margin-right: 3vw;
+    transform: translateY(-10vw);
+    overflow: hidden;
 }
 
 .banner-texto p {
-    font-size: 1.7rem;
-    font-weight: 300;
-    color: #431A78;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    transform: translateY(-8vw);
 }
 
 
@@ -130,6 +138,11 @@ header nav ul li ul li a:hover {
     align-items: start;
     height: 40vw;
     padding-right: 15vw;
+}
+.banner-saude img {
+    height: 60.1vw;
+    padding-top: vw;
+    transform: translateY(4vw); 
 }
 
 /* ==============================
@@ -175,7 +188,7 @@ header nav ul li ul li a:hover {
 section.lista {
 
     padding: 2vw;
-        padding-top: 7vw;
+    padding-top: 7vw;
     text-align: center;
     color: white;
     border-radius: 2vw;

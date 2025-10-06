@@ -87,6 +87,7 @@ header nav ul li ul li a:hover {
 
 section.parteUm {
     background-color: #9F68E4;
+    height: 48vw;
 }
 
 section.parteUm ul {
@@ -99,6 +100,7 @@ section.parteUm ul li {
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     display: flex;
+    height: 48vw;
 }
 
 section.parteUm ul.imagens li {
@@ -307,7 +309,7 @@ section.parteTres {
 section.parteTres div {
     display: flex;
     align-items: center;
-    padding: 8rem 5.55rem 10rem 9rem;
+    padding: 8rem 16.4rem 10rem 9rem;
     background-color: #F6B3FF;
     border-radius: 4rem 4rem 0 0;
 }
@@ -333,7 +335,7 @@ section.parteTres div ol li h4 {
 
 section.parteTres div ol li p {
     color: white;
-    padding: 5vw 10vw;
+    padding: 1vw 10vw;
     font-size: 30px;
 }
 

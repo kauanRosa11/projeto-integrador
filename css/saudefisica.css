@@ -104,30 +104,26 @@ section.saudefisica div.texto {
 
 
 section.saudefisica .img img {
-   transform: translateY(-11.3px);
+   transform: translateY(-19px);
    height: 48vw;
 }
 
-
 section.saudefisica div h2 {
-   font-size: 5.5rem;
+   font-size: 6.5rem;
    font-weight: bold;
    color: #3c0a5a;
    padding: 0 0 0 0;
-   margin-top: 5vw;
+   margin-top: 1.7vw;
    line-height: 110%;
    margin-right: 3vw;
 }
 
-
 section.saudefisica div p {
    color: #ffffff;
-   font-size: 1.2rem;
-   margin-bottom: 1.5vw;
+   font-size: 2rem;
+   margin-bottom: 2vw;
    font-weight: bold;
    padding: 3vw 3vw 0 0;
-
-
 }
 
 
