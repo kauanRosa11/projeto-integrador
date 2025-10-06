@@ -97,47 +97,39 @@ header nav ul li ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #F38E34;
+    background-color: #F6B3FF;
     border-radius: 0 0 7vw 7vw;
-    padding: rem 6rem;
-    margin: 2rem auto;
     color: white;
-    overflow: hidden;
     height: 40vw;
 }
 
 .banner-texto {
     flex: 1;
+    padding-left: 7vw;
 }
 
 .banner-texto h2 {
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-weight: bold;
     line-height: 1;
     margin-bottom: 1rem;
-    color: white;
+    color: #3c0a5a;
 }
 
 .banner-texto p {
     font-size: 1.7rem;
     font-weight: 300;
-    color: #ffe0c2;
-    max-width: 300px;
+    color: #431A78;
 }
 
 .banner-imagem {
-    flex: 1;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    /* mantém grudada embaixo */
-    /* evita ultrapassar o container */
 }
 
 .banner-imagem img {
-    width: 50vw;
-    /* defina um valor fixo próximo ao do Figma */
-    height: auto;
+    width: auto;
+    height: 50vw;
 }
 
 /* ==============================
@@ -148,7 +140,6 @@ header nav ul li ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #B10072;
     padding: 40px;
     gap: 30px;
     font-weight: 1;
@@ -182,7 +173,9 @@ header nav ul li ul li a:hover {
    ==================================== */
 
 section.lista {
+
     padding: 2vw;
+        padding-top: 7vw;
     text-align: center;
     color: white;
     border-radius: 2vw;
@@ -196,11 +189,12 @@ section.lista h2 {
 }
 
 section.lista div {
-    background-color: #3c0a5a;
-    border-radius: 15px;
+    background-color: #9F68E4;
+    border-radius: 20px;
     padding: 2vw;
     text-align: left;
     margin: 0 auto;
+    width: 84vw;
 }
 
 section.lista h3 {
@@ -221,8 +215,8 @@ section.lista img {
 
 section.lista p {
     margin: 10px 0;
-    line-height: 2.6rem;
-    font-size: 2rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
 }
 
 section.lista strong {
@@ -237,8 +231,8 @@ section.lista ul {
 
 section.lista li {
     margin-bottom: 10px;
-    font-size: 2rem;
-    line-height: 2.6rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 section.lista div.meditacao p {
@@ -284,12 +278,12 @@ section.lista div:nth-child(5) {
 section.playlists {
     color: white;
     font-size: 1rem;
-    margin: 3vw 0 4vw 3vw;
+    margin: 3vw 0 4vw 7vw;
 }
 
 /* FOOTER */
 footer {
-    background-color: #431A78;
+    background-color: #9F68E4;
     display: flex;
     align-items: center;
     justify-content: space-between;
