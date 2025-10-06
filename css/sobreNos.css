@@ -141,6 +141,49 @@ section.nossoprojeto div ol li{
 section.nossoprojeto ul li h3 {
     padding-bottom: 1vw;
 }
+/* FOTINHOS */
+section.nos{
+    height: 60vw;
+}  
+section.nos div{
+    background-color: #FFFFFF;
+    color: #391665;
+    height: 50vw;
+    width: 90%;
+    display: flex;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 3vw;
+}
+section.nos div ul{
+    font-size: 0.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+section.nos ul li {
+  flex: 20%;
+  max-width: 30%;
+  margin: 3vw;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 1vw;
+  padding: 1rem;
+} 
+section.nos ul li img{
+    height: 6vw;
+    width: 6vw;
+}
+section.nos ul li p{
+    background-color: #F9CFFF;
+    padding: 2vw 2vw 2vw 2vw;
+    margin-top: 0.6vw;
+    border-radius: 1vw;
+}
+section.nos ul li h3{
+    margin: 1.5vw;
+}
 /* FOOTER */
 footer {
     background-color: #85289A;
