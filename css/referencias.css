@@ -22,7 +22,7 @@ nav a {
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #F38E34;
+    background-color: #9F68E4;
 }
 
 header nav {
@@ -77,10 +77,10 @@ header nav ul li ul li a:hover {
 
 /* ref preta*/ 
 main {
-    background: #FDEEFF;
+    background: #F6B3FF;
 }
 main section.b {
-    background: #F38E34;
+    background: #9F68E4;
     padding: 5vw;
    
 }
@@ -98,7 +98,7 @@ main section div.j p
     font-size: 1.5rem;
     text-align: center;
 }
-main section h1 {
+main section h2 {
     padding-top: 10vw;
 font-size: 200px;
 font-weight: bold;
@@ -141,7 +141,7 @@ h2{
    
 }
   p, a{
-    color: #732751;
+    color: #431A78;
 }
 
 
