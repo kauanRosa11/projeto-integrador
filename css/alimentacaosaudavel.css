@@ -98,13 +98,16 @@ section.banner div h1 {
 
 section.banner div p {
     font-size: 50px;
-    width: 516px;
+    width: 45vw;
     color: #431A78;
     opacity: 80%;
     text-align: start;
     padding: 40px 20px 0 0;
 }
-
+section.banner img{
+    padding-right: 30vw;
+    width:  50vw;
+}
 section.alimentacao {
     display: flex;
     justify-content: center;
