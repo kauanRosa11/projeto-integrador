@@ -76,31 +76,105 @@ header nav ul li ul li a:hover {
 section.beneficios{
     background-color: #85289A;
     color: #FFFFFF;
-    height: fit-content;
+    height: 30vw;
     border-radius: 0 0 4vw 4vw;
-
-    h2 {
-    font-weight:bold;
-    text-align: left;
-    font-size: 4em;
-    color: #FFFFFF;
-    padding-bottom: 4vw;
-    }
 }
 section.beneficios div{
     padding-top: 3vw;
     justify-content: start;
     margin-left: 8vw;
 }
+section.beneficios div h2{
+    font-weight: bold;
+    text-align: left;
+    font-size: 4rem;
+    color: #FFFFFF; 
+}
 /* img */
 section.img img{
-    height: 80%;
-    width: 80%;
-    
+    height: fit-content;
+    width:  fit-content;
+    padding-top: 7vw;
 }
 section.img {
-    height: 60vw;
+    height: 35vw;
     display: flex;
     justify-content: center;
     align-items: center; 
+}
+/* beneficios */
+section.natureza{
+    height: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:  5rem;
+}
+section.natureza div{
+    padding-top: 2  vw;
+}
+section.natureza div h3{
+    background-color: #F38E34;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 3vw;
+}
+.natureza div h3.con{
+    padding: 2vw 2vw 2vw 2vw;
+    margin: 0 8vw 0 10vw;
+    width: 25%;
+}
+.natureza div p.um{
+    font-weight:bold;
+    font-size: 2rem;
+    color: #FFFFFF;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    padding-left: 12vw;
+}
+.natureza div h3.ben{
+    padding: 2vw 2vw 2vw 2vw;
+    margin: 0 8vw 0 60%;
+    width: 25%;
+}
+.natureza div p.dois{
+    font-weight:bold;
+    font-size: 2rem;
+    color: #FFFFFF;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    padding-left: 12vw;  
+}
+/* FOOTER */
+footer {
+    background-color: #431A78;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.8rem;
+    margin: 0;
+    margin-top: 5vw;
+    transform: translateY(-1.5vw);
+}
+
+footer a.logo img {
+    height: 4rem;
+    width: 4rem;
+    margin: 0 0 0 2rem;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul li {
+    justify-content: space-between;
+}
+
+footer ul img {
+    height: 3rem;
+    width: 3.2rem;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
 }
