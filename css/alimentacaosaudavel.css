@@ -66,8 +66,9 @@ header nav ul li:hover ul li a {
 }
 
 header nav ul li ul {
-    position: absolute;
-    display: none;
+   position: absolute;
+   display: none;
+   z-index: 999;
 }
 
 header nav ul li ul li {
@@ -81,11 +82,16 @@ header nav ul li ul li a:hover {
 
 /* === sections === */
 
+br {
+    display: block;
+}
+
 section.banner {
     background-color: #F6B3FF;
     display: flex;
-    padding: 0 5vw 5vw 5vw;
+    padding: 0 5vw 5vw 7vw;
     border-radius: 0 0 5vw 5vw;
+    height: 48.33vw;
 }
 
 section.banner div h1 {
@@ -97,17 +103,22 @@ section.banner div h1 {
 }
 
 section.banner div p {
-    font-size: 50px;
+    font-size: 1.3rem;
     width: 45vw;
     color: #431A78;
     opacity: 80%;
     text-align: start;
     padding: 40px 20px 0 0;
 }
-section.banner img{
+
+section.banner img {
     padding-right: 30vw;
-    width:  50vw;
+    width: auto;
+    height: 53.3vw;
+    transform: translateY(-0.3vw);
+        transform: translateX(-10vw);
 }
+
 section.alimentacao {
     display: flex;
     justify-content: center;
@@ -125,14 +136,11 @@ section.alimentacao div p {
     font-size: 40px;
     font-weight: bold;
     color: white;
-
 }
 
 section p {
-
     padding: 4vw;
     font-size: 40px;
-
     color: white;
     width: 1100px;
     text-align: center;
@@ -142,9 +150,10 @@ section.variacao {
     display: flex;
     justify-content: center;
     text-align: center;
+    transform: translateY(-6vw);
 }
 
-
+/* SUGESTAOES */
 section.sugstoes h1 {
     display: flex;
     justify-content: center;
@@ -155,19 +164,17 @@ section.sugstoes h1 {
     margin: auto;
     text-align: center;
     font-weight: bold;
-    
-
 }
 
 section.sugstoes div.container {
     display: flex;
     justify-content: space-between;
     background-color: #F6B3FF;
-    padding: 4vw 5vw 2vw 5vw;
+    padding: 2vw 5vw 1vw 5vw;
     border-radius: 1.5vw;
     margin-top: 3vw;
-    
-
+    height: 15vw;
+    align-items: center;
 }
 
 section.sugstoes div {
@@ -179,13 +186,19 @@ section.sugstoes div {
     color: #ffffff;
     font-weight: 600;
     margin-bottom: 8vw;
-    
-
 }
 
 section.sugstoes div.container div ul {
     list-style: disc;
-
+}
+.container img.segunda{
+        transform: translateY(-2.5vw);
+}
+.terceira{
+    transform: translateY(-7vw);
+}
+.quinta{
+    transform: translateY(-3.4vw);
 }
 
 /* FOOTER */
@@ -208,9 +221,11 @@ footer a.logo img {
 footer ul {
     display: flex;
 }
-footer ul li{
-justify-content: space-between;
+
+footer ul li {
+    justify-content: space-between;
 }
+
 footer ul img {
     height: 3rem;
     width: 3.2rem;

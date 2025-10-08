@@ -107,6 +107,7 @@ header nav ul li ul li a:hover {
 .banner-texto {
     flex: 1;
     padding-left: 7vw;
+    margin-top: 15vw;
 }
 
 .banner-texto h2 {
@@ -141,8 +142,7 @@ header nav ul li ul li a:hover {
 }
 .banner-saude img {
     height: 60.1vw;
-    padding-top: vw;
-    transform: translateY(4vw); 
+    transform: translateY(6vw); 
 }
 
 /* ==============================

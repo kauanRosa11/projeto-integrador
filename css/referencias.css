@@ -16,7 +16,9 @@ nav a.Home {
 nav a {
     text-decoration: none;
     color: white;
-
+}
+nav a.ref{
+        font-weight: bold;
 }
 /* === TOPO === */
 
