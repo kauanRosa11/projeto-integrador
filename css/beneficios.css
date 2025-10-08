@@ -13,13 +13,13 @@ nav a {
     color: white;
 }
 body{
-    background-color: #F436A0;
+    background-color: #431A78;
 }
 /* === TOPO === */
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #F436A0;
+    background-color: #9F68E4;
 }
 
 header nav {
@@ -74,7 +74,7 @@ header nav ul li ul li a:hover {
 
 /* === Beneficios === */
 section.beneficios{
-    background-color: #85289A;
+    background-color: #F6B3FF;
     color: #FFFFFF;
     height: 30vw;
     border-radius: 0 0 4vw 4vw;
@@ -88,7 +88,7 @@ section.beneficios div h2{
     font-weight: bold;
     text-align: left;
     font-size: 4rem;
-    color: #FFFFFF; 
+    color: #431A78; 
 }
 /* img */
 section.img img{
@@ -114,8 +114,8 @@ section.natureza div{
     padding-top: 2  vw;
 }
 section.natureza div h3{
-    background-color: #F38E34;
-    color: #FFFFFF;
+    background-color: #F6B3FF;
+    color: #431A78;
     font-size: 2.5rem;
     font-weight: bold;
     border-radius: 3vw;
@@ -123,7 +123,7 @@ section.natureza div h3{
 .natureza div h3.con{
     padding: 2vw 2vw 2vw 2vw;
     margin: 0 8vw 0 10vw;
-    width: 25%;
+    width: 30%;
 }
 .natureza div p.um{
     font-weight:bold;
@@ -136,7 +136,7 @@ section.natureza div h3{
 .natureza div h3.ben{
     padding: 2vw 2vw 2vw 2vw;
     margin: 0 8vw 0 60%;
-    width: 25%;
+    width: 30%;
 }
 .natureza div p.dois{
     font-weight:bold;
@@ -148,7 +148,7 @@ section.natureza div h3{
 }
 /* FOOTER */
 footer {
-    background-color: #431A78;
+    background-color: #9F68E4;
     display: flex;
     align-items: center;
     justify-content: space-between;
