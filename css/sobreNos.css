@@ -197,6 +197,7 @@ section.nos ul li {
 section.nos ul li img {
     height: 6vw;
     width: 6vw;
+    border-radius: 0.5vw;
 }
 
 section.nos ul li p {

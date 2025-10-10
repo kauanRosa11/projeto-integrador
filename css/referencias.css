@@ -86,6 +86,14 @@ main section.b {
     padding: 5vw;
    
 }
+main section h2.ref{
+    padding-top: 10vw;
+font-size: 150px;
+font-weight: bold;
+margin-bottom: 4vw;
+color: #431A78;
+text-align: center;
+}
 
 main section.a {
     
@@ -102,10 +110,9 @@ main section div.j p
 }
 main section h2 {
     padding-top: 10vw;
-font-size: 200px;
+font-size: 150px;
 font-weight: bold;
 margin-bottom: 4vw;
-text-align: center;
 color: #431A78;
 }
 
