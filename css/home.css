@@ -277,6 +277,7 @@ section.parteDois div ul.dois li {
 section.parteDois div ul.dois li a {
     display: flex;
     justify-content: center;
+    text-decoration: none;
 }
     a button {
         border-radius: 1rem;
@@ -288,7 +289,6 @@ section.parteDois div ul.dois li a {
         background-color: transparent;
         border-color: white;
         cursor: pointer;
-       
 
     }
 
@@ -362,14 +362,18 @@ section.parteTres div img {
     width: 20rem;
 }
 
-section.parteTres div ol li {
+section.parteTres div ol {
+    border-radius: 30px;
     background-color: #237470;
-   
+    padding-bottom: 2rem;
+}
+
+section.parteTres div ol li {
 }
 
 section.parteTres div ol li h4 {
     color: #ffffff;
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
@@ -381,7 +385,7 @@ section.parteTres div ol li {
     color: white;
     padding: 1vw 5vw;
     font-size: 30px;
-
+    text-align: center;
 }
 
 section.parteTres div ol li.p {
