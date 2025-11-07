@@ -126,8 +126,7 @@ section.parteUm {
     height: 48vw;
     width: 100vw;
     border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 5vw;
+    border-top-right-radius: 0;    border-bottom-left-radius: 5vw;
     border-bottom-right-radius: 5vw;
     overflow: hidden;
 }
@@ -140,34 +139,30 @@ section.parteUm ul {
 section.parteUm ul li {
     padding: 2vw 4vw 2vw 4vw;
     background-color: #F9E6D0;
-    border-bottom-left-radius: 70px;
-    border-bottom-right-radius: 70px;
     display: flex;
+    justify-content: space-around;
     height: 58vw;
     z-index: 0;
 
 }
-
-
-.borda {
-background-color: #237470;
-border-radius: 45px;
-padding: 5vw;
-left: 14.5%;
-position: relative;
-height: 50%;
-width: 40%;
-top: 10%;
-
-}
-.parteUm img {
+.parteUm div.img{
+        border-radius: 25px;
+        padding: 2vw 3vw;
+        border: 2px solid white; 
+        height: min-content;
+        background-color: #237470;
+        img {
+            border-radius: 25px;
+            border: 2px solid white;
+        }
+    }
+/*img{
     margin: auto auto 25vw;
     height: 50%;
     border-radius: 25px;
-    position: absolute;
-    left: 55%;
-    top: 35%;
-}
+    border: 3vw solid #237470;
+    }*/
+
 
 
 
@@ -275,23 +270,19 @@ section.parteDois div ul.dois li {
 }
 
 section.parteDois div ul.dois li a {
-    display: flex;
-    justify-content: center;
     text-decoration: none;
-}
-    a button {
-        border-radius: 1rem;
+        text-align: center;
         width: 112px;
-        height: 2rem;
         font-size: 1rem;
-        padding: 0.5vw 0 0.5vw 0;
+        padding: 0.4vw 0.6vw;
         color: white;
         background-color: transparent;
-        border-color: white;
+        border-width: 2px;
+        border-radius: 60px;
+        border-style: solid;
+        border-image: linear-gradient(to right, white, gray) 1;
         cursor: pointer;
-
-    }
-
+}
 
 section.parteDois div ul.dois li h4 {
     font-size: 2rem;
@@ -302,41 +293,15 @@ section.parteDois div ul.dois p {
     text-align: center;
     padding: 0 0 0 1.7rem;
 }
-
-section.parteDois div ul li.um {
-    background-color: #237470;
-    padding: 0.5vw 1vw 2vw 1vw;
-    border-radius: 50px;
-    line-height: 2.3rem;
+    .parteDois div ul {
+        .um, .dois, .tres, .quatro, .cinco {   
+            text-align: center;
+            background-color: #237470;
+            padding: 0.5vw 1vw 2vw 1vw;
+            border-radius: 50px;    
+            line-height: 2.3rem;
 }
-
-section.parteDois div ul li.dois {
-    background-color: #237470;
-    padding: 0.5vw 1vw 2vw 1vw;
-    border-radius: 50px;
-    line-height: 2.3rem;
-}
-
-section.parteDois div ul li.tres {
-    background-color: #237470;
-    padding: 0.5vw 1vw 2vw 1vw;
-    border-radius: 50px;
-    line-height: 2.3rem;
-}
-
-section.parteDois div ul li.quatro {
-    background-color: #237470;
-    padding: 0.5vw 1vw 2vw 1vw;
-    border-radius: 50px;
-    line-height: 2.3rem;
-}
-
-section.parteDois div ul li.cinco {
-    background-color: #237470;
-    padding: 0.5vw 1vw 2vw 1vw;
-    border-radius: 50px;
-    line-height: 2.3rem;
-}
+    }
 
 /*   PARTE TRES    */
 
