@@ -2,18 +2,43 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: calc(12px + 0.8vw);
     text-decoration: none;
+    overflow-x: hidden;
 }
-
-
-body {
-    background-color: #F9E6D0;
-}
-
 
 nav a.Home {
     text-decoration: none;
     color: white;
     font-weight: bold;
+    
+    display: flex;
+
+}
+
+.Home img {
+    width: 30px;
+ transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.Home:hover img {
+  transform: rotate(180deg);
+
+}
+
+
+
+
+button {
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #F9E6D0;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
 }
 
 nav a {
@@ -27,6 +52,9 @@ nav a {
 header {
     padding: 2vw 6vw 2vw 8vw;
     background-color: #237470;
+    position: relative;
+    z-index: 99999 !important;
+    pointer-events: auto;
 }
 
 header nav {
@@ -54,28 +82,38 @@ header nav div ul li {
     padding: 0 15px 0 15px;
 }
 
-header nav ul li:hover ul {
+
+header nav ul li:hover ul  {
     display: block;
-    border-radius: 0.3vw;
+    border-radius: 20px;
     background-color: white;
-    line-height: 3vw;
+    line-height: 2vw; 
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+
+
+
 }
 
 header nav ul li:hover ul li a {
     color: #237470;
+    
 }
 
 header nav ul li ul {
-   position: absolute;
-   display: none;
-   z-index: 999;
+    position: absolute;
+    display: none;
 }
 
 header nav ul li ul li {
-    color: #3c0a5a;
+    color: #391665;
 }
 
 header nav ul li ul li a:hover {
+  
     border-radius: 15px;
     padding: 0.2vw;
     color: #237470;

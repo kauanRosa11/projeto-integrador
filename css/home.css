@@ -137,7 +137,7 @@ section.parteUm ul {
 }
 
 section.parteUm ul li {
-    padding: 2vw 4vw 2vw 4vw;
+    
     background-color: #F9E6D0;
     display: flex;
     justify-content: space-around;
@@ -148,12 +148,13 @@ section.parteUm ul li {
 .parteUm div.img{
         border-radius: 25px;
         padding: 2vw 3vw;
-        border: 2px solid white; 
+    
         height: min-content;
         background-color: #237470;
+        margin-top: 5vw;
         img {
             border-radius: 25px;
-            border: 2px solid white;
+            box-shadow: 0 0 0  #000;
         }
     }
 /*img{
@@ -168,7 +169,7 @@ section.parteUm ul li {
 
 section.parteUm div {
     text-align: left;
-    padding: 0 0 0 5vw;
+   
 }
 
 section.parteUm div h2 {
@@ -254,54 +255,94 @@ section.parteDois div p {
 section.parteDois div ul.um {
     display: flex;
     justify-content: space-between;
+    margin: 5vw 10vw 5vw 10vw;
 }
 
 
 section.parteDois div ul.dois {
     text-align: center;
+    margin: 5vw 10vw 5vw 5vw;
 
 }
 
-section.parteDois div ul.dois li {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 3vw 12vw 5vw 12vw;
-}
+
+
+
+
 
 section.parteDois div ul.dois li a {
-    text-decoration: none;
-        text-align: center;
-        width: 112px;
-        font-size: 1rem;
-        padding: 0.4vw 0.6vw;
-        color: white;
-        background-color: transparent;
-        border-width: 2px;
-        border-radius: 60px;
-        border-style: solid;
-        border-image: linear-gradient(to right, white, gray) 1;
-        cursor: pointer;
+text-decoration: none;
+    text-align: center;
+    width: 112px;
+    font-size: 1rem;
+    padding: 0.4vw 0.6vw;
+    color: white;
+    background: linear-gradient(#237470) padding-box, 
+                linear-gradient(to right, white, gray) border-box;
+    border: 2px solid transparent;
+    border-radius: 60px;
+    cursor: pointer;
 }
 
 section.parteDois div ul.dois li h4 {
-    font-size: 2rem;
-    margin-top: 1.5rem;
+    font-size: 1.8rem;
+   
 }
 
 section.parteDois div ul.dois p {
     text-align: center;
-    padding: 0 0 0 1.7rem;
+    padding: 1vw;
+    font-size: 1.2rem;
+    line-height: 2vw;
 }
     .parteDois div ul {
         .um, .dois, .tres, .quatro, .cinco {   
             text-align: center;
             background-color: #237470;
-            padding: 0.5vw 1vw 2vw 1vw;
             border-radius: 50px;    
             line-height: 2.3rem;
+          
 }
     }
+
+    .um {
+    margin-bottom: 2vw;
+    padding-bottom: 1vw;
+    transition: 0.4s;
+     
+}
+    .um:hover {
+       transform: scale(1.03);
+        
+    }
+    .tres {
+    margin-bottom: 2vw; padding-bottom: 1vw;
+       transition: 0.4s;
+}
+    .tres:hover {
+       transform: scale(1.03);
+      
+    }
+    .quatro {
+    margin-bottom: 2vw; padding-bottom: 1vw;
+      transition: 0.4s;
+}
+    .quatro:hover {
+       transform: scale(1.03);
+       
+    }
+    .cinco {
+    margin-bottom: 2vw; padding-bottom: 1vw;
+     transition: 0.4s;
+}
+    .cinco:hover {
+       transform: scale(1.03);
+        
+        
+    }
+
+
+
 
 /*   PARTE TRES    */
 
@@ -417,32 +458,81 @@ section.parteQuatro div ul li h5 {
 }
 
 /* FOOTER */
-footer {
-    background-color: #236C74;
-    display: flex;
+footer  {
+display: flex;
+   
+    gap: 20px;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+    background-color: #237470;
+    padding: 1vw;
+  
+}
+
+footer a {
+     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 2.8rem;
-    margin: 0;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    color: #1a6a6a;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
 }
 
-footer a.logo img {
-    height: 4rem;
-    width: 4rem;
-    margin: 0 0 0 2rem;
+footer a:hover {
+     background: linear-gradient(135deg, #00b7ff, #007777);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00b7ff;
 }
 
-footer ul {
-    display: flex;
+footer .insta:hover {
+    background: radial-gradient(circle at 30% 107%, 
+        #fdf497 0%, 
+        #fdf497 5%, 
+        #fd5949 45%, 
+        #d6249f 60%, 
+        #285AEB 90%);
+    color: white;
+    box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
+    }
+
+
+    .X:hover {
+        background: linear-gradient(135deg, #302f2f, #000);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #000;
+    }
+
+    .nos {
+        font-size: 25px;
+       padding: 1vw;
+    }
+    .social {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
-footer ul li {
-    justify-content: space-between;
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
 }
-
-footer ul img {
-    height: 3rem;
-    width: 3.2rem;
-    margin: 0 1rem 0 0;
-    cursor: pointer;
+.direitos {
+    padding: 1vw;
+}
+.direitos i {
+    transition: 0.3s;
+}
+.direitos i:hover {
+    color: red 
 }

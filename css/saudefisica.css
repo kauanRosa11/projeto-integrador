@@ -1,99 +1,133 @@
 html {
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   font-size: calc(12px + 0.8vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.8vw);
+    text-decoration: none;
+    overflow-x: hidden;
 }
-
 
 nav a.Home {
-   text-decoration: none;
-   color: white;
-   font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+    display: flex;
+
 }
 
+.Home img {
+    width: 30px;
+ transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.Home:hover img {
+  transform: rotate(180deg);
+
+}
+
+
+
+
+button {
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #F9E6D0;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+}
 
 nav a {
-   text-decoration: none;
-   color: white;
-}
+    text-decoration: none;
+    color: white;
 
+}
 
 /* === TOPO === */
 
-
 header {
-   padding: 2vw 6vw 2vw 8vw;
-   background-color: #9F68E4;
+    padding: 2vw 6vw 2vw 8vw;
+    background-color: #237470;
+    position: relative;
+    z-index: 99999 !important;
+    pointer-events: auto;
 }
-
 
 header nav {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
 
 header nav h1 {
-   font-size: 1.5rem;
-   font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
-
 
 header nav h1 a {
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
 }
-
 
 header nav div ul {
-   display: flex;
+    display: flex;
 }
-
 
 header nav div ul li {
-   margin: 0 10px 0 10px;
-   padding: 0 15px 0 15px;
+    margin: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
 }
 
 
+header nav ul li:hover ul  {
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    line-height: 2vw; 
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 
-header nav ul li:hover ul {
-   display: block;
-   border-radius: 0.3vw;
-   background-color: white;
-   line-height: 3vw;
+
+
+
 }
 
 header nav ul li:hover ul li a {
-   color: #3c0a5a;
+    color: #237470;
+    
 }
 
 header nav ul li ul {
-   position: absolute;
-   display: none;
-   z-index: 999;
+    position: absolute;
+    display: none;
 }
 
 header nav ul li ul li {
-   color: #391665;
+    color: #391665;
 }
 
 header nav ul li ul li a:hover {
-   background-color: #3c0a5a;
-   color: white;
+  
+    border-radius: 15px;
+    padding: 0.2vw;
+    color: #237470;
 }
 
 /*SAUDE FISICA*/
 
-section {
-   background-color: #9F68E4;
-}
+
 
 
 section.saudefisica ul {
    display: flex;
    justify-content: space-between;
-   background-color: #F6B3FF;
+   background-color: #F9E6D0;
    height: 48vw;
    border-radius: 0 0 6vw 6vw;
 }
@@ -110,20 +144,19 @@ section.saudefisica .img img {
 }
 
 section.saudefisica div h2 {
-   font-size: 6.5rem;
-   font-weight: bold;
-   color: #3c0a5a;
-   padding: 0 0 0 0;
-   margin-top: 1.7vw;
-   line-height: 110%;
-   margin-right: 3vw;
+  font-size: 4.5rem;
+    color: #237470;
+    font-weight: bold;
+    line-height: 6vw;
+    margin-top: 2vw;
+   
 }
 
 section.saudefisica div p {
-   color: #ffffff;
-   font-size: 2rem;
+   color: #8C6A5B;
+   font-size: 1.5rem;
    margin-bottom: 2vw;
-   font-weight: bold;
+  
    padding: 3vw 3vw 0 0;
 }
 
@@ -135,7 +168,7 @@ section.saudefisica div img {
 
 section.saudefisica div a {
    text-decoration: none;
-   color: #ffffff;
+   color:  #8C6A5B;
    font-size: 1.3vw;
 }
 
@@ -144,8 +177,8 @@ section.saudefisica div a {
 
 /* ATIVIDADE FISICA*/
 section.atvF {
-   background-color: #9F68E4;
-   color: white;
+   background-color: #F9E6D0;
+   color: #8C6A5B;
    padding: 6vw;
    margin-top: 7vw;
 }
@@ -181,7 +214,7 @@ strong {
 section.atvF div p {
    font-size: 1.5rem;
    font-weight: 300;
-   text-shadow: 0.3vw 0.6vw 0.8vw gray;
+
 }
 
 
@@ -193,7 +226,7 @@ h3 {
 
 .pratica {
    color: #ffffff;
-   text-shadow: 0.4vw 0.7vw 0.8 #ffffff;
+   
 }
 
 
@@ -204,7 +237,7 @@ h3 .atividade {
 
 .cardI {
    padding: 3vw 10vw 1vw 3vw;
-   background-color: #431A78;
+   background-color: #237470;
    margin-bottom: 2vw;
    border-radius: 5vw 0 0 5vw;
    width: 30vw;
@@ -214,7 +247,7 @@ h3 .atividade {
 
 .cardII {
    padding: 3vw 10vw 1vw 3vw;
-   background-color: #431A78;
+   background-color: #237470;
    margin-bottom: 2vw;
    border-radius: 5vw 0 0 5vw;
    width: 20vw;
@@ -230,7 +263,7 @@ section.integrar {
 
 .cardIseg {
    padding: 1vw 10vw 1vw 3vw;
-   background-color: #431A78;
+   background-color: #237470;
    margin-bottom: 2vw;
    border-radius: 5vw;
    width: 6vw;
@@ -243,7 +276,7 @@ section.integrar {
 
 .cardIIseg {
    padding: 1vw 10vw 1vw 3vw;
-   background-color: #431A78;
+   background-color: #237470;
    margin-bottom: 2vw;
    border-radius: 5vw;
    width: 10vw;
@@ -269,9 +302,7 @@ section.integrar {
 }
 
 
-body {
-   background: #9F68E4;
-}
+
 
 div.lis {
    padding-top: 20vw;
@@ -288,7 +319,7 @@ div.lis ul {
 }
 
 div.lis ul li {
-   background-color: #F6B3FF;
+   background-color: #237470;
    border-radius: 2vw;
    padding: 3.2vw;
    height: auto;
@@ -300,7 +331,7 @@ div.lis ul li {
 
 /* PRE E POS TREINO*/
 section.prepos {
-   background-color: #3c0a5a;
+   background-color: #F9E6D0;
    border-radius: 5vw 5vw 0 0;
    padding: 0 0 4vw 0;
 }
@@ -321,7 +352,7 @@ section.prepos h4 {
 }
 
 .pretreino {
-   background-color: #9F68E4;
+   background-color: #237470;
    padding: 6vw;
    margin: 1vw 8vw;
    border-radius: 2vw;
@@ -348,7 +379,7 @@ li {
 }
 
 .postreino {
-   background-color: #9F68E4;
+   background-color: #237470;
    padding: 6vw;
    margin: 1vw 8vw;
    border-radius: 2vw;
@@ -373,7 +404,7 @@ li {
 
 /* FOOTER */
 footer {
-   background-color: #9F68E4;
+   background-color: #237470;
    display: flex;
    align-items: center;
    justify-content: space-between;
