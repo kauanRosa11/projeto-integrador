@@ -6,7 +6,7 @@ html {
 
 
 body {
-    background-color: #8D5EC8;
+    background-color: #F9E6D0;
 }
 
 
@@ -26,7 +26,7 @@ nav a {
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #9F68E4;
+    background-color: #237470;
 }
 
 header nav {
@@ -62,7 +62,7 @@ header nav ul li:hover ul {
 }
 
 header nav ul li:hover ul li a {
-    color: #3c0a5a;
+    color: #237470;
 }
 
 header nav ul li ul {
@@ -72,12 +72,13 @@ header nav ul li ul {
 }
 
 header nav ul li ul li {
-    color: #391665;
+    color: #3c0a5a;
 }
 
 header nav ul li ul li a:hover {
-    background-color: #3c0a5a;
-    color: white;
+    border-radius: 15px;
+    padding: 0.2vw;
+    color: #237470;
 }
 
 /* === sections === */
@@ -87,7 +88,7 @@ br {
 }
 
 section.banner {
-    background-color: #F6B3FF;
+    background-color: #F9E6D0;
     display: flex;
     padding: 0 5vw 5vw 7vw;
     border-radius: 0 0 5vw 5vw;
@@ -97,7 +98,7 @@ section.banner {
 section.banner div h1 {
     font-size: 150px;
     width: 807px;
-    color: #431A78;
+    color: #237470;
     font-weight: bold;
     margin-top: 7vw;
 }
@@ -105,7 +106,7 @@ section.banner div h1 {
 section.banner div p {
     font-size: 1.3rem;
     width: 45vw;
-    color: #431A78;
+    color: #8C6A5B;
     opacity: 80%;
     text-align: start;
     padding: 40px 20px 0 0;
@@ -126,7 +127,7 @@ section.alimentacao {
 }
 
 section.alimentacao div {
-    background-color: #431A78;
+    background-color: #237470;
     width: 1250px;
     border-radius: 2vw;
 }
@@ -141,7 +142,7 @@ section.alimentacao div p {
 section p {
     padding: 4vw;
     font-size: 40px;
-    color: white;
+    color: #8C6A5B;
     width: 1100px;
     text-align: center;
 }
@@ -157,8 +158,8 @@ section.variacao {
 section.sugstoes h1 {
     display: flex;
     justify-content: center;
-    text-shadow: 2px 6px 3px #9F68E4;
-    color: white;
+    text-shadow: 1px 2px 3px #236C74;
+    color: #236C74;
     font-size: 4vw;
     width: 1078px;
     margin: auto;
@@ -169,7 +170,7 @@ section.sugstoes h1 {
 section.sugstoes div.container {
     display: flex;
     justify-content: space-between;
-    background-color: #F6B3FF;
+    background-color: #236C74;
     padding: 2vw 5vw 1vw 5vw;
     border-radius: 1.5vw;
     margin-top: 3vw;
@@ -204,7 +205,7 @@ section.sugstoes div.container div ul {
 /* FOOTER */
 footer {
 
-    background-color: #431A78;
+    background-color: #236C74;
     display: flex;
     align-items: center;
     justify-content: space-between;
