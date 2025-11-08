@@ -93,9 +93,6 @@ header nav ul li:hover ul  {
   font-weight: 300;
   font-style: normal;
 
-
-
-
 }
 
 header nav ul li:hover ul li a {
@@ -108,10 +105,6 @@ header nav ul li ul {
     display: none;
 }
 
-header nav ul li ul li {
-    color: #391665;
-}
-
 header nav ul li ul li a:hover {
   
     border-radius: 15px;
@@ -122,24 +115,23 @@ header nav ul li ul li a:hover {
 /* main */
 
 main h1 {
-  
-    font-size: 120px;
+    font-size: 4rem;
+    text-align: center;
+    background-color: #007777;
+    border-radius: 2vw;
+    padding: 4vw 3vw;
+    color: white;
 }
 
 .banner {
     display: flex;
-    background: #F6B3FF;
+    background-color: #F9E6D0;
     border-radius: 0 0 5vw 5vw;
     margin-bottom: 5vw;
 }
 
 .banner div {
     margin: 5vw 5vw 5vw 8vw;
-}
-
-.banner img {
-    margin-left: 12vw;
-    
 }
 
 body {
@@ -153,54 +145,36 @@ body {
     
 
 .perguntas {
-    background: #fff;
+    background-color: #007777;
     width: 90%;
     max-width: 600px;
-    margin: 100px auto 0;
+    margin: 10vw auto;
     padding: 30px;
     border-radius: 25px;
-    
+    background: rgba(255, 255, 255, 0.15);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 40vw;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: left;  
 }
-
-.perguntas h1 {
-    font-weight: 25px;
-    color: black;
-    font-size: 50px;
-    text-align: center;
-padding-bottom: 0.5vw;
-}
-
-.quiz {
-    padding: 20px 0;
-}
-
-.quiz h2 {
-    font-size: 30px;
-    color: black;
-    text-align: center;
-    margin-bottom: 2vw;
-
-}
-
-.btn {
-    background: #D9D9D9;
-    color: black;
-    font-size: 20px;
-    width: 100%;
-    border: 1px solid black;
+#proxima {
+    margin-top: 2vw;
     padding: 1vw;
-    border-radius: 5px;
-    margin: 10px 0;
-    text-align: left;
+}
+.recomeca{
+    width: auto;
+    padding: 8px 18px;
+    border-radius: 15px;
+    border: 2px solid #2e8b57;
+    background-color: transparent;
+    color: #2e8b57;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: 0.3s, color 0.3s;
 }
-
-.btn:hover:not([disabled]) {
-    background: black;
-    color: white;
-}
-
 #proximo {
     background: #14B351;
     color: white;
@@ -210,48 +184,138 @@ padding-bottom: 0.5vw;
     padding: 1vw;
     border-radius: 5px;
     margin: 20px 0 auto;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
     display: none;
 }
+h2.titulo {
+  text-align: center;
+  margin-bottom: 2vw;
+  font-weight: bold;
+}
+h2{
+    text-align: center;
+    margin-bottom: 1vw;
+}
+button {
+  width: auto;
+  padding: 1.5vw 2vw;
+  background: white;
+  color: #4CAF50;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
 
+button:hover {
+  background: #4CAF50;
+  color: white;
+}
+#resultado-final {
+    margin-bottom: 3vw;
+}
+#resultado {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.hidden {
+    display: none;
+  }
   
-
-form button {
-    background: #d9d9d9;
-    opacity: 40%;
-    border-radius: 10px;
-    font-size: 20px;
+  .opcao {
+    background: #f2f2f2;
     padding: 1vw;
-    margin-bottom: 4vw;
-}
-
-footer {
-    background-color: #431A78;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2.8rem;
-    margin: 0;
-}
-
-footer a.logo img {
-    height: 4rem;
-    width: 4rem;
-    margin: 0 0 0 2rem;
-}
-
-footer ul {
-    display: flex;
-}
-
-footer ul li {
-    justify-content: space-between;
-}
-
-footer ul img {
-    height: 3rem;
-    width: 3.2rem;
-    margin: 0 1rem 0 0;
+    margin: 0.8vw 0;
+    border-radius: 10px;
     cursor: pointer;
-}
+    transition: 0.3s;
+  }
+  
+  .opcao:hover {
+    background: #e0e0e0;
+  }  
+/* FOOTER */
+footer  {
+    display: flex;
+       
+        gap: 20px;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+        background-color: #237470;
+        padding: 1vw;
+      
+    }
+    
+    footer a {
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        color: #1a6a6a;
+        border-radius: 50%;
+        font-size: 1.3rem;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+         background: linear-gradient(135deg, #00b7ff, #007777);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #00b7ff;
+    }
+    
+    footer .insta:hover {
+        background: radial-gradient(circle at 30% 107%, 
+            #fdf497 0%, 
+            #fdf497 5%, 
+            #fd5949 45%, 
+            #d6249f 60%, 
+            #285AEB 90%);
+        color: white;
+        box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
+        }
+    
+    
+        .X:hover {
+            background: linear-gradient(135deg, #302f2f, #000);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #000;
+        }
+    
+        .nos {
+            font-size: 25px;
+           padding: 1vw;
+        }
+        .social {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px; 
+    }
+    .direitos {
+        padding: 1vw;
+    }
+    .direitos i {
+        transition: 0.3s;
+    }
+    .direitos i:hover {
+        color: red 
+    }

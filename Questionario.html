@@ -7,6 +7,7 @@
     <title>Questionario</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/Questionario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <style>
@@ -60,47 +61,46 @@
   <section class="banner">
     <div>    
     <h1>
-            Perguntas <br> Rápidas
+            Questionario sobre a sua rotina
         </h1>
-</div>
-<div>
-    <img src="src/images/planilhazinha.png" alt="">
 </div>
         
 </section>
 <div class="perguntas">
-    <h1>Sobre você</h1>
-    <div class="quiz">
-        <h2 id="questao">Questao vai aqui</h2>
-    <div id="alternativa-botao">
-        <button class="btn">Alernativa 1</button>
-        <button class="btn">Alernativa 2</button>
-        <button class="btn">Alernativa 3</button>
-        <button class="btn">Alernativa 4</button>
-        
-    </div>
-    <button id="proximo">Proximo</button>
-    </div>
+    <h2 class="titulo">Questionario sobre a sua rotina</h2>
+    <div id="quiz"></div>
+    <div id="feedback" class="hidden">
+    <p id="mensagem"></p>
+    <button id="proxima">Próxima pergunta</button>
+</div>
 
+</div>
+<div id="resultado-final" class="hidden">
+    <h2>Resultado Final</h2>
+    <p id="resultado"></p>
+    <button onclick="recomecar()" class="recomeca">Recomeçar</button>
+</div>
 </div>
 <script src="questionario.js"> </script>
 
-       
     </main>
     
     <footer>
-     <a href="home.html" class="logo"><img src="src/images/logo.png" alt="logo"></a>
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/profile.php?id=61581283343654"><img src="src/images/face.png"
-                        alt="facebook"></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/pjtocoresync/"><img src="src/images/insta.png" alt="instagram"></a>
-            </li>
-            <li><a href="https://x.com/pjtocoresync"><img src="src/images/twt.png" alt="twitter"></a></li>
-        </ul>
-    </footer>
+        <div class="social">
+          <p class="nos">Estamos nas plataformas</p>
+          <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=61581283343654" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/pjtocoresync/" class="insta"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/pjtocoresync" class="X"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+      
+          <div class="direitos">
+          <p>© 2025 CoreSync — Todos os direitos reservados.</p>
+      <p>Desenvolvido com <i class="fa-solid fa-heart"></i>
+       no IFC</p>
+       </div>
+        </div>
+      </footer>
 </body>
 
 </html>
