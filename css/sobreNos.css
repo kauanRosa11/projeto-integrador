@@ -119,167 +119,194 @@ header nav ul li ul li a:hover {
     color: #237470;
 }
 
-
-/* === Sobre Nós === */
-section.sobrenos {
-    background-color: #431A78;
-    color: #FFFFFF;
-    height: fit-content;
-    padding-bottom: 3vw;
-    border-radius: 0 0 4vw 4vw;
-
-    h2 {
-        font-weight: bold;
-        text-align: left;
-        font-size: 4em;
-        color: #FFFFFF;
-        padding-bottom: 4vw;
-    }
-}
-
-section.sobrenos div {
-    padding-top: 3vw;
-    justify-content: start;
-    margin-left: 8vw;
-}
-
-section.sobrenos div p {
-    font-size: 3vw;
-    font-weight: bold;
-    color: #FFFFFF;
-}
-
-/* === Nosso Projeto === */
-section.nossoprojeto {
-    padding-top: 5vw;
-    padding: 6vw 5vw 5vw 5vw;
-}
-
-.nossoprojeto div {
-    margin-bottom: 4rem;
-    background-color: #85289A;
-    color: #FFFFFF;
-    height: fit-content;
-    border-radius: 3vw;
-    padding: 2rem 2rem;
-
-    h2 {
-        font-size: 1.5rem;
-    }
-}
-
-section.nossoprojeto div h3 {
-    text-align: left;
-    padding: 0.7vw 0 3vw 0vw;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
-section.nossoprojeto div ol li {
-    margin-bottom: 1.4vw;
-
-    h3 {
-        text-align: left;
-    }
-
-    p {
-        text-align: left;
-
-    }
-}
-
-/* === Nossa Equipe === */
-.nossoprojeto ul li p {
+  /* sobre nos */
+  section.sobrenos {
+    background: #ffffff;
+    border: 4px solid #145a32;
+    border-radius: 20px;
+    margin: 3rem auto;
+    padding: 2rem;
+    max-width: 74vw;
+    text-align: center;
+  }
+  
+  section.sobrenos h2 {
+    color: #145a32;
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  section.sobrenos p {
+    line-height: 2.8vw;
+    font-size: 1.1rem;
+  }
+  
+  /* projeto */
+  section.nossoprojeto {
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 2rem auto;
+    max-width: 74vw;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+  
+  section.nossoprojeto h3, section.nossoprojeto h2 {
+    color: #145a32;
+  }
+  .nossoprojeto h3{
+    font-weight: 500;
+  }
+  .nossoprojeto h2{
+    margin-bottom: 1vw;
+    font-weight: 800;
+  }
+  .nossoprojeto h3.nosso{
+    margin-bottom: 1vw;
+    font-weight: 900;
+  }
+  
+  section.nossoprojeto p {
+    line-height: 1.8vw;
     margin-bottom: 2vw;
-}
+  }
+  /* nos */
+  section.nos {
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 76vw;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 
-.nossoprojeto div ul li h3 {
-    font-weight: bold;
-
-}
-
-section.nossoprojeto ul li h3 {
-    padding-bottom: 1vw;
-}
-
-/* FOTINHOS */
-section.nos {
-    height: 60vw;
-}
-
-section.nos div {
-    background-color: #FFFFFF;
-    color: #391665;
-    height: 50vw;
-    width: 90%;
-    display: flex;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    border-radius: 3vw;
-}
-
-section.nos div ul {
-    font-size: 0.8rem;
+  }
+  
+  section.nos ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-}
-
-section.nos ul li {
-    flex: 20%;
-    max-width: 30%;
-    margin: 3vw;
+    gap: 2rem;
+  }
+  
+  section.nos li {
+    background-color: #e4d6c4;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 1.2rem;
+    width: 200px;
     text-align: center;
-    background-color: #f5f5f5;
-    border-radius: 1vw;
-    padding: 1rem;
-}
+  }
+  .nos li h3{
+    margin-bottom: 1vw;
+    font-weight: 300;
+  }
 
-section.nos ul li img {
-    height: 6vw;
-    width: 6vw;
-    border-radius: 0.5vw;
-}
-
-section.nos ul li p {
-    background-color: #F9CFFF;
-    padding: 2vw 2vw 2vw 2vw;
-    margin-top: 0.6vw;
-    border-radius: 1vw;
-}
-
-section.nos ul li h3 {
-    margin: 1.5vw;
-}
-
+  section.nos img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10vw;
+    margin-bottom: 0.8rem;
+    border: 3px solid #26734d;
+  }
+  
+ 
 /* FOOTER */
-footer {
-    background-color: #9F68E4;
+footer  {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem;
-    margin: 0;
-}
-
-footer a.logo img {
-    height: 4rem;
-    width: 4rem;
-    margin: 0 0 0 2rem;
-}
-
-footer ul {
-    display: flex;
-}
-
-footer ul li {
-    justify-content: space-between;
-}
-
-footer ul img {
-    height: 3rem;
-    width: 3.2rem;
-    margin: 0 1rem 0 0;
-    cursor: pointer;
+       
+        gap: 20px;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+        background-color: #237470;
+        padding: 1vw;
+      
+    }
+    
+    footer a {
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        color: #1a6a6a;
+        border-radius: 50%;
+        font-size: 1.3rem;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+         background: linear-gradient(135deg, #00b7ff, #007777);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #00b7ff;
+    }
+    
+    footer .insta:hover {
+        background: radial-gradient(circle at 30% 107%, 
+            #fdf497 0%, 
+            #fdf497 5%, 
+            #fd5949 45%, 
+            #d6249f 60%, 
+            #285AEB 90%);
+        color: white;
+        box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
+        }
+    
+    
+        .X:hover {
+            background: linear-gradient(135deg, #302f2f, #000);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #000;
+        }
+    
+        .nos {
+            font-size: 25px;
+           padding: 1vw;
+        }
+        .social {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px; 
+    }
+    .direitos {
+        padding: 1vw;
+    }
+    .direitos i {
+        transition: 0.3s;
+    }
+    .direitos i:hover {
+        color: red 
+    }  
+      /* RESPONSIVIDADE */
+    
+      @media (max-width: 768px) {
+        section.nossoprojeto p, .nossoprojeto li p {
+        line-height: 3vw;
+        }
+        .sobrenos p{
+        line-height: 4vw;
+        }
+        section.nos ul {
+        align-items: center;
+        }
+      
+        section.nos li {
+         width: 80%;
+        }
+        .nossoprojeto p{
+         line-height: 3vw;
+    }
 }
