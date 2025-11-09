@@ -1,26 +1,29 @@
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(12px + 0.8vw);
-    text-decoration: none;
-    overflow-x: hidden;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: calc(12px + 0.8vw);
+   text-decoration: none;
+   overflow-x: hidden;
 }
-
+::selection {
+  color: #145a32; 
+  background: white; 
+}
 nav a.Home {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    
-    display: flex;
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+
+   display: flex;
 
 }
 
 .Home img {
-    width: 30px;
- transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+   width: 30px;
+   transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .Home:hover img {
-  transform: rotate(180deg);
+   transform: rotate(180deg);
 
 }
 
@@ -28,70 +31,70 @@ nav a.Home {
 
 
 button {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 
 body {
-    background-color: #F9E6D0;
+   background-color: #F9E6D0;
 
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+   font-family: "Poppins", sans-serif;
+   font-weight: 200;
+   font-style: normal;
 
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
+   text-decoration: none;
+   color: white;
 
 }
 
 /* === TOPO === */
 
 header {
-    padding: 2vw 6vw 2vw 8vw;
-    background-color: #237470;
-    position: relative;
-    z-index: 99999 !important;
-    pointer-events: auto;
+   padding: 2vw 6vw 2vw 8vw;
+   background-color: #145a32;
+   position: relative;
+   z-index: 99999 !important;
+   pointer-events: auto;
 }
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 header nav h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
+   font-size: 1.5rem;
+   font-weight: bold;
 }
 
 header nav h1 a {
-    display: flex;
-    align-items: center;
+   display: flex;
+   align-items: center;
 }
 
 header nav div ul {
-    display: flex;
+   display: flex;
 }
 
 header nav div ul li {
-    margin: 0 10px 0 10px;
-    padding: 0 15px 0 15px;
+   margin: 0 10px 0 10px;
+   padding: 0 15px 0 15px;
 }
 
 
-header nav ul li:hover ul  {
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-    line-height: 2vw; 
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+header nav ul li:hover ul {
+   display: block;
+   border-radius: 20px;
+   background-color: white;
+   line-height: 2vw;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-style: normal;
 
 
 
@@ -99,30 +102,27 @@ header nav ul li:hover ul  {
 }
 
 header nav ul li:hover ul li a {
-    color: #237470;
-    
+   color: #145a32;
+
 }
 
 header nav ul li ul {
-    position: absolute;
-    display: none;
+   position: absolute;
+   display: none;
 }
 
 header nav ul li ul li {
-    color: #391665;
+   color: #391665;
 }
 
 header nav ul li ul li a:hover {
-  
-    border-radius: 15px;
-    padding: 0.2vw;
-    color: #237470;
+
+   border-radius: 15px;
+   padding: 0.2vw;
+   color: #145a32;
 }
 
 /*SAUDE FISICA*/
-
-
-
 
 section.saudefisica ul {
    display: flex;
@@ -130,8 +130,8 @@ section.saudefisica ul {
    background-color: #F9E6D0;
    height: 48vw;
    border-radius: 0 0 6vw 6vw;
+   
 }
-
 
 section.saudefisica div.texto {
    padding: 0vw 0 0vw 7vw;
@@ -140,23 +140,23 @@ section.saudefisica div.texto {
 
 section.saudefisica .img img {
    transform: translateY(-19px);
-   height: 48vw;
+   height: 48.4vw;
+   
 }
 
 section.saudefisica div h2 {
-  font-size: 4.5rem;
-    color: #237470;
-    font-weight: bold;
-    line-height: 6vw;
-    margin-top: 2vw;
-   
+   font-size: 5rem;
+   color: #145a32;
+   font-weight: bold;
+   line-height: 6vw;
+   margin-top: 2vw;
+
 }
 
 section.saudefisica div p {
    color: #8C6A5B;
-   font-size: 1.5rem;
+   font-size: 2rem;
    margin-bottom: 2vw;
-  
    padding: 3vw 3vw 0 0;
 }
 
@@ -168,7 +168,7 @@ section.saudefisica div img {
 
 section.saudefisica div a {
    text-decoration: none;
-   color:  #8C6A5B;
+   color: #8C6A5B;
    font-size: 1.3vw;
 }
 
@@ -177,10 +177,9 @@ section.saudefisica div a {
 
 /* ATIVIDADE FISICA*/
 section.atvF {
-   background-color: #F9E6D0;
+   background-color: #C7B299;
    color: #8C6A5B;
    padding: 6vw;
-   margin-top: 7vw;
 }
 
 
@@ -226,7 +225,7 @@ h3 {
 
 .pratica {
    color: #ffffff;
-   
+
 }
 
 
@@ -237,22 +236,24 @@ h3 .atividade {
 
 .cardI {
    padding: 3vw 10vw 1vw 3vw;
-   background-color: #237470;
+   background-color: #145a32;
    margin-bottom: 2vw;
    border-radius: 5vw 0 0 5vw;
    width: 30vw;
    height: 5vw;
+   color: white;
 }
 
 
 .cardII {
    padding: 3vw 10vw 1vw 3vw;
-   background-color: #237470;
+   background-color: #145a32;
    margin-bottom: 2vw;
    border-radius: 5vw 0 0 5vw;
    width: 20vw;
    height: 5vw;
    margin-left: 10vw;
+   color: white;
 }
 
 
@@ -263,8 +264,9 @@ section.integrar {
 
 .cardIseg {
    padding: 1vw 10vw 1vw 3vw;
-   background-color: #237470;
+   background-color: #145a32;
    margin-bottom: 2vw;
+   margin-top: 2.5vw;
    border-radius: 5vw;
    width: 6vw;
    height: 2vw;
@@ -273,10 +275,9 @@ section.integrar {
    padding: 1vw 2vw;
 }
 
-
 .cardIIseg {
    padding: 1vw 10vw 1vw 3vw;
-   background-color: #237470;
+   background-color: #145a32;
    margin-bottom: 2vw;
    border-radius: 5vw;
    width: 10vw;
@@ -306,7 +307,7 @@ section.integrar {
 
 div.lis {
    padding-top: 20vw;
-   color: #391665;
+   color: white;
    font-size: 2vw;
 }
 
@@ -319,7 +320,7 @@ div.lis ul {
 }
 
 div.lis ul li {
-   background-color: #237470;
+   background-color: #145a32;
    border-radius: 2vw;
    padding: 3.2vw;
    height: auto;
@@ -337,26 +338,26 @@ section.prepos {
 }
 
 section.prepos h3 {
-   color: white;
+   color: #8C6A5B;
    text-align: center;
    font-size: 4rem;
    padding: 4vw;
 }
 
 section.prepos h4 {
-   color: #9F68E4;
-   text-shadow: 0.3vw 0.2vw 0.3vw #431A78;
+   color: #C7B299;
+   text-shadow: 0.2vw 0.1vw 0.5vw #8C6A5B;
    font-size: 2rem;
    text-align: center;
    padding: 4vw 0;
 }
 
 .pretreino {
-   background-color: #237470;
+   background-color: #145a32;
    padding: 6vw;
    margin: 1vw 8vw;
    border-radius: 2vw;
-   color: #3c0a5a;
+   color: white;
 }
 
 .pretreino ol {
@@ -379,56 +380,109 @@ li {
 }
 
 .postreino {
-   background-color: #237470;
+   background-color: #145a32;
    padding: 6vw;
    margin: 1vw 8vw;
    border-radius: 2vw;
-   color: #3c0a5a;
+   color: white;
 }
 
 .prep {
-   color: #ffffff;
+   color: #F9E6D0;
    font-size: 1.5rem;
 }
 
 .suges {
-   color: #F6B3FF;
+   color: #F9E6D0;
    font-size: 1.5rem;
 }
 
 .desc {
-   color: white;
+   color: #C7B299;
    font-size: 1.5rem;
    padding-bottom: 2vw;
 }
 
 /* FOOTER */
 footer {
-   background-color: #237470;
+   display: flex;
+   color: white;
+   gap: 20px;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   background-color: #145a32;
+   padding: 1vw;
+
+}
+
+footer a {
    display: flex;
    align-items: center;
-   justify-content: space-between;
-   padding: 2.8rem;
-   margin: 0;
+   justify-content: center;
+   width: 45px;
+   height: 45px;
+   background-color: white;
+   color: #145a32;
+   border-radius: 50%;
+   font-size: 1.3rem;
+   transition: all 0.3s ease;
+   text-decoration: none;
 }
 
-footer a.logo img {
-   height: 4rem;
-   width: 4rem;
-   margin: 0 0 0 2rem;
+footer a:hover {
+   background: linear-gradient(135deg, #00b7ff, #007777);
+   color: white;
+   transform: scale(1.1);
+   box-shadow: 0 0 10px #00b7ff;
 }
 
-footer ul {
+footer .insta:hover {
+   background: radial-gradient(circle at 30% 107%,
+         #fdf497 0%,
+         #fdf497 5%,
+         #fd5949 45%,
+         #d6249f 60%,
+         #285AEB 90%);
+   color: white;
+   box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
+}
+
+
+.X:hover {
+   background: linear-gradient(135deg, #302f2f, #000);
+   color: white;
+   transform: scale(1.1);
+   box-shadow: 0 0 10px #000;
+}
+
+.nos {
+   font-size: 25px;
+   padding: 1vw;
+}
+
+.social {
+   text-align: center;
    display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
 }
 
-footer ul li {
-   justify-content: space-between;
+.icons {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
 }
 
-footer ul img {
-   height: 3rem;
-   width: 3.2rem;
-   margin: 0 1rem 0 0;
-   cursor: pointer;
+.direitos {
+   padding: 1vw;
+}
+
+.direitos i {
+   transition: 0.3s;
+}
+
+.direitos i:hover {
+   color: red
 }

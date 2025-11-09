@@ -164,9 +164,6 @@ section.parteUm ul li {
     border: 3vw solid #237470;
     }*/
 
-
-
-
 section.parteUm div {
     text-align: left;
    
@@ -208,7 +205,6 @@ section.parteUm div button a {
 
 section.parteDois {
     background-color: #F9E6D0;
-
     padding: 4px;
 }
 
@@ -218,7 +214,6 @@ section.parteDois div {
 
 section.parteDois div article {
     margin: auto;
-
     border-radius: 20px;
     padding: 2vw 2.5vw;
 
