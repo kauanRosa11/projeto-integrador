@@ -51,7 +51,7 @@ nav a {
 
 header {
     padding: 2vw 6vw 2vw 8vw;
-    background-color: #237470;
+    background-color: #26734d;
     position: relative;
     z-index: 99999 !important;
     pointer-events: auto;
@@ -119,109 +119,171 @@ header nav ul li ul li a:hover {
     color: #237470;
 }
 
-/* === Beneficios === */
-section.beneficios{
-    background-color: #F6B3FF;
-    color: #FFFFFF;
-    height: 30vw;
-    border-radius: 0 0 4vw 4vw;
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
 }
-section.beneficios div{
-    padding-top: 3vw;
-    justify-content: start;
-    margin-left: 8vw;
-}
-section.beneficios div h2{
-    font-weight: bold;
+
+section.beneficios {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 2.5rem;
+    margin-top: 2rem;
     text-align: left;
-    font-size: 4rem;
-    color: #431A78; 
+    border: 5px solid #145a32;
 }
-/* img */
-section.img img{
-    height: fit-content;
-    width:  fit-content;
-    padding-top: 7vw;
-}
-section.img {
-    height: 35vw;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-/* beneficios */
-section.natureza{
-    height: 80vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top:  5rem;
-}
-section.natureza div{
-    padding-top: 2  vw;
-}
-section.natureza div h3{
-    background-color: #F6B3FF;
-    color: #431A78;
+
+section.beneficios h2 {
     font-size: 2.5rem;
-    font-weight: bold;
-    border-radius: 3vw;
+    line-height: 1.3;
+    color: #145a32; /*  #145a32 cor daora*/
+    font-weight: 700;
 }
-.natureza div h3.con{
-    padding: 2vw 2vw 2vw 2vw;
-    margin: 0 8vw 0 10vw;
-    width: 30%;
-}
-.natureza div p.um{
-    font-weight:bold;
-    font-size: 2rem;
-    color: #FFFFFF;
-    padding-bottom: 4vw;
-    padding-top: 4vw;
-    padding-left: 12vw;
-}
-.natureza div h3.ben{
-    padding: 2vw 2vw 2vw 2vw;
-    margin: 0 8vw 0 60%;
-    width: 30%;
-}
-.natureza div p.dois{
-    font-weight:bold;
-    font-size: 2rem;
-    color: #FFFFFF;
-    padding-bottom: 4vw;
-    padding-top: 4vw;
-    padding-left: 12vw;  
-}
-/* FOOTER */
-footer {
-    background-color: #9F68E4;
+
+section.img {
     display: flex;
+    justify-content: center;
+    margin: 10vw 0;
+    border: none;
+}
+
+section.img img {
+    border: none;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section.natureza {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 2.8rem;
-    margin: 0;
-    margin-top: 5vw;
-    transform: translateY(-1.5vw);
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-radius: 2vw;
+    padding: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
 }
 
-footer a.logo img {
-    height: 4rem;
-    width: 4rem;
-    margin: 0 0 0 2rem;
+section.natureza h3 {
+    font-size: 1.8rem;
+    color: #145a32;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
-footer ul {
+section.natureza p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    color: #8C6A5B;
+}
+
+/* FOOTER */
+footer  {
     display: flex;
-}
+       
+        gap: 20px;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+        background-color: #237470;
+        padding: 1vw;
+      
+    }
+    
+    footer a {
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        color: #1a6a6a;
+        border-radius: 50%;
+        font-size: 1.3rem;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+         background: linear-gradient(135deg, #00b7ff, #007777);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #00b7ff;
+    }
+    
+    footer .insta:hover {
+        background: radial-gradient(circle at 30% 107%, 
+            #fdf497 0%, 
+            #fdf497 5%, 
+            #fd5949 45%, 
+            #d6249f 60%, 
+            #285AEB 90%);
+        color: white;
+        box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
+        }
+    
+    
+        .X:hover {
+            background: linear-gradient(135deg, #302f2f, #000);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #000;
+        }
+    
+        .nos {
+            font-size: 25px;
+           padding: 1vw;
+        }
+        .social {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px; 
+    }
+    .direitos {
+        padding: 1vw;
+    }
+    .direitos i {
+        transition: 0.3s;
+    }
+    .direitos i:hover {
+        color: red 
+    }
+/* RESPONSIVIDAde */
+@media (max-width: 768px) {
 
-footer ul li {
-    justify-content: space-between;
-}
-
-footer ul img {
-    height: 3rem;
-    width: 3.2rem;
-    margin: 0 1rem 0 0;
-    cursor: pointer;
-}
+    header nav {
+        display: none;
+    }
+    section.beneficios h2 {
+        font-size: 2rem;
+        padding: 1rem;        
+        margin: 0 auto;    
+        max-width: 80%;          
+        line-height: 2rem;       
+        text-align: center;    
+    }
+  
+    section.beneficios {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10vw 0;
+        height: 40vw;
+    }
+  }
+  .beneficios h2{
+        font-size: 1rem;
+    }
