@@ -325,32 +325,81 @@ section.playlists {
 }
 
 /* FOOTER */
-footer {
-    background-color: #9F68E4;
+footer  {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2.8rem;
-    margin: 0;
-}
-
-footer a.logo img {
-    height: 4rem;
-    width: 4rem;
-    margin: 0 0 0 2rem;
-}
-
-footer ul {
-    display: flex;
-}
-
-footer ul li {
-    justify-content: space-between;
-}
-
-footer ul img {
-    height: 3rem;
-    width: 3.2rem;
-    margin: 0 1rem 0 0;
-    cursor: pointer;
-}
+       
+        gap: 20px;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+        background-color: #237470;
+        padding: 1vw;
+      
+    }
+    
+    footer a {
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        background-color: white;
+        color: #1a6a6a;
+        border-radius: 50%;
+        font-size: 1.3rem;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+         background: linear-gradient(135deg, #00b7ff, #007777);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #00b7ff;
+    }
+    
+    footer .insta:hover {
+        background: radial-gradient(circle at 30% 107%, 
+            #fdf497 0%, 
+            #fdf497 5%, 
+            #fd5949 45%, 
+            #d6249f 60%, 
+            #285AEB 90%);
+        color: white;
+        box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
+        }
+    
+    
+        .X:hover {
+            background: linear-gradient(135deg, #302f2f, #000);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #000;
+        }
+    
+        .nos {
+            font-size: 25px;
+           padding: 1vw;
+        }
+        .social {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px; 
+    }
+    .direitos {
+        padding: 1vw;
+    }
+    .direitos i {
+        transition: 0.3s;
+    }
+    .direitos i:hover {
+        color: red 
+    }
