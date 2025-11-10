@@ -4,10 +4,12 @@ html {
    text-decoration: none;
    overflow-x: hidden;
 }
+
 ::selection {
-  color: #145a32; 
-  background: white; 
+   color: #145a32;
+   background: white;
 }
+
 nav a.Home {
    text-decoration: none;
    color: white;
@@ -130,7 +132,7 @@ section.saudefisica ul {
    background-color: #F9E6D0;
    height: 48vw;
    border-radius: 0 0 6vw 6vw;
-   
+
 }
 
 section.saudefisica div.texto {
@@ -141,7 +143,7 @@ section.saudefisica div.texto {
 section.saudefisica .img img {
    transform: translateY(-19px);
    height: 48.4vw;
-   
+
 }
 
 section.saudefisica div h2 {
@@ -326,7 +328,7 @@ div.lis ul li {
    height: auto;
    /* <--- melhor deixar o height livre */
    width: 29vw;
-   margin-bottom: 1vw;
+   margin-bottom: 0vw;
    /* <--- menos espaço entre blocos */
 }
 
@@ -485,4 +487,49 @@ footer .insta:hover {
 
 .direitos i:hover {
    color: red
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 768px) {
+   .saudefisica {
+      height: 90vw;
+   }
+   .saudefisica ul li div h2 {
+      font-size: calc(5rem * 0.9);
+      line-height: 19vw;
+   }
+   .saudefisica ul li div p {
+      font-size: calc(2rem * 0.7);
+      padding-right: 2vw;
+   }
+   .saudefisica ul li div a {
+      font-size: calc(1.3vw * 2.4);
+   }
+   .saudefisica ul li div img {
+      display: none;
+   }
+   .atvF div.container div.info p{
+      font-size: calc(2rem * 0.4);
+   }
+   .atvF div.container div.info p strong{
+      display: none;
+   }
+   .movimento{
+      width: 80vw;
+   }
+   .integrar h3{
+      font-size: calc(2.8rem * 0.4);
+   }
+   .lis ul li p {
+      font-size: calc(2rem * 0.4);
+   }
+   .prepos h3{
+      font-size: calc(2rem * 0.6);
+      line-height: 19vw;
+   }
+   .prepos h4{
+      text-shadow: 0.02vw 0.01vw 0.01vw #8C6A5B;
+   }
 }
