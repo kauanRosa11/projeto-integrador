@@ -8,10 +8,14 @@ html {
 nav a.Home {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+
     
     display: flex;
 
+}
+
+.atual {
+    font-weight: bold;
 }
 
 .Home img {

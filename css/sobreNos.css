@@ -8,7 +8,7 @@ html {
 nav a.Home {
     text-decoration: none;
     color: white;
-    font-weight: bold;
+  
     
     display: flex;
 
@@ -98,6 +98,11 @@ header nav ul li:hover ul  {
 
 }
 
+
+.atual {
+  font-weight: bold;
+}
+
 header nav ul li:hover ul li a {
     color: #237470;
     
@@ -127,7 +132,8 @@ header nav ul li ul li a:hover {
     margin: 3rem auto;
     padding: 2rem;
     max-width: 74vw;
-    text-align: center;
+    textransform: scale(1.1);
+    t-align: center;
   }
   
   section.sobrenos h2 {
@@ -201,6 +207,15 @@ header nav ul li ul li a:hover {
     font-weight: 300;
   }
 
+  .nos div ul li {
+    
+      transition: 0.2s;
+  }
+
+  .nos div ul li:hover {
+  transform: scale(1.1);
+  }
+
   section.nos img {
     width: 120px;
     height: 120px;
@@ -221,6 +236,7 @@ footer  {
        justify-content: center;
         background-color: #237470;
         padding: 1vw;
+        color: #fff;
       
     }
     
