@@ -9,18 +9,18 @@ nav a.Home {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    
+
     display: flex;
 
 }
 
 .Home img {
     width: 30px;
- transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 os 
 .Home:hover img {
-  transform: rotate(180deg);
+    transform: rotate(180deg);
 
 }
 
@@ -34,17 +34,17 @@ button {
 
 body {
     background-color: #F9E6D0;
+    cursor: url('src/imagens/cursor-removebg-preview.png') 0 0, auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-
-}
+} 
 
 nav a {
     text-decoration: none;
     color: white;
-
+    
 }
 
 /* === Parte Um === */
@@ -54,7 +54,8 @@ section.parteUm {
     height: 48vw;
     width: 100vw;
     border-top-left-radius: 0;
-    border-top-right-radius: 0;    border-bottom-left-radius: 5vw;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5vw;
     border-bottom-right-radius: 5vw;
     overflow: hidden;
 }
@@ -65,7 +66,7 @@ section.parteUm ul {
 }
 
 section.parteUm ul li {
-    
+
     background-color: #F9E6D0;
     display: flex;
     justify-content: space-around;
@@ -73,18 +74,21 @@ section.parteUm ul li {
     z-index: 0;
 
 }
-.parteUm div.img{
+
+.parteUm div.img {
+    border-radius: 25px;
+    padding: 2vw 3vw;
+
+    height: min-content;
+    background-color: #237470;
+    margin-top: 5vw;
+
+    img {
         border-radius: 25px;
-        padding: 2vw 3vw;
-    
-        height: min-content;
-        background-color: #237470;
-        margin-top: 5vw;
-        img {
-            border-radius: 25px;
-            box-shadow: 0 0 0  #000;
-        }
+        box-shadow: 0 0 0 #000;
     }
+}
+
 /*img{
     margin: auto auto 25vw;
     height: 50%;
@@ -94,7 +98,7 @@ section.parteUm ul li {
 
 section.parteUm div {
     text-align: left;
-   
+
 }
 
 section.parteUm div h2 {
@@ -118,12 +122,8 @@ section.parteUm div button {
     border: none;
     border-radius: 26px;
     font-size: 0.7rem;
- 
+
 }
-
-  
-
-
 section.parteUm div button a {
     color: white;
     text-decoration: none;
@@ -150,21 +150,21 @@ section.parteDois div article {
         font-weight: bold;
         color: #237470;
         padding: 2vw 6vw 2vw 4vw;
-
         text-shadow: 2px 2px 2px;
         text-align: right;
     }
 }
 
-p, h4 {
+p,
+h4 {
     color: white;
 }
 
 h4 {
     border-bottom: 1px solid #fff;
     line-height: 5vw;
-    
 }
+
 section.parteDois div br {
     display: block;
     margin-bottom: 8px;
@@ -189,19 +189,15 @@ section.parteDois div ul.dois {
 }
 
 
-
-
-
-
 section.parteDois div ul.dois li a {
-text-decoration: none;
+    text-decoration: none;
     text-align: center;
     width: 112px;
     font-size: 1rem;
     padding: 0.4vw 0.6vw;
     color: white;
-    background: linear-gradient(#237470) padding-box, 
-                linear-gradient(to right, white, gray) border-box;
+    background: linear-gradient(#237470) padding-box,
+        linear-gradient(to right, white, gray) border-box;
     border: 2px solid transparent;
     border-radius: 60px;
     cursor: pointer;
@@ -209,60 +205,72 @@ text-decoration: none;
 
 section.parteDois div ul.dois li h4 {
     font-size: 1.8rem;
-   
 }
-
 section.parteDois div ul.dois p {
     text-align: center;
     padding: 1vw;
     font-size: 1.2rem;
     line-height: 2vw;
 }
-    .parteDois div ul {
-        .um, .dois, .tres, .quatro, .cinco {   
-            text-align: center;
-            background-color: #237470;
-            border-radius: 50px;    
-            line-height: 2.3rem;
-          
-}
-    }
+.parteDois div ul {
 
-    .um {
+    .um,
+    .dois,
+    .tres,
+    .quatro,
+    .cinco {
+        text-align: center;
+        background-color: #237470;
+        border-radius: 50px;
+        line-height: 2.3rem;
+    }
+}
+
+.um {
     margin-bottom: 2vw;
     padding-bottom: 1vw;
     transition: 0.4s;
-     
+
 }
-    .um:hover {
-       transform: scale(1.03);
-        
-    }
-    .tres {
-    margin-bottom: 2vw; padding-bottom: 1vw;
-       transition: 0.4s;
+
+.um:hover {
+    transform: scale(1.03);
+
 }
-    .tres:hover {
-       transform: scale(1.03);
-      
-    }
-    .quatro {
-    margin-bottom: 2vw; padding-bottom: 1vw;
-      transition: 0.4s;
+
+.tres {
+    margin-bottom: 2vw;
+    padding-bottom: 1vw;
+    transition: 0.4s;
 }
-    .quatro:hover {
-       transform: scale(1.03);
-       
-    }
-    .cinco {
-    margin-bottom: 2vw; padding-bottom: 1vw;
-     transition: 0.4s;
+
+.tres:hover {
+    transform: scale(1.03);
+
 }
-    .cinco:hover {
-       transform: scale(1.03);
-        
-        
-    }
+
+.quatro {
+    margin-bottom: 2vw;
+    padding-bottom: 1vw;
+    transition: 0.4s;
+}
+
+.quatro:hover {
+    transform: scale(1.03);
+
+}
+
+.cinco {
+    margin-bottom: 2vw;
+    padding-bottom: 1vw;
+    transition: 0.4s;
+}
+
+.cinco:hover {
+    transform: scale(1.03);
+
+
+}
 
 
 
@@ -286,6 +294,7 @@ section.parteTres div {
 .parteTres {
     align-items: center;
 }
+
 section.parteTres div img {
     height: 20rem;
     width: 20rem;
@@ -297,8 +306,7 @@ section.parteTres div ol {
     padding-bottom: 2rem;
 }
 
-section.parteTres div ol li {
-}
+section.parteTres div ol li {}
 
 section.parteTres div ol li h4 {
     color: #ffffff;
@@ -345,7 +353,7 @@ section.parteQuatro div h4 {
     padding-top: 4rem;
 }
 
-section.parteQuatro div h4  {
+section.parteQuatro div h4 {
     display: block;
     line-height: 7vw;
     margin-bottom: 8px;
@@ -381,20 +389,20 @@ section.parteQuatro div ul li h5 {
 }
 
 /* FOOTER */
-footer  {
-display: flex;
-   
+footer {
+    display: flex;
+
     gap: 20px;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     background-color: #237470;
     padding: 1vw;
-  
+
 }
 
 footer a {
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     width: 45px;
@@ -408,54 +416,58 @@ footer a {
 }
 
 footer a:hover {
-     background: linear-gradient(135deg, #00b7ff, #007777);
+    background: linear-gradient(135deg, #00b7ff, #007777);
     color: white;
     transform: scale(1.1);
     box-shadow: 0 0 10px #00b7ff;
 }
 
 footer .insta:hover {
-    background: radial-gradient(circle at 30% 107%, 
-        #fdf497 0%, 
-        #fdf497 5%, 
-        #fd5949 45%, 
-        #d6249f 60%, 
-        #285AEB 90%);
+    background: radial-gradient(circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d6249f 60%,
+            #285AEB 90%);
     color: white;
     box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
-    }
+}
 
 
-    .X:hover {
-        background: linear-gradient(135deg, #302f2f, #000);
+.X:hover {
+    background: linear-gradient(135deg, #302f2f, #000);
     color: white;
     transform: scale(1.1);
     box-shadow: 0 0 10px #000;
-    }
+}
 
-    .nos {
-        font-size: 25px;
-       padding: 1vw;
-    }
-    .social {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+.nos {
+    font-size: 25px;
+    padding: 1vw;
+}
+
+.social {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px; 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+
 .direitos {
     padding: 1vw;
 }
+
 .direitos i {
     transition: 0.3s;
 }
+
 .direitos i:hover {
-    color: red 
+    color: red
 }
