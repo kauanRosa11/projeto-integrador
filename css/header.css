@@ -1,0 +1,120 @@
+/* === TOPO === */
+
+@media (min-width: 800px) {
+header {
+    padding: 2vw 6vw 2vw 8vw;
+    background-color: #237470;
+    position: relative;
+    z-index: 99999 !important;
+    pointer-events: auto;
+    
+    .responsive-header {
+        button {
+            display: none;
+        }}
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav h1 a {
+    display: flex;
+    align-items: center;
+}
+
+header nav div ul {
+    display: flex;
+}
+
+header nav div ul li {
+    margin: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
+}
+
+
+header nav ul li:hover ul  {
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    line-height: 2vw; 
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+
+
+
+}
+
+header nav ul li:hover ul li a {
+    color: #237470;
+    
+}
+
+header nav ul li ul {
+    position: absolute;
+    display: none;
+}
+
+header nav ul li ul li {
+    color: #391665;
+}
+
+header nav ul li ul li a:hover {
+  
+    border-radius: 15px;
+    padding: 0.2vw;
+    color: #237470;
+}
+}
+
+@media (max-width: 799px) {
+header {
+    padding: 3vw 1vw;
+    background-color: #237470;
+    .responsive-header {
+        display: flex;
+        justify-content: space-between;
+        margin: auto 3vw;
+        button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            img {
+                height: 10vw;
+                width: 10vw;
+            }
+        }
+    }
+    #header-principal {
+        z-index: 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 70%;
+        background-color: #174d4a;
+    }
+    ul {
+        a {
+            font-size: 10vw;
+            img {
+
+            }
+        }
+            #sub-sub-menu {
+                font-size: 5vw;
+                display: none;
+            }
+    }
+}
+}

@@ -18,7 +18,7 @@ nav a.Home {
     width: 30px;
  transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
-
+os 
 .Home:hover img {
   transform: rotate(180deg);
 
@@ -45,78 +45,6 @@ nav a {
     text-decoration: none;
     color: white;
 
-}
-
-/* === TOPO === */
-
-header {
-    padding: 2vw 6vw 2vw 8vw;
-    background-color: #237470;
-    position: relative;
-    z-index: 99999 !important;
-    pointer-events: auto;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-header nav h1 a {
-    display: flex;
-    align-items: center;
-}
-
-header nav div ul {
-    display: flex;
-}
-
-header nav div ul li {
-    margin: 0 10px 0 10px;
-    padding: 0 15px 0 15px;
-}
-
-
-header nav ul li:hover ul  {
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-    line-height: 2vw; 
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-
-
-
-
-}
-
-header nav ul li:hover ul li a {
-    color: #237470;
-    
-}
-
-header nav ul li ul {
-    position: absolute;
-    display: none;
-}
-
-header nav ul li ul li {
-    color: #391665;
-}
-
-header nav ul li ul li a:hover {
-  
-    border-radius: 15px;
-    padding: 0.2vw;
-    color: #237470;
 }
 
 /* === Parte Um === */
