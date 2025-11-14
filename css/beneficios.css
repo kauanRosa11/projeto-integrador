@@ -177,8 +177,14 @@ section.natureza h3 {
     color: #145a32;
     font-weight: 700;
     margin-bottom: 1rem;
+    padding-left: 2vw;
 }
-
+h3.ben{
+    border-left: solid 5px #145a32;
+    display: block;
+    padding: 2vw;
+    height: 3vw;
+}
 section.natureza p {
     font-size: 1rem;
     line-height: 1.6;
