@@ -6,17 +6,14 @@ html {
 }
 
 ::selection {
-   color: #145a32;
+   color: #007777;
    background: white;
 }
 
 nav a.Home {
    text-decoration: none;
    color: white;
-   
-
    display: flex;
-
 }
 
 .atual {
@@ -32,24 +29,18 @@ nav a.Home {
    transform: rotate(180deg);
 
 }
-
-
-
-
 button {
    text-decoration: none;
 }
-
-
 body {
    background-color: #F9E6D0;
-
    font-family: "Poppins", sans-serif;
    font-weight: 200;
    font-style: normal;
-
 }
-
+body p{
+   font-family: "Lora", serif;
+}
 nav a {
    text-decoration: none;
    color: white;
@@ -102,9 +93,6 @@ header nav ul li:hover ul {
    font-weight: 300;
    font-style: normal;
 
-
-
-
 }
 
 header nav ul li:hover ul li a {
@@ -125,7 +113,7 @@ header nav ul li ul li a:hover {
 
    border-radius: 15px;
    padding: 0.2vw;
-   color: #145a32;
+   color: #007777 ;
 }
 
 /*SAUDE FISICA*/
@@ -152,7 +140,7 @@ section.saudefisica .img img {
 
 section.saudefisica div h2 {
    font-size: 5rem;
-   color: #145a32;
+   color: #007777;
    font-weight: bold;
    line-height: 6vw;
    margin-top: 2vw;
@@ -177,9 +165,6 @@ section.saudefisica div a {
    color: #8C6A5B;
    font-size: 1.3vw;
 }
-
-
-
 
 /* ATIVIDADE FISICA*/
 section.atvF {
@@ -242,7 +227,7 @@ h3 .atividade {
 
 .cardI {
    padding: 3vw 10vw 1vw 3vw;
-   background-color: #145a32;
+   background-color: #007777;
    margin-bottom: 2vw;
    border-radius: 5vw 0 0 5vw;
    width: 30vw;
@@ -253,7 +238,7 @@ h3 .atividade {
 
 .cardII {
    padding: 3vw 10vw 1vw 3vw;
-   background-color: #145a32;
+   background-color: #007777;
    margin-bottom: 2vw;
    border-radius: 5vw 0 0 5vw;
    width: 20vw;
@@ -270,7 +255,7 @@ section.integrar {
 
 .cardIseg {
    padding: 1vw 10vw 1vw 3vw;
-   background-color: #145a32;
+   background-color: #007777;
    margin-bottom: 2vw;
    margin-top: 2.5vw;
    border-radius: 5vw;
@@ -283,7 +268,7 @@ section.integrar {
 
 .cardIIseg {
    padding: 1vw 10vw 1vw 3vw;
-   background-color: #145a32;
+   background-color: #007777;
    margin-bottom: 2vw;
    border-radius: 5vw;
    width: 10vw;
@@ -309,10 +294,8 @@ section.integrar {
 }
 
 
-
-
 div.lis {
-   padding-top: 20vw;
+   padding-top: 15vw;
    color: white;
    font-size: 2vw;
 }
@@ -320,20 +303,21 @@ div.lis {
 div.lis ul {
    display: flex;
    flex-wrap: wrap;
-   gap: 9vw;
+   gap: 4vw;
    justify-content: center;
-   /* <--- centraliza sem jogar os blocos para as bordas */
 }
 
 div.lis ul li {
-   background-color: #145a32;
+   background-color: #007777;
    border-radius: 2vw;
-   padding: 3.2vw;
+   padding: 2vw;
    height: auto;
-   /* <--- melhor deixar o height livre */
    width: 29vw;
-   margin-bottom: 0vw;
-   /* <--- menos espaço entre blocos */
+   margin: 0vw;
+   transition: 0.4s;
+}
+div.lis ul li:hover{
+    transform: scale(1.03);
 }
 
 /* PRE E POS TREINO*/
@@ -344,22 +328,22 @@ section.prepos {
 }
 
 section.prepos h3 {
-   color: #8C6A5B;
+   color: #745446;
    text-align: center;
    font-size: 4rem;
    padding: 4vw;
 }
 
 section.prepos h4 {
-   color: #C7B299;
-   text-shadow: 0.2vw 0.1vw 0.5vw #8C6A5B;
+   color: #8C6A5B;
+   text-shadow: 0.2vw 0.1vw 0.2vw #C7B299;
    font-size: 2rem;
    text-align: center;
    padding: 4vw 0;
 }
 
 .pretreino {
-   background-color: #145a32;
+   background-color: #007777;
    padding: 6vw;
    margin: 1vw 8vw;
    border-radius: 2vw;
@@ -386,7 +370,7 @@ li {
 }
 
 .postreino {
-   background-color: #145a32;
+   background-color: #007777;
    padding: 6vw;
    margin: 1vw 8vw;
    border-radius: 2vw;
@@ -417,7 +401,7 @@ footer {
    align-items: center;
    text-align: center;
    justify-content: center;
-   background-color: #145a32;
+   background-color: #007777;
    padding: 1vw;
 
 }
@@ -429,7 +413,7 @@ footer a {
    width: 45px;
    height: 45px;
    background-color: white;
-   color: #145a32;
+   color: #007777;
    border-radius: 50%;
    font-size: 1.3rem;
    transition: all 0.3s ease;
