@@ -27,16 +27,16 @@ const perguntas = [
       opcoes: ["Musculação / academia", "Caminhada ou corrida", "Yoga ou pilates", "Dança (zumba, fitdance, etc.)", "Esportes coletivos (futebol, vôlei, basquete…)", "Lutas e artes marciais (jiu-jítsu, muay thai, boxe, etc.)", "Natação ou hidroginástica", "Treinos funcionais ou crossfit", "Alongamento ou mobilidade", "Ainda não encontrei uma atividade que eu goste"],
       valores: [9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
       feedbacks: [
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Legall! Fazer o que se sentimos dispostos a fazer é a melhor coisa!",
-        "Poxa! Experimenta fazer um pouco de cada, até que você encontre alguma que você identifique"
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
+        "Poxa! Experimenta fazer um pouco de cada, até que você encontre alguma que você identifique."
       ]
     },
     {
