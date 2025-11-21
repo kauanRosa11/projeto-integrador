@@ -122,10 +122,10 @@ section.parteUm div button {
     border: none;
     border-radius: 26px;
     font-size: 0.7rem;
-
-}
-section.parteUm div button a {
     color: white;
+}
+
+section.parteUm div button a {
     text-decoration: none;
 }
 
@@ -305,8 +305,6 @@ section.parteTres div ol {
     background-color: #237470;
     padding-bottom: 2rem;
 }
-
-section.parteTres div ol li {}
 
 section.parteTres div ol li h4 {
     color: #ffffff;
