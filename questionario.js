@@ -44,11 +44,11 @@ const perguntas = [
         opcoes: ["Profundo e reparador (acordo com energia)", "Leve, mas suficiente", "Interrompido, com despertares frequentes", "Pouco reparador (acordo cansado(a))", "Insatisfatório (tenho insônia ou distúrbios do sono diagnosticados)"],
         valores: [4, 3, 2, 1, 0],
         feedbacks: [
-          "Aí não, campeão! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos.",
-          "Importante se movimentar um pouco mais 🚶‍♂️",
-          "Legal, tente aumentar a frequência!",
-          "EXCELENTE! Mas aqui vão alguns cuidados a mais pra evitar lesões",
-          "Sem comentários!! Só se cuida pra não se lesionar e desejamos um boa sorte na sua carreira!"
+          "Excelente! Continue priorizando seu sono, ele é essencial para sua energia.",
+          "Bom! Um sono leve também pode ser revigorante, continue assim.",
+          "Seu corpo está tentando descansar, pequenos ajustes podem ajudar.",
+          "Talvez seja hora de ajustar sua rotina para um descanso mais profundo.",
+          "É desafiador, mas com paciência e ajustes, você pode melhorar seu sono.",
         ]
       },
       {
