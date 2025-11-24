@@ -54,68 +54,10 @@ nav a {
 /* === TOPO === */
 
 header {
-    padding: 2vw 6vw 2vw 8vw;
     background-color: #237470;
-    position: relative;
-    z-index: 99999 !important;
-    pointer-events: auto;
-}
-
-header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header nav h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-header nav h1 a {
-    display: flex;
-    align-items: center;
-}
-
-header nav div ul {
-    display: flex;
-}
-
-header nav div ul li {
-    margin: 0 10px 0 10px;
-    padding: 0 15px 0 15px;
 }
 
 
-header nav ul li:hover ul  {
-    display: block;
-    border-radius: 20px;
-    background-color: white;
-    line-height: 2vw; 
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-
-}
-
-header nav ul li:hover ul li a {
-    color: #237470;
-    
-}
-
-header nav ul li ul {
-    position: absolute;
-    display: none;
-}
-
-header nav ul li ul li a:hover {
-  
-    border-radius: 15px;
-    padding: 0.2vw;
-    color: #237470;
-}
-    
 /* main */
 
 main h1 {
@@ -338,13 +280,18 @@ footer  {
     /* === Responsividade === */
     
     @media (max-width: 768px) {
+        main{
+            margin: 0 10vw;
+        }
         .banner div {
             display: flex;
-            margin: 4vw 8vw 4vw 8vw;
             border-radius: 15px;
         }
-        .banner h1 {
+        .banner div h1 {
             font-size: 2.7rem;
+            max-width: 100%;
         }
-
+        .perguntas #quiz{
+            padding-bottom: 2vw;
+        }
     }

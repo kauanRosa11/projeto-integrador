@@ -110,7 +110,6 @@ h3.ben{
     border-left: solid 5px #145a32;
     display: block;
     padding: 2vw;
-    height: 3vw;
 }
 section.natureza p {
     font-size: 1rem;
@@ -213,12 +212,9 @@ footer  {
         display: none;
     }
     section.beneficios h2 {
-        font-size: 2rem;
-        padding: 1rem;        
         margin: 0 auto;    
-        max-width: 80%;          
-        line-height: 2rem;       
-        text-align: center;    
+        line-height: 3rem; 
+        text-align: left;   
     }
   
     section.beneficios {
@@ -228,7 +224,8 @@ footer  {
         padding: 10vw 0;
         height: 40vw;
     }
-  }
-  .beneficios h2{
+    .beneficios h2{
         font-size: 1rem;
+        margin-bottom: 2rem;
     }
+  }
