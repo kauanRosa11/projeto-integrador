@@ -56,10 +56,11 @@ nav a {
 /* === Parte Um === */
 
 section.parteUm {
-
     height: max-content;
     width: auto;
     overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section.parteUm ul {
@@ -133,7 +134,8 @@ section.parteUm div button a {
 section.parteDois {
     background-color: #F9E6D0;
     padding: 4px;
-    margin: 0 6vw;
+    max-width: 1200px; /* Largura máxima para evitar que ocupe toda a tela em dispositivos grandes */
+    margin: 0 auto;/* Centraliza horizontalmente */
 }
 
 section.parteDois div {
@@ -163,6 +165,8 @@ h4 {
 h4 {
     border-bottom: 1px solid #fff;
     line-height: 5vw;
+    color: #1a6a6a;
+    font-weight: bold;
 }
 
 section.parteDois div br {
@@ -173,6 +177,7 @@ section.parteDois div br {
 section.parteDois div ul li p {
     margin: 2vw 4vw 2vw 4vw;
     font-size: 1.8rem;
+    color: #1a6a6a;
 }
 
 section.parteDois div ul.um {
@@ -184,8 +189,12 @@ section.parteDois div ul.um {
 
 section.parteDois div ul.dois {
     text-align: center;
-    margin: 5vw 10vw 5vw 5vw;
-
+    margin: 5vw auto;
+    color: #1a6a6a;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 
 section.parteDois div ul.dois li a {
@@ -194,7 +203,7 @@ section.parteDois div ul.dois li a {
     width: 112px;
     font-size: 1rem;
     padding: 0.4vw 0.6vw;
-    color: white;
+    color: #1a6a6a;
     background: linear-gradient(#237470) padding-box,
         linear-gradient(to right, white, gray) border-box;
     border: 2px solid transparent;
@@ -280,6 +289,8 @@ section.parteTres {
     display: flex;
     background-color: #F9E6D0;
     justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section.parteTres div {
@@ -287,15 +298,12 @@ section.parteTres div {
     align-items: center;
     padding: 1.5rem;  
     border-radius: 4rem 4rem 0 0;
-}
-
-.parteTres {
-    align-items: center;
-    margin: auto 20vw;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section.parteTres div img {
-      max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -335,7 +343,8 @@ section.parteTres div ol li.titulo {
 /* PARTE QUATRO */
 
 section.parteQuatro {
-    background-color: #F9E6D0;
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 
 section.parteQuatro div {
@@ -368,6 +377,7 @@ section.parteQuatro div ul {
     text-align: center;
     margin: 1rem;
     flex-wrap: wrap;
+    
 }
 
 section.parteQuatro div ul li {
@@ -576,5 +586,14 @@ section.parteTres div ol li.titulo {
        }
        .parteQuatro div h4{
         line-height: 4rem;
-       }
+       }        
+        section.parteUm,
+        section.parteDois,
+        section.parteTres,
+        section.parteQuatro {
+            max-width: 100%;
+            margin: 0;
+            padding: 0 1rem;
+        }
+    
 }
