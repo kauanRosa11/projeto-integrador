@@ -53,13 +53,13 @@ const perguntas = [
       },
       {
         texto: "Quantas horas você dorme?",
-        opcoes: ["Menos de 5h", "Entre 5h e 7h", "Entre 7h e 9h", "Mais de 9h"],
+        opcoes: ["Entre 7h e 9h (ideal)", "Entre 5h e 7h (bom)", "Mais de 9h (demais)", "Menos de 5h (insuficiente)" ],
         valores: [3, 2, 1, 0],
         feedbacks: [
-          "Parece que suas noites estão curtinhas, seu corpo pode gostar de um pouquinho mais de descanso!",
-          "Você está quase lá, um tempinho extra de sono pode fazer maravilhas no seu dia!",
           "Perfeito! Você está dando ao seu corpo o descanso que ele merece!",
+          "Você está quase lá, um tempinho extra de sono pode fazer maravilhas no seu dia!",
           "Uau, sono em dia e caprichado, talvez seu corpo esteja pedindo um cuidado extra!",
+          "Parece que suas noites estão curtinhas, seu corpo pode gostar de um pouquinho mais de descanso!"
         ]
       },
       {
