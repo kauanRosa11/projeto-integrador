@@ -208,9 +208,14 @@ footer  {
     }
     
     .icons {
+        
       display: flex;
       justify-content: center;
       gap: 20px; 
+    }
+
+    .icons  i {
+        color: #236c74;
     }
     .direitos {
         padding: 1vw;
