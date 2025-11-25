@@ -1,63 +1,21 @@
+
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: calc(12px + 0.8vw);
-    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: calc(12px + 0.5vw);
     overflow-x: hidden;
 }
 
-nav a.Home {
-    text-decoration: none;
-    color: white;
-    
-    display: flex;
-
-}
-
-
-.atual {
-    font-weight: bold;
-}
-.Home img {
-    width: 30px;
- transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
-}
-
-.Home:hover img {
-  transform: rotate(180deg);
-
-}
-
-
-
-
-button {
-    text-decoration: none;
-}
-
-
 body {
     background-color: #F9E6D0;
-
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-
+    margin: 0;
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-
-}
-
-/* === TOPO === */
 
 header {
-    padding: 2vw 6vw 2vw 8vw;
+    padding: 2vw 6vw;
     background-color: #237470;
     position: relative;
-    z-index: 99999 !important;
-    pointer-events: auto;
+    z-index: 9999;
 }
 
 header nav {
@@ -66,171 +24,200 @@ header nav {
     align-items: center;
 }
 
-header nav h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
 header nav h1 a {
     display: flex;
     align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-header nav div ul {
+nav a.Home {
     display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
 }
 
-header nav div ul li {
-    margin: 0 10px 0 10px;
-    padding: 0 15px 0 15px;
+.Home img {
+    width: 30px;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
+.Home:hover img {
+    transform: rotate(180deg);
+}
 
-header nav ul li:hover ul  {
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 0 15px;
+    position: relative;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li:hover ul {
     display: block;
+    position: absolute;
+    background: white;
     border-radius: 20px;
-    background-color: white;
-    line-height: 2vw; 
-    font-size: 20px;
-    font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-
-
-
-
-}
-
-header nav ul li:hover ul li a {
-    color: #237470;
-    
+    padding: 1vw;
 }
 
 header nav ul li ul {
-    position: absolute;
     display: none;
+    list-style: none;
 }
 
-header nav ul li ul li a:hover {
-  
-    border-radius: 15px;
-    padding: 0.2vw;
+header nav ul li ul li a {
     color: #237470;
+    font-weight: 300;
 }
 
-/* ref preta*/ 
-main {
-    background: #F6B3FF;
-}
-main section.b {
-    background: #9F68E4;
-    padding: 5vw;
-   
-}
-main section h2.ref{
-    padding-top: 10vw;
-font-size: 150px;
-font-weight: bold;
-margin-bottom: 4vw;
-color: #431A78;
-text-align: center;
-}
 
-main section.a {
-    
-  
-    margin-bottom: 10vw;
-}
 
-main section div.j p
-{
-    color: #431A78;
-    opacity: 60%;
-    font-size: 1.5rem;
+
+
+
+
+main h2.ref {
+    font-size: clamp(2.5rem, 6vw, 6rem);
+    font-weight: bold;
     text-align: center;
+    color: #236c74;
+    margin-top: 8vw;
+    margin-bottom: 2vw;
 }
-main section h2 {
-    padding-top: 10vw;
-font-size: 150px;
-font-weight: bold;
-margin-bottom: 4vw;
-color: #431A78;
+
+
+main .j p {
+    text-align: center;
+    font-size: clamp(1rem, 1.5vw, 2rem);
+    color: #236c74;
+    opacity: 0.7;
+    margin-bottom: 6vw;
+}
+
+
+main section.b {
+    background: #F9E6D0;
+    padding: 5vw 8vw;
+    border-radius: 40px 40px 0 0;
+}
+
+main section.b h2 {
+    font-size: clamp(2rem, 4vw, 4rem);
+    color: black;
+    margin-top: 5vw;
 }
 
 main section.b div {
     background: white;
-    border-radius: 25px;
     padding: 2vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    
+    border-radius: 25px;
+    margin: 2vw 0;
 }
 
-main section div.peido {
-margin: 8vw 10vw 0 10vw;
-    align-items: center;
-    
-}
-main section div.peido p {
-text-align: center;
-padding: 1vw;
-
+main section.b a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #236c74;
 }
 
-
-main div.ko {
-padding: 1.5vw;
-font-size: 50px;
-opacity: 70%;
-background: white;
-border-radius: 25px;
+.refe p{
+    text-align: center;
+    padding: 1vw;
+    color: #236c74;
+    opacity: 0.8;
 }
 
-h2{
-    color: #431A78;
-   
-}
-  p, a{
-    color: #431A78;
-}
-
-
-/* conteudo */
-
-main h2 {
-    font-size: 70px;
-    
-}
-
-/* footer */
-
-footer {
-    background-color: #431A78;
+/* FOOTER */
+footer  {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2.8rem;
-    margin: 0;
-}
+       
+        gap: 20px;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+        background-color: #237470;
+        padding: 1vw;
+        color: white;
+      
+    }
+    
+    footer a {
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45px;
+        height: 45px;
+        background-color: white;
+      
+        border-radius: 50%;
+        font-size: 1.3rem;
+        transition: all 0.3s ease;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+         background: linear-gradient(135deg, #00b7ff, #007777);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #00b7ff;
+    }
+    
+    footer .insta:hover {
+        background: radial-gradient(circle at 30% 107%, 
+            #fdf497 0%, 
+            #fdf497 5%, 
+            #fd5949 45%, 
+            #d6249f 60%, 
+            #285AEB 90%);
+        color: white;
+        box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
+        }
+    
+    
+        .X:hover {
+            background: linear-gradient(135deg, #302f2f, #000);
+        color: white;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #000;
+        }
+    
+        .nos {
+            font-size: 25px;
+           padding: 1vw;
+        }
+        .social {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 20px; 
+    }
+    .direitos {
+        padding: 1vw;
+    }          
 
-footer a.logo img {
-    height: 4rem;
-    width: 4rem;
-    margin: 0 0 0 2rem;
-}
-
-footer ul {
-    display: flex;
-}
-footer ul li{
-justify-content: space-between;
-}
-footer ul img {
-    height: 3rem;
-    width: 3.2rem;
-    margin: 0 1rem 0 0;
-    cursor: pointer;
-}
-
-
-
+    .direitos i {
+        transition: 0.3s;
+    
+    }
+    .direitos i:hover {
+        color: red 
+     
+    }
