@@ -468,3 +468,40 @@ footer .insta:hover {
 .direitos i:hover {
     color: red
 }
+/* === Responsividade === */
+@media (max-width: 768px) {
+    /* Ajustes de layout para dispositivos móveis */
+    section.parteUm {
+        height: 60vw; /* Ajuste da altura */
+        padding: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    section.parteDois .dois {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    section.parteTres {
+        flex-direction: column;
+        padding: 5rem 3rem;
+    }
+
+    section.parteTres div {
+        padding: 2rem;
+    }
+
+    section.parteQuatro div ul {
+        flex-direction: column;
+    }
+
+    section.parteQuatro div ul li {
+        width: 80%;
+        margin: 1rem auto;
+        height: auto;
+        padding: 2rem;
+    }
+}
