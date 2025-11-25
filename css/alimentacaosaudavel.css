@@ -83,7 +83,7 @@ nav ul {
 nav ul li a {
     display: flex;
     align-items: center;
-    padding: 0.5rem;
+    padding: 5px;
     transition: color 0.3s;
 }
 
@@ -111,16 +111,14 @@ nav ul li:hover ul {
     display: block;
 }
 
-nav ul li ul li {
-    border-bottom: 1px solid #333;
-    
-}
+
 
 .hamburger {
     display: none; 
     flex-direction: column;
     gap: 6px;
     cursor: pointer;
+    
     
 }
 
@@ -283,10 +281,14 @@ nav ul li {
     position: relative;
 }
 
+     .hamburger {
+        display: flex;
+    }
+
 nav.open ul {
     display: block;
     position: absolute;
-    top: 50px;
+    top: 77px;
     left: 0;
     background-color: #fff;
     width: 100%;

@@ -6,46 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alimentação Saudável</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/alimentacaosaudavel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-    <header>
+      <header>
         <nav>
-            <h1>
-                <a class="home" href="home.html">
-                    <img src="src/images/logo.png" alt="Logo CoreSync"><strong>CoreSync</strong>
-                </a>
+            <h1><a class="home" href="home.html"><img src="src/images/logo.png" alt=""><strong>CoreSync</strong></a>
             </h1>
             <div>
                 <ul>
                     <li>
+                        <a class="Home" href="home.html">Home <img src="src/images/setinhaopravaixo.png"></a>
+
                         <ul>
-                            <li><a href="saudeFisica.html">Saúde física</a></li>
-                            <li><a class="atual" href="alimentacaosaudavel.html">Alimentação saudável</a></li>
-                            <li><a href="saudemental.html">Saúde mental</a></li>
-                            <li><a href="beneficios.html">Natureza</a></li>
+                            <li>
+                                <a href="saudeFisica.html">Saúde física</a>
+                            </li>
+                            <li>
+                                <a href="alimentacaosaudavel.html">Alimentação saudável</a>
+                            </li>
+                            <li>
+                                <a href="saudemental.html">Saúde mental</a>
+                            </li>
+                            <li>
+                                <a class="atual" href="beneficios.html">Natureza</a>
+                            </li>
                         </ul>
                     </li>
-                    <li><a href="Questionario.html">Questionário</a></li>
-                    <li><a href="referencias.html">Referências</a></li>
-                    <li><a href="sobreNos.html">Sobre nós</a></li>
+                    <li>
+                        <a href="Questionario.html">Questionário</a>
+                    </li>
+                    <li>
+                        <a href="referencias.html">Referências</a>
+                    </li>
+                    <li>
+                        <a href="sobreNos.html">Sobre nós</a>
+                    </li>
+
                 </ul>
+
             </div>
-            <div class="hamburger" onclick="toggleMenu()">
+                <div class="hamburger" onclick="toggleMenu()">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
         </nav>
     </header>
+   
 
     <script>
         function toggleMenu() {
             const nav = document.querySelector('nav');
             nav.classList.toggle('open');
         }
+
     </script>
 
     <main>
@@ -81,7 +99,7 @@
                 </div>
                 <div>
                     <img src="src/images/imagem-removebg-preview(4)_1.png" alt="Imagem de amendoins">
-                </div>
+         background-color: #fff;          </div>
             </div>
 
             <div class="container">

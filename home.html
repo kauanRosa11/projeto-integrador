@@ -32,12 +32,12 @@
                                 <a href="saudemental.html">Saúde mental</a>
                             </li>
                             <li>
-                                <a href="beneficios.html">Natureza</a>
+                                <a class="atual" href="beneficios.html">Natureza</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a class="atual" href="Questionario.html">Questionário</a>
+                        <a href="Questionario.html">Questionário</a>
                     </li>
                     <li>
                         <a href="referencias.html">Referências</a>
@@ -45,10 +45,26 @@
                     <li>
                         <a href="sobreNos.html">Sobre nós</a>
                     </li>
+
                 </ul>
+
+            </div>
+                <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </nav>
     </header>
+   
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('open');
+        }
+
+    </script>
     <main>
         <section class="parteUm">
             <ul>
