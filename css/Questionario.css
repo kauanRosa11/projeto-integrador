@@ -128,9 +128,8 @@ main h1 {
 }
 
 .banner {
-    display: flex;
     background-color: #F9E6D0;
-    border-radius: 0 0 5vw 5vw;
+    border-radius: 5vw;
     margin-bottom: 5vw;
 }
 
@@ -254,6 +253,7 @@ footer  {
        justify-content: center;
         background-color: #237470;
         padding: 1vw;
+        color: white;
       
     }
     
@@ -285,7 +285,7 @@ footer  {
             #fd5949 45%, 
             #d6249f 60%, 
             #285AEB 90%);
-        color: white;
+        color: white;0 0 5vw 5vw;
         box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
         }
     
@@ -316,10 +316,32 @@ footer  {
     }
     .direitos {
         padding: 1vw;
-    }
+    }          
+
     .direitos i {
         transition: 0.3s;
+    
     }
     .direitos i:hover {
         color: red 
+     
     }
+
+    @media (max-width: 768px) {
+    .banner div {
+     padding: 20px;
+        display: flex;
+    margin: 4vw 8vw 4vw 8vw;
+     border-radius: 10px;
+    }
+   
+
+    }
+
+    .perguntas {
+            width: auto;
+            margin: 0 10vw 8vw 10vw;
+            height: auto;
+    }
+   
+}
