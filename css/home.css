@@ -8,19 +8,24 @@ html {
 nav a.Home {
     text-decoration: none;
     color: white;
-    font-weight: bold;
 
+    
     display: flex;
 
 }
 
+.atual {
+    font-weight: bold;
+}
+
 .Home img {
     width: 30px;
-    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+ transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
 }
-os 
+
 .Home:hover img {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
+
 }
 
 
@@ -33,25 +38,90 @@ button {
 
 body {
     background-color: #F9E6D0;
-    cursor: url('src/imagens/cursor-removebg-preview.png') 0 0, auto;
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
 
-} 
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+}
 
 nav a {
     text-decoration: none;
     color: white;
+
+}
+
+/* === TOPO === */
+
+header {
+    padding: 2vw 6vw 2vw 8vw;
+    background-color: #237470;
+    position: relative;
+    z-index: 99999 !important;
+    pointer-events: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav h1 a {
+    display: flex;
+    align-items: center;
+}
+
+header nav div ul {
+    display: flex;
+}
+
+header nav div ul li {
+    margin: 0 10px 0 10px;
+    padding: 0 15px 0 15px;
+}
+
+
+header nav ul li:hover ul  {
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    line-height: 2vw; 
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+header nav ul li:hover ul li a {
+    color: #237470;
     
 }
 
+header nav ul li ul {
+    position: absolute;
+    display: none;
+}
+
+header nav ul li ul li a:hover {
+  
+    border-radius: 15px;
+    padding: 0.2vw;
+    color: #237470;
+}
+   
 /* === Parte Um === */
 
 section.parteUm {
     background-color: #237470;
-    height: 48vw;
-    width: 100vw;
+    height: 58vw;
+    width: auto;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 5vw;
@@ -77,9 +147,7 @@ section.parteUm ul li {
 .parteUm div.img {
     border-radius: 25px;
     padding: 2vw 3vw;
-
     height: min-content;
-    background-color: #237470;
     margin-top: 5vw;
 
     img {
@@ -150,7 +218,7 @@ section.parteDois div article {
         color: #237470;
         padding: 2vw 6vw 2vw 4vw;
         text-shadow: 2px 2px 2px;
-        text-align: right;
+        text-align: center;
     }
 }
 
@@ -381,7 +449,6 @@ section.parteQuatro div ul li h5 {
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
-    text-shadow: 1.6px 2px 10px #FDEEFF;
     padding: 0.2rem 2rem 1rem 2rem;
 }
 
@@ -470,38 +537,39 @@ footer .insta:hover {
 }
 /* === Responsividade === */
 @media (max-width: 768px) {
-    /* Ajustes de layout para dispositivos móveis */
-    section.parteUm {
-        height: 60vw; /* Ajuste da altura */
-        padding: 2rem;
+    header { 
+        display: none;
+    }
+
+    .parteUm {
         flex-direction: column;
-        justify-content: center;
         text-align: center;
+        padding: 3rem 1rem;
     }
 
-    section.parteDois .dois {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+    .parteUm .img {
+        display: none;
     }
 
-    section.parteTres {
-        flex-direction: column;
-        padding: 5rem 3rem;
+    .parteUm h2 {
+        font-size: 2.5rem;
     }
 
-    section.parteTres div {
-        padding: 2rem;
+    .parteUm p {
+        font-size: 1rem;
+    }
+
+    .parteUm button {
+        padding: 4vw;
     }
 
     section.parteQuatro div ul {
         flex-direction: column;
+        padding: 0;
     }
 
     section.parteQuatro div ul li {
-        width: 80%;
-        margin: 1rem auto;
-        height: auto;
-        padding: 2rem;
+        width: 90%;
+        margin: 1rem 0;
     }
 }
