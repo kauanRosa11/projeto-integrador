@@ -8,166 +8,143 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/alimentacaosaudavel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-
-
-
+</head>
 
 <body>
     <header>
         <nav>
-            <h1><a class="home" href="home.html"><img src="src/images/logo.png" alt=""><strong>CoreSync</strong></a>
+            <h1>
+                <a class="home" href="home.html">
+                    <img src="src/images/logo.png" alt="Logo CoreSync"><strong>CoreSync</strong>
+                </a>
             </h1>
             <div>
                 <ul>
                     <li>
-                        <a class="Home" href="home.html">Home <img src="src/images/setinhaopravaixo.png" alt=""></a>
-
                         <ul>
-                            <li>
-                                <a href="saudeFisica.html">Saúde física</a>
-                            </li>
-                            <li>
-                                <a class="atual" href="alimentacaosaudavel.html">Alimentação saudável</a>
-                            </li>
-                            <li>
-                                <a href="saudemental.html">Saúde mental</a>
-                            </li>
-                            <li>
-                                <a href="beneficios.html">Natureza</a>
-                            </li>
+                            <li><a href="saudeFisica.html">Saúde física</a></li>
+                            <li><a class="atual" href="alimentacaosaudavel.html">Alimentação saudável</a></li>
+                            <li><a href="saudemental.html">Saúde mental</a></li>
+                            <li><a href="beneficios.html">Natureza</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="Questionario.html">Questionário</a>
-                    </li>
-                    <li>
-                        <a href="referencias.html">Referências</a>
-                    </li>
-                    <li>
-                        <a href="sobreNos.html">Sobre nós</a>
-                    </li>
-
+                    <li><a href="Questionario.html">Questionário</a></li>
+                    <li><a href="referencias.html">Referências</a></li>
+                    <li><a href="sobreNos.html">Sobre nós</a></li>
                 </ul>
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
             </div>
         </nav>
     </header>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('open');
+        }
+    </script>
+
     <main>
         <section class="banner">
             <div>
                 <h2>Alimentação<br>Saudável</h2>
-                <p>Uma alimentação saudável previne<br> a má nutrição e diversas doenças crônicas, <br> no entanto, mudanças são
-                    necessárias.</p>
+                <p>Uma alimentação saudável previne<br> a má nutrição e diversas doenças crônicas. Mudanças são necessárias.</p>
             </div>
         </section>
+
         <section class="alimentacao">
             <div>
-                <p class="banner">A alimentação saudável garante uma boa nutrição e previne diversas doenças crônicas. A
-                    pratica vem sendo deixada de lado, por conta de mudanças nos estilos de vida, dando lugar ao consumo de
-                    alimentos processados. Isso leva a dietas com excesso de calorias, gorduras, açúcares e sal, e baixa
-                    ingestão de frutas, vegetais e fibras.
+                <p class="banner">
+                    A alimentação saudável garante uma boa nutrição e previne diversas doenças crônicas. A prática vem sendo deixada de lado, por conta de mudanças nos estilos de vida, dando lugar ao consumo de alimentos processados.
                 </p>
             </div>
-
         </section>
+
         <section class="variacao">
             <p>
-                Apesar das variações individuais e culturais, os princípios de uma dieta equilibrada são os mesmos para
-                todos.
+                Apesar das variações individuais e culturais, os princípios de uma dieta equilibrada são os mesmos para todos.
             </p>
         </section>
 
         <section class="sugestoes">
             <h2>Sugestões de uma dieta saudável</h2>
+            
             <div class="container">
                 <div>
                     <ul>
-                        <li>Frutas, verduras, legumes, leguminosas, nozes e cereais integrais (como arroz integral,
-                            aveia, milho e trigo) devem fazer parte da base da alimentação.</li>
+                        <li>Frutas, verduras, legumes, leguminosas, nozes e cereais integrais devem fazer parte da base da alimentação.</li>
                     </ul>
                 </div>
                 <div>
-                    <img src="src/images/imagem-removebg-preview(4)_1.png" alt="amendoins">
+                    <img src="src/images/imagem-removebg-preview(4)_1.png" alt="Imagem de amendoins">
                 </div>
-
-
             </div>
+
             <div class="container">
                 <div>
                     <ul>
-                        <li>A recomendação é consumir pelo menos 400 g por dia de frutas e vegetais — o que corresponde
-                            a cerca de cinco porções — sem contar tubérculos como batata, batata-doce e mandioca.</li>
+                        <li>A recomendação é consumir pelo menos 400 g por dia de frutas e vegetais — o que corresponde a cerca de cinco porções.</li>
                     </ul>
                 </div>
                 <div>
-                    <img src="src/images/imagem2.png" alt="amendoins" class="segunda">
+                    <img src="src/images/imagem2.png" alt="Imagem de frutas e vegetais" class="segunda">
                 </div>
-
-
             </div>
+
             <div class="container">
                 <div>
                     <ul>
-                        <li>Os açúcares adicionados aos alimentos e bebidas, além dos presentes naturalmente em mel,
-                            xaropes e sucos, devem corresponder a menos de 10% das calorias diárias (cerca de 50 g para
-                            quem ingere 2.000 calorias por dia). Para benefícios extras à saúde, o ideal é reduzir esse
-                            valor para menos de 5%.</li>
+                        <li>Os açúcares adicionados aos alimentos e bebidas devem corresponder a menos de 10% das calorias diárias.</li>
                     </ul>
                 </div>
                 <div>
-                    <img src="src/images/imagem3.png" alt="amendoins" class="terceira">
+                    <img src="src/images/imagem3.png" alt="Imagem de alimentos com açúcar" class="terceira">
                 </div>
-
-
             </div>
+
             <div class="container">
                 <div>
                     <ul>
-                        <li>As gorduras devem compor menos de 30% da energia total diária, dando preferência às versões
-                            insaturadas (como as encontradas em peixes, abacate, oleaginosas e óleos vegetais). </li>
+                        <li>As gorduras devem compor menos de 30% da energia total diária, dando preferência às versões insaturadas.</li>
                     </ul>
                 </div>
                 <div>
-                    <img class="imagem4" src="src/images/imagem4.png" alt="amendoins">
+                    <img class="imagem4" src="src/images/imagem4.png" alt="Imagem de gorduras insaturadas">
                 </div>
-
-
             </div>
+
             <div class="container">
                 <div>
                     <ul>
-                        <li>O consumo de sal deve ser inferior a 5 g por dia (aproximadamente uma colher de chá), sempre
-                            dando preferência ao sal iodado.</li>
+                        <li>O consumo de sal deve ser inferior a 5 g por dia, sempre dando preferência ao sal iodado.</li>
                     </ul>
                 </div>
                 <div>
-                    <img src="src/images/imagem5.png" alt="amendoins" class="quinta">
+                    <img src="src/images/imagem5.png" alt="Imagem de alimentos salgados" class="quinta">
                 </div>
-
-
             </div>
-
-
         </section>
-
-
     </main>
+
     <footer>
         <div class="social">
-          <p class="nos">Estamos nas plataformas</p>
-          <div class="icons">
-            <a href="https://www.facebook.com/profile.php?id=61581283343654" class="face"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/pjtocoresync/" class="insta"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://x.com/pjtocoresync" class="X"><i class="fa-brands fa-x-twitter"></i></a>
-          </div>
-      
-          <div class="direitos">
-          <p>© 2025 CoreSync — Todos os direitos reservados.</p>
-      <p>Desenvolvido com <i class="fa-solid fa-heart"></i>
-       no IFC</p>
-       </div>
+            <p class="nos">Estamos nas plataformas</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=61581283343654" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/pjtocoresync/" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/pjtocoresync" class="X"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+            <div class="direitos">
+                <p>© 2025 CoreSync — Todos os direitos reservados.</p>
+                <p>Desenvolvido com <i class="fa-solid fa-heart"></i> no IFC</p>
+            </div>
         </div>
-      </footer>
+    </footer>
 </body>
 
 </html>
