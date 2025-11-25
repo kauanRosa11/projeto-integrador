@@ -10,6 +10,9 @@ body {
     margin: 0;
 }
 
+.atual {
+    font-weight: bold;
+}
 
 header {
     padding: 2vw 6vw;

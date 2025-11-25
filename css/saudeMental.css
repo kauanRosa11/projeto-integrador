@@ -30,7 +30,9 @@ nav a.Home {
 
 }
 
-
+.atual {
+    font-weight: bold
+}
 button {
     text-decoration: none;
 }
