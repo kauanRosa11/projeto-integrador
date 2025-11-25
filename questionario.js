@@ -44,11 +44,11 @@ const perguntas = [
         opcoes: ["Profundo e reparador (acordo com energia)", "Leve, mas suficiente", "Interrompido, com despertares frequentes", "Pouco reparador (acordo cansado(a))", "Insatisfatório (tenho insônia ou distúrbios do sono diagnosticados)"],
         valores: [4, 3, 2, 1, 0],
         feedbacks: [
-          "Aí não, campeão! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos.",
-          "Importante se movimentar um pouco mais 🚶‍♂️",
-          "Legal, tente aumentar a frequência!",
-          "EXCELENTE! Mas aqui vão alguns cuidados a mais pra evitar lesões",
-          "Sem comentários!! Só se cuida pra não se lesionar e desejamos um boa sorte na sua carreira!"
+          "Seu sono está muito bom e proporciona energia para o dia.",
+          "Seu sono é adequado, mas pode se tornar ainda mais reparador.",
+          "Seus despertares estão prejudicando a qualidade do descanso.",
+          "Você dorme, mas não recupera bem as energias durante a noite.",
+          "Seu sono está comprometido e merece atenção ou acompanhamento especializado."
         ]
       },
       {
@@ -56,10 +56,10 @@ const perguntas = [
         opcoes: ["Menos de 5h", "Entre 5h e 7h", "Entre 7h e 9h", "Mais de 9h"],
         valores: [3, 2, 1, 0],
         feedbacks: [
-          "Aí não, campeão! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos.",
-          "Importante se movimentar um pouco mais 🚶‍♂️",
-          "Legal, tente aumentar a frequência!",
-          "EXCELENTE! Mas aqui vão alguns cuidados a mais pra evitar lesões",
+          "Parece que suas noites estão curtinhas, seu corpo pode gostar de um pouquinho mais de descanso!",
+          "Você está quase lá, um tempinho extra de sono pode fazer maravilhas no seu dia!",
+          "Perfeito! Você está dando ao seu corpo o descanso que ele merece!",
+          "Uau, sono em dia e caprichado, talvez seu corpo esteja pedindo um cuidado extra!",
         ]
       },
       {
@@ -67,12 +67,12 @@ const perguntas = [
         opcoes: ["Melhorar a saúde física", "Reduzir o estresse e a ansiedade", "Melhorar minha alimentação", "Ter mais energia e disposição", "Emagrecer ou ganhar massa", "Melhorar o equilíbrio entre corpo e mente"],
         valores: [5, 4, 3, 2, 1, 0],
         feedbacks: [
-          "Aí não, campeão! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos.",
-          "Importante se movimentar um pouco mais 🚶‍♂️",
-          "Legal, tente aumentar a frequência!",
-          "teste",
-          "teste2",
-          "EXCELENTE! Mas aqui vão alguns cuidados a mais pra evitar lesões",
+          "Ótimo objetivo, investir no seu corpo é investir em você!",
+          "Priorizar sua paz é um passo lindo rumo ao bem-estar!",
+          "Que escolha incrível, cada refeição pode ser um gesto de cuidado com você!",
+          "Maravilha! Mais energia transforma o seu dia e tudo ao redor!",
+          "Muito bom, seu corpo agradece cada esforço rumo à sua melhor versão!",
+          "Perfeito, buscar harmonia interna é um presente poderoso para sua vida!",
         ]
       },
       {
@@ -80,21 +80,21 @@ const perguntas = [
         opcoes: ["Muito corrida, com pouco tempo para mim", "Equilibrada, consigo manter pausas e descanso", "Irregular, varia bastante de um dia para outro", "Tranquila, consigo controlar bem meus horários"],
         valores: [3, 2, 1, 0],
         feedbacks: [
-          "Aí não, campeão! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos.",
-          "Importante se movimentar um pouco mais 🚶‍♂️",
-          "Legal, tente aumentar a frequência!",
-          "teste"
+          "Sua rotina está puxada, você merece mais momentos só seus!",
+          "Que ótimo, você está cuidando bem do seu ritmo diário!",
+          "Sua rotina é imprevisível, mas pequenos ajustes podem trazer mais estabilidade!",
+          "Maravilha, ter esse controle deixa o dia muito mais leve e fluido!"
         ]
       },
       {
-        texto: "Como você avalia seu nível  de estresse?",
+        texto: "Como você avalia seu nível de estresse?",
         opcoes: ["Baixo — me sinto tranquilo(a) na maior parte do tempo", "Moderado — tenho momentos de tensão, mas consigo lidar", "Alto — me sinto frequentemente sobrecarregado(a)", "Muito alto — tenho dificuldade em relaxar ou dormir bem"],
         valores: [3, 2, 1, 0],
         feedbacks: [
-          "top",
-          "bacana",
-          "eita",
-          "calma"
+          "Que ótimo, manter essa serenidade é um super presente para você!",
+          "Você lida bem com as tensões do dia, e pequenos respiros podem ajudar ainda mais!",
+          "Você está carregando bastante coisa, merece cuidado e pausas de verdade!",
+          "Seu corpo está pedindo descanso, acolher isso é um passo importante para se sentir melhor!"
         ]
       },
       {
@@ -102,12 +102,12 @@ const perguntas = [
         opcoes: ["Atividades físicas", "Meditação ou respiração", "Passar tempo com amigos ou família", "Momentos sozinho(a)", "Hobbies (leitura, música, arte, etc.)", "Terapia ou acompanhamento psicológico"],
         valores: [5, 4, 3, 2, 1, 0],
         feedbacks: [
-          "top",
-          "bacana",
-          "eita",
-          "calma",
-          "TESTE",
-          "TESTEE"
+          "Ótimo, seu corpo e sua mente realmente brilham quando você se movimenta!",
+          "Maravilha, essas pausas profundas fazem toda a diferença no seu bem-estar!",
+          "Que lindo, estar com quem você ama recarrega suas energias de um jeito único!",
+          "Perfeito, seu silêncio e seu espaço são fontes poderosas de renovação!",
+          "Incrível, seus hobbies nutrem sua criatividade e sua alma!",
+          "Muito bom, buscar apoio é um gesto forte e cheio de cuidado com você!"
         ]
       },
   ];
