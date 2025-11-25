@@ -111,10 +111,6 @@ header nav ul li ul {
     display: none;
 }
 
-header nav ul li ul li {
-    color: #391665;
-}
-
 header nav ul li ul li a:hover {
   
     border-radius: 15px;
