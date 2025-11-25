@@ -12,14 +12,14 @@ const perguntas = [
     },
     {
       texto: "Qual seu nível de atividade física?",
-      opcoes: ["Sedentário(a) — quase não pratico atividades físicas", "Levemente ativo(a) — caminho ou me movimento durante o dia", "Moderadamente ativo(a) — pratico exercícios leves 2–3x por semana", "Ativo(a) — treino 4–5x por semana", "Atleta / alta performance"],
+      opcoes: ["Atleta / alta performance", "Ativo(a) — treino 4–5x por semana","Moderadamente ativo(a) — pratico exercícios leves 2–3x por semana", "Levemente ativo(a) — caminho ou me movimento durante o dia", "Sedentário(a) — quase não pratico atividades físicas"],
       valores: [4, 3, 2, 1, 0],
       feedbacks: [
-        "Aí não, campeão! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos.",
-        "Importante se movimentar um pouco mais 🚶‍♂️",
-        "Legal, tente aumentar a frequência!",
+        "Sem comentários!! Só se cuida pra não se lesionar e desejamos um boa sorte na sua carreira!",
         "EXCELENTE! Mas aqui vão alguns cuidados a mais pra evitar lesões",
-        "Sem comentários!! Só se cuida pra não se lesionar e desejamos um boa sorte na sua carreira!"
+        "Legal, tente aumentar a frequência!",
+        "Importante se movimentar um pouco mais 🚶‍♂️",
+        "Aí não, campeão! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos."
       ]
     },
     {
