@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 :root {
-    --primary-color: #4CAF50;
+    --primary-color: #007777;
     --secondary-color: #81C784;
     --accent-color: #FFEB3B;
-    --text-color: #333;
+    --text-color: #fff;
     --bg-color: #f9f9f9;
     --footer-bg: #2E7D32;
     --footer-text: #fff;
@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--bg-color);
+    background-color: #F9E6D0;
     margin: 0;
     padding: 0;
 }
@@ -137,8 +137,7 @@ nav ul li ul li a {
 }
 
 nav ul li ul li a.atual {
-    background-color: #4CAF50;
-  
+    background-color: black;
     color: #fff;
 }
 
@@ -149,7 +148,7 @@ main {
 }
 
 .banner {
-    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    background: #007777;
     color: #fff;
     padding: 4rem 2rem;
     text-align: center;
@@ -172,9 +171,12 @@ main {
     margin-bottom: 2rem;
 }
 
-.alimentacao .banner {
+.banners {
     background: none;
-    color: var(--text-color);
+    color: #8C6A5B;
+}
+
+.alimentacao .banner {
     padding: 2rem;
     text-align: left;
     border-radius: 0;
@@ -183,7 +185,7 @@ main {
 }
 
 .variacao {
-    background-color: #fff;
+    background-color: #007777;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px var(--shadow);
@@ -200,14 +202,14 @@ main {
 .sugestoes h2 {
     text-align: center;
     font-size: 2rem;
-    color: var(--primary-color);
+    color:#8C6A5B;
     margin-bottom: 2rem;
 }
 
 .container {
     display: flex;
     align-items: center;
-    background-color: #fff;
+    background-color: #007777;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px var(--shadow);
@@ -231,7 +233,7 @@ main {
 }
 
 footer {
-    background-color: var(--footer-bg);
+    background-color: #007777;
     color: var(--footer-text);
     padding: 2rem;
     text-align: center;
