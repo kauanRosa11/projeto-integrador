@@ -76,10 +76,6 @@ nav ul li {
     position: relative;
 }
 
-nav ul {
-    
-}
-
 nav ul li a {
     display: flex;
     align-items: center;

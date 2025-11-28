@@ -24,8 +24,8 @@ header{
     border: 4px solid #145a32;
     border-radius: 20px;
     margin: 3rem auto;
-    max-width: 74vw;
     transform: scale(1.1);
+    width: 80vw;
     text-align: center;
   }
   section.sobrenos div{
@@ -208,13 +208,7 @@ footer  {
         section.nossoprojeto p, .nossoprojeto li p {
         line-height: 3vw;
         }
-        .sobrenos div{
-        background: #ffffff;
-        border: 4px solid #145a32;
-        border-radius: 20px;
-        transform: scale(1.1);
-        text-align: center;
-        }
+
         .sobrenos div p{
         line-height: 1.5rem;
         padding: 0;
@@ -239,4 +233,4 @@ footer  {
     .nossoprojeto ul li p{
       line-height: 1.2rem
     }
-}
+        }
