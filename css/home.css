@@ -18,7 +18,7 @@ nav a.Home {
     display: flex;
 }
 
-.atual {
+#atual {
     font-weight: bold;
 }
 
