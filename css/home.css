@@ -67,7 +67,6 @@ section.parteUm ul {
 }
 
 section.parteUm ul li {
-
     background-color: #F9E6D0;
     display: flex;
     justify-content: space-around;
@@ -78,7 +77,6 @@ section.parteUm ul li {
 
 .parteUm div.img {
     border-radius: 25px;
-    padding: 2vw 3vw;
     height: min-content;
     margin-top: 5vw;
 
@@ -131,7 +129,7 @@ section.parteUm div button a {
 
 section.parteDois {
     background-color: #F9E6D0;
-    padding: 4px;
+    padding: 0 15vw;
     max-width: 1200px;
     /* Largura máxima para evitar que ocupe toda a tela em dispositivos grandes */
     margin: 0 auto;
@@ -296,12 +294,11 @@ section.parteTres div {
     align-items: center;
     padding: 1.5rem;
     border-radius: 4rem 4rem 0 0;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
 section.parteTres div img {
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
 
 }
@@ -309,24 +306,29 @@ section.parteTres div img {
 section.parteTres div ol {
     border-radius: 30px;
     background-color: #237470;
-    padding-bottom: 2rem;
+    padding: 2vw 2vw 4vw 2vw;
     width: auto;
-    height: 50vw;
+    height: auto;
+    max-width: 60%;
 }
+
+
 
 section.parteTres div ol li h4 {
     color: #ffffff;
     padding: 2.5vw;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     border: none;
     line-height: 6.5vw;
 }
-
+.parteTres div ol li p{
+    max-width: 60%;
+}
 section.parteTres div ol li {
     color: white;
-    padding: 1vw 5vw;
+    padding: 20px 20px;
     font-size: 1.8rem;
     text-align: left;
 }
@@ -478,17 +480,25 @@ footer .insta:hover {
     color: red
 }
 
+
 /* === Responsividade === */
 @media (max-width: 768px) {
 
     .parteUm {
         flex-direction: column;
-        text-align: center;
+        
         padding: 3rem 1rem;
+        margin: 4vw 0;
+    }
+    .parteUm ul{
+        height: 150vw;
+    }
+    .parteUm ul li div.texto {
+        text-align: center;
     }
 
     .parteUm ul li div h2 {
-        font-weight: 400;
+        font-weight: bold;
         line-height: 3.6rem;
     }
 
@@ -501,18 +511,54 @@ footer .insta:hover {
     }
 
     .parteUm p {
-        font-size: 1rem;
+        font-size: 1.4rem;
     }
 
-    .parteDois div ul.dois li h4 {
+    .parteDois div article h3.titulo{
+        font-size: 3rem;
+    }
+    .parteDois div ul.dois li.um h4 {
         padding: 1.5vw 0 0 0;
-    }
+        font-size: 1rem;
+            }
 
-    section.parteDois div ul.dois li p {
+    .parteDois div ul.dois li.um p {
         padding: 0vw 2vw 1vw 2vw;
         line-height: 4vw;
         margin: 3vw 2vw 1vw 3vw;
     }
+
+    .parteDois div ul.dois li.tres h4 {
+        padding: 1.5vw 0 0 0;
+        font-size: 1rem;
+            }
+
+    .parteDois div ul.dois li.tres p {
+        padding: 0vw 2vw 1vw 2vw;
+        line-height: 4vw;
+        margin: 3vw 2vw 1vw 3vw;
+    }
+    .parteDois div ul.dois li.quatro h4 {
+        padding: 1.5vw 0 0 0;
+        font-size: 1rem;
+            }
+
+    .parteDois div ul.dois li.quatro p {
+        padding: 0vw 2vw 1vw 2vw;
+        line-height: 4vw;
+        margin: 3vw 2vw 1vw 3vw;
+    }
+    .parteDois div ul.dois li.cinco h4 {
+        padding: 1.5vw 0 0 0;
+        font-size: 1rem;
+            }
+
+    .parteDois div ul.dois li.cinco p {
+        padding: 0vw 2vw 1vw 2vw;
+        line-height: 5vw;
+        margin: 3vw 2vw 1vw 3vw;
+    }
+
 
     section.parteTres {
         display: flex;
@@ -522,33 +568,36 @@ footer .insta:hover {
     }
 
     section.parteTres div {
-        display: flex;
         align-items: center;
         padding: 1.5rem;
         border-radius: 4rem 4rem 0 0;
+        display: flex;
+        flex-direction: column;
     }
 
     .parteTres {
-        align-items: center;
+        
     }
 
     section.parteTres div img {
-        width: 40vw;
+        display: none;
     }
 
     section.parteTres div ol {
         border-radius: 30px;
         background-color: #237470;
         padding-bottom: 2rem;
-        width: 50vw;
+        
+        width: auto;
         text-align: center;
+
     }
 
     section.parteTres div ol li h4 {
+        
         color: #ffffff;
-        padding: 2rem 2rem 0 2rem;
-        text-align: center;
-        font-size: 2rem;
+        
+        font-size: 1.6rem;
         font-weight: bold;
         border: none;
         line-height: 2.5rem;
@@ -556,8 +605,8 @@ footer .insta:hover {
 
     section.parteTres div ol li {
         color: white;
-        padding: 1vw 5vw;
-        font-size: 30px;
+        width: auto;
+        font-size: 1rem;
         text-align: center;
     }
 
@@ -569,9 +618,11 @@ footer .insta:hover {
         border-radius: 1.8rem 1.8rem 0 0;
     }
 
+
+
     section.parteQuatro div ul {
-        flex-direction: column;
-        padding: 0;
+        align-items: center;
+        padding-left: 15vw;
     }
 
     section.parteQuatro div ul li {
