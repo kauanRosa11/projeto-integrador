@@ -106,7 +106,7 @@ section.saudefisica div a {
 /* ATIVIDADE FISICA*/
 section.atvF {
    background-color: #C7B299;
-   color: #8C6A5B;
+   color: #FFFFFF;
    padding: 6vw;
 }
 
@@ -454,9 +454,9 @@ footer .insta:hover {
    }
    .prepos h3{
       font-size: calc(2rem * 0.6);
-      line-height: 19vw;
+      line-height: 4rem;
    }
    .prepos h4{
       text-shadow: 0.02vw 0.01vw 0.01vw #8C6A5B;
    }
-}
+} 
