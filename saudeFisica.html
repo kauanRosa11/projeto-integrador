@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saúde Física</title>
+    <title>saúde mental</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/saudefisica.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="css/header.css">
-
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
 </head>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const btnMobile = document.getElementById('hamburger');
+        const menu = document.getElementById('nav-menu');
 
+        btnMobile.addEventListener("click", () => {
+            menu.classList.toggle("active");
+            btnMobile.classList.toggle("active");
+        });
+    });
+</script>
+</body>
 
+   <header>
+    <nav class="navbar">
+        <h1>
+            <a class="home" href="home.html">
+                <img src="src/images/logo.png" alt="">
+                <strong>CoreSync</strong>
+            </a>
+        </h1>
 
+        <!-- Botão hambúrguer (mobile) -->
+        <div class="hamburger" id="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
 
-<body>
-    <header>
-        <nav>
-            <h1><a class="home" href="home.html"><img src="src/images/logo.png" alt=""><strong>CoreSync</strong></a>
-            </h1>
-            <div>
-                <ul>
-                    <li>
-                        <a class="Home" href="index.html">Início <img src="src/images/setinhaopravaixo.png " alt=""></a>
-
-                        <ul>
-                            <li>
-                                <a class="atual" href="saudeFisica.html">Saúde física</a>
-                            </li>
-                            <li>
-                                <a href="alimentacaosaudavel.html">Alimentação saudável</a>
-                            </li>
-                            <li>
-                                <a href="saudemental.html">Saúde mental</a>
-                            </li>
-                            <li>
-                                <a href="beneficios.html">Natureza</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="Questionario.html">Questionário</a>
-                    </li>
-                    <li>
-                        <a href="referencias.html">Referências</a>
-                    </li>
-                    <li>
-                        <a href="sobreNos.html">Sobre nós</a>
-                    </li>
-
+        <!-- Menu -->
+        <ul class="nav-menu" id="nav-menu">
+            <li>
+                <a class="Home" href="index.html">Início</a>
+                <ul class="dropdown">
+                    <li><a href="saudeFisica.html">Saúde física</a></li>
+                    <li><a href="alimentacaosaudavel.html">Alimentação saudável</a></li>
+                    <li><a href="saudemental.html">Saúde mental</a></li>
+                    <li><a href="beneficios.html">Natureza</a></li>
                 </ul>
-            </div>
-        </nav>
-    </header>
+            </li>
+
+            <li><a href="Questionario.html">Questionário</a></li>
+            <li><a href="referencias.html">Referências</a></li>
+            <li><a class="atual" href="sobreNos.html">Sobre nós</a></li>
+        </ul>
+    </nav>
+</header>
 
 
     <main>
