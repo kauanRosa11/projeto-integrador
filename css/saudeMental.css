@@ -19,6 +19,7 @@ header {
   box-sizing: border-box; /* garante que padding e border fiquem dentro da largura */
 }
 
+
 .navbar {
   width: 100%;
   box-sizing: border-box;
@@ -31,18 +32,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
-    background-color: #fff;
+    background-color: #1a6a6a;
     position: relative;
     z-index: 1000;
+    color: #fff;
 }
 
 .navbar h1 a {
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #000;
+    color: #FFF;
     text-decoration: none;
     font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .navbar img {
@@ -62,7 +65,8 @@ header {
 
 .nav-menu a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
+    font-weight: 400;
     font-size: 1.1rem;
     font-family: "Poppins", sans-serif;
 }
@@ -71,7 +75,8 @@ header {
 .dropdown {
     display: none;
     position: absolute;
-    background: #fff;
+    background: #1a6a6a;
+    color: #FFF;
     top: 30px;
     list-style: none;
     padding: 10px 0;
@@ -89,51 +94,39 @@ header {
     white-space: nowrap;
 }
 
-/* ==== HAMBURGER BUTTON ==== */
 .hamburger {
     display: none;
     font-size: 28px;
     cursor: pointer;
 }
 
-/* ==== MOBILE MODE ==== */
-/* ===========================
-   MENU MOBILE CORRETO
-   =========================== */
 @media (max-width: 820px) {
-    /* mostra o hamburguer */
     .hamburger {
         display: block;
         cursor: pointer;
         z-index: 9999;
     }
 
-    /* menu escondido inicialmente */
     .nav-menu {
         position: absolute;
-        top: 70px;          /* abaixo do header */
-        left: 0;            /* começa na esquerda */
-        width: 100%;        /* ocupa a tela inteira */
-        background: white;
+        top: 70px; 
+        left: 0;
+        width: 100%;
+        background: #1a6a6a;
         flex-direction: column;
         padding: 20px 25px;
         gap: 20px;
-
-        /* animação */
         opacity: 0;
         pointer-events: none;
         transform: translateY(-20px);
         transition: .25s ease;
     }
 
-    /* QUANDO ABRE */
     .nav-menu.active {
         opacity: 1;
         pointer-events: auto;
         transform: translateY(0);
     }
-
-    /* dropdown no mobile */
     .dropdown {
         position: static !important;
         display: none;
@@ -149,6 +142,9 @@ header {
     /* mostra apenas o mobile */
     .nav-menu {
         display: flex !important;
+    }
+    .navbar .nav-menu li a{
+        color: #FFF;
     }
 }
 /* === TOPO === */

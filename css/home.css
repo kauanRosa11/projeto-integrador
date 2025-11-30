@@ -19,6 +19,7 @@ header {
   box-sizing: border-box; /* garante que padding e border fiquem dentro da largura */
 }
 
+
 .navbar {
   width: 100%;
   box-sizing: border-box;
@@ -44,6 +45,7 @@ header {
     color: #FFF;
     text-decoration: none;
     font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .navbar img {
@@ -63,7 +65,7 @@ header {
 
 .nav-menu a {
     text-decoration: none;
-    color: #1a6a6a;
+    color: #fff;
     font-weight: 400;
     font-size: 1.1rem;
     font-family: "Poppins", sans-serif;
@@ -73,7 +75,8 @@ header {
 .dropdown {
     display: none;
     position: absolute;
-    background: #fff;
+    background: #1a6a6a;
+    color: #FFF;
     top: 30px;
     list-style: none;
     padding: 10px 0;
@@ -91,51 +94,39 @@ header {
     white-space: nowrap;
 }
 
-/* ==== HAMBURGER BUTTON ==== */
 .hamburger {
     display: none;
     font-size: 28px;
     cursor: pointer;
 }
 
-/* ==== MOBILE MODE ==== */
-/* ===========================
-   MENU MOBILE CORRETO
-   =========================== */
 @media (max-width: 820px) {
-    /* mostra o hamburguer */
     .hamburger {
         display: block;
         cursor: pointer;
         z-index: 9999;
     }
 
-    /* menu escondido inicialmente */
     .nav-menu {
         position: absolute;
-        top: 70px;          /* abaixo do header */
-        left: 0;            /* começa na esquerda */
-        width: 100%;        /* ocupa a tela inteira */
-        background: #fff;
+        top: 70px; 
+        left: 0;
+        width: 100%;
+        background: #1a6a6a;
         flex-direction: column;
         padding: 20px 25px;
         gap: 20px;
-
-        /* animação */
         opacity: 0;
         pointer-events: none;
         transform: translateY(-20px);
         transition: .25s ease;
     }
 
-    /* QUANDO ABRE */
     .nav-menu.active {
         opacity: 1;
         pointer-events: auto;
         transform: translateY(0);
     }
-
-    /* dropdown no mobile */
     .dropdown {
         position: static !important;
         display: none;
@@ -152,29 +143,25 @@ header {
     .nav-menu {
         display: flex !important;
     }
+    .navbar .nav-menu li a{
+        color: #FFF;
+    }
 }
 /* === TOPO === */
-
-/* === Parte Um === */
 
 section.parteUm {
     height: max-content;
     width: auto;
     overflow: hidden;
     max-width: 1200px;
-    margin: 0 auto;
-}
-
-section.parteUm ul {
-    text-align: center;
-    align-items: center;
+    margin: 2rem auto;
 }
 
 section.parteUm ul li {
     background-color: #F9E6D0;
     display: flex;
     justify-content: space-around;
-    height: 58vw;
+    height: max-content;
     z-index: 0;
 
 }
@@ -184,18 +171,11 @@ section.parteUm ul li {
     height: min-content;
     margin-top: 5vw;
 
-    img {
-        border-radius: 25px;
-        box-shadow: 0 0 0 #000;
-    }
 }
-
-/*img{
-    margin: auto auto 25vw;
-    height: 50%;
-    border-radius: 25px;
-    border: 3vw solid #237470;
-    }*/
+.img img{
+    border: solid 5px #1a6a6a;
+    border-radius: 1rem;
+}
 
 section.parteUm div {
     text-align: left;
@@ -243,32 +223,28 @@ section.parteDois {
 section.parteDois div {
     text-align: center;
 }
-
-section.parteDois div article {
-    margin: auto;
-    border-radius: 20px;
-    padding: 2vw 2.5vw;
-
-    h3 {
-        font-size: 4rem;
-        font-weight: bold;
-        color: #237470;
-        padding: 2vw 6vw 2vw 4vw;
-        text-shadow: 2px 2px 2px;
-        text-align: center;
-    }
+section.parteDois div h3{
+    color: #1a6a6a;
+    font-size: 2rem;
 }
 
 p,
 h4 {
     color: white;
 }
-
-h4 {
+.parteTres h4{
     border-bottom: 1px solid #fff;
     line-height: 5vw;
     color: #ffffff;
     font-weight: bold;
+    width: 100%;
+}
+.parteDois h4{
+    border-bottom: 1px solid #fff;
+    line-height: 5vw;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
 }
 
 section.parteDois div br {
@@ -292,26 +268,36 @@ section.parteDois div ul.um {
 section.parteDois div ul.dois {
     text-align: center;
     margin: 5vw auto;
-    color: #1a6a6a;
+    background-color: #1a6a6a;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     max-width: 100%;
+    padding: 2rem;
+    border-radius: 20px;
 }
+section.parteDois div ul.dois li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 section.parteDois div ul.dois li a {
     text-decoration: none;
     text-align: center;
     width: 112px;
     font-size: 1rem;
-    padding: 0.4vw 0.6vw;
+    padding: 1vw;
     color: #ffffff;
-    background: linear-gradient(#237470) padding-box,
-        linear-gradient(to right, white, gray) border-box;
-    border: 2px solid transparent;
+    background: linear-gradient(135deg, #368884, #3c8383);
+        border: 1px solid #fff;
     border-radius: 60px;
     cursor: pointer;
+    display: inline-block;
+
 }
+
 
 section.parteDois div ul.dois li h4 {
     font-size: 1.8rem;
@@ -387,46 +373,36 @@ section.parteDois div ul.dois p {
 
 section.parteTres {
     display: flex;
-    background-color: #F9E6D0;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 4rem auto;
+    padding: 0 2rem;
 }
-
 section.parteTres div {
     display: flex;
     align-items: center;
-    padding: 1.5rem;
-    border-radius: 4rem 4rem 0 0;
-    margin: 0 auto;
 }
+
 
 section.parteTres div img {
     max-width: 60%;
     height: auto;
 
 }
-
 section.parteTres div ol {
-    border-radius: 30px;
     background-color: #237470;
-    padding: 2vw 2vw 4vw 2vw;
-    width: auto;
-    height: auto;
-    max-width: 60%;
+    border-radius: 2rem;
+    padding: 2rem;
+    max-width: fit-content;
 }
-
-
-
 section.parteTres div ol li h4 {
-    color: #ffffff;
-    padding: 2.5vw;
-    text-align: center;
-    font-size: 3rem;
-    font-weight: bold;
-    border: none;
-    line-height: 6.5vw;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 1rem 0;
 }
+
 .parteTres div ol li p{
     max-width: 60%;
 }
@@ -449,55 +425,54 @@ section.parteTres div ol li.titulo {
 
 section.parteQuatro {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 4rem auto;
+    padding: 0 2rem;
 }
 
 section.parteQuatro div {
     background-color: #F9E6D0;
-    border-radius: 4rem 4rem 0 0;
-
+    border-radius: 3rem 3rem 0 0;
+    padding: 2rem 1rem 3rem;
 }
 
+/* TÍTULO */
 section.parteQuatro div h4 {
     color: #236C74;
-    font-size: 5rem;
+    font-size: 3.5rem;
+    line-height: 3.8rem;
     font-weight: bold;
     text-align: center;
-    padding-top: 4rem;
+    margin-bottom: 3rem;
 }
 
-section.parteQuatro div h4 {
-    display: block;
-    line-height: 4rem;
-    margin-bottom: 8px;
-}
-
-/* ul */
-
+/* LISTA */
 section.parteQuatro div ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    color: white;
-    text-align: center;
-    margin: 5vw auto;
+    display: grid;            
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
+/* CARDS */
 section.parteQuatro div ul li {
-    padding: 2vw 3vw 2vw 3vw;
-    border-radius: 2rem;
     background-color: #236C74;
-    height: auto;
-    width: calc(50% - 10px);
-    box-sizing: border-box;
+    border-radius: 1.8rem;
+    padding: 1.5rem 2rem;
+    text-align: center;
 }
 
+/* TÍTULO DO CARD */
 section.parteQuatro div ul li h5 {
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2rem;
-    padding: 0.2rem 2rem 1rem 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #FFF;
+}
+
+/* TEXTO DO CARD */
+section.parteQuatro div ul li p {
+    font-size: 1rem;
+    line-height: 1.4rem;
 }
 
 /* FOOTER */
@@ -587,15 +562,14 @@ footer .insta:hover {
 
 /* === Responsividade === */
 @media (max-width: 768px) {
-
-    .parteUm {
-        flex-direction: column;
-        
-        padding: 3rem 1rem;
-        margin: 4vw 0;
+    .parteUm ul li {
+        height: auto;
+        padding: 1.5rem 1rem 2rem 1rem;
     }
+    
     .parteUm ul{
-        height: 150vw;
+        height: max-content;
+        padding-bottom: 5vw;
     }
     .parteUm ul li div.texto {
         text-align: center;
@@ -603,22 +577,24 @@ footer .insta:hover {
 
     .parteUm ul li div h2 {
         font-weight: bold;
-        line-height: 3.6rem;
+        line-height: 4rem;
+        margin-bottom: 1rem;
     }
 
     .parteUm .img {
         display: none;
     }
 
-    .parteUm h2 {
-        font-size: 2.5rem;
-    }
 
     .parteUm p {
         font-size: 1.4rem;
+        padding: 0.5rem 0;
+        line-height: 1.6rem;
     }
-
-    .parteDois div article h3.titulo{
+    .parteUm .texto button{
+        margin-top: 0.7rem;
+    }
+    .parteDois div h3.titulo{
         font-size: 3rem;
     }
     .parteDois div ul.dois li.um h4 {
@@ -662,82 +638,69 @@ footer .insta:hover {
         line-height: 5vw;
         margin: 3vw 2vw 1vw 3vw;
     }
-
-
-    section.parteTres {
-        display: flex;
-        background-color: #F9E6D0;
-        justify-content: space-between;
-        margin: auto 0;
+    section.parteDois div ul.dois li a {
+        margin-bottom: 1rem;
     }
-
-    section.parteTres div {
-        align-items: center;
-        padding: 1.5rem;
-        border-radius: 4rem 4rem 0 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.parteTres div img {
-        display: none;
-    }
-
-    section.parteTres div ol {
-        border-radius: 30px;
-        background-color: #237470;
-        padding-bottom: 2rem;
+        section.parteTres {
+            flex-direction: column;
+            gap: 2rem;
+            margin: 2rem auto;
+        }
+    
+        section.parteTres div img {
+            display: none;
+        }
+    
+        section.parteTres div ol {
+            max-width: 100%;
+        }
+            section.parteQuatro {
+                padding: 1rem 0;
+            }
+                .parteQuatro .primeiro {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1rem;
+                }
+            
+            
+            section.parteQuatro div {
+                padding: 1rem;
+                border-radius: 2rem 2rem 0 0;
+            }
         
-        width: auto;
-        text-align: center;
-
-    }
-
-    section.parteTres div ol li h4 {
+            section.parteQuatro div h4 {
+                font-size: 2.2rem;
+                line-height: 2.5rem;
+                padding-top: 2rem;
+                margin-bottom: 1.5rem;
+                text-align: center;
+            }
         
-        color: #ffffff;
+            section.parteQuatro div ul {
+                margin: 2rem auto;
+                gap: 1rem;
+                padding: 0;
+                justify-content: center;
+            }
         
-        font-size: 1.6rem;
-        font-weight: bold;
-        border: none;
-        line-height: 2.5rem;
-    }
-
-    section.parteTres div ol li {
-        color: white;
-        width: auto;
-        font-size: 1rem;
-        text-align: center;
-    }
-
-    section.parteTres div ol li.p {
-        border-radius: 0 0 1.8rem 1.8rem;
-    }
-
-    section.parteTres div ol li.titulo {
-        border-radius: 1.8rem 1.8rem 0 0;
-    }
-
-
-
-    section.parteQuatro div ul {
-        align-items: center;
-        padding-left: 15vw;
-    }
-
-    section.parteQuatro div ul li {
-        width: 70%;
-        margin-right: 2vw;
-        margin-left: 4vw
-    }
-
-    .parteQuatro div h4 br {
-        display: none;
-    }
-
-    .parteQuatro div h4 {
-        line-height: 4rem;
-    }
+            section.parteQuatro div ul li {
+                width: 90%;
+                padding: 1rem 1.2rem;
+                border-radius: 1.5rem;
+            }
+        
+            section.parteQuatro div ul li h5 {
+                font-size: 1.3rem;
+                padding-bottom: 0.5rem;
+            }
+        
+            section.parteQuatro div ul li p {
+                font-size: 0.95rem;
+                line-height: 1.4rem;
+            }
+        
+        
 
     section.parteUm,
     section.parteDois,
