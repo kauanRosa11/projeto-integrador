@@ -17,6 +17,7 @@ header {
   width: 100%;       /* ocupa 90% da largura da tela, ajustável */
   margin: 0 auto;   /* centraliza horizontalmente */
   box-sizing: border-box; /* garante que padding e border fiquem dentro da largura */
+  
 }
 
 

@@ -156,27 +156,32 @@ section.saudefisica ul {
    display: flex;
    justify-content: space-between;
    background-color: #F9E6D0;
-   height: 48vw;
+   height: auto;
    border-radius: 0 0 6vw 6vw;
 
 }
 
 section.saudefisica div.texto {
-   padding: 0vw 0 0vw 9vw;
+   padding: 0vw 0 4vw 9vw;
 }
 
+section.saudefisica div img {
+   height: max-content;
+
+}
 
 section.saudefisica .img img {
-   transform: translateY(-19px);
-   height: 48.4vw;
-
+   
+   width: 60vw ;
+   height: max-content;
+   padding: 0;
 }
 
 section.saudefisica div h2 {
    font-size: 5rem;
    color: #007777;
    font-weight: bold;
-   line-height: 8vw;
+   line-height: 8.5vw;
    margin-top: 2vw;
 
 }
@@ -184,20 +189,18 @@ section.saudefisica div h2 {
 section.saudefisica div p {
    color: #8C6A5B;
    font-size: 2rem;
-   margin-bottom: 2vw;
+   margin-bottom: 0.7rem;
    padding: 3vw 3vw 0 0;
 }
 
 
-section.saudefisica div img {
-   height: 48vw;
-}
 
 
 section.saudefisica div a {
    text-decoration: none;
    color: #8C6A5B;
    font-size: 1.3vw;
+   padding-bottom: auto;
 }
 
 /* ATIVIDADE FISICA*/
@@ -399,7 +402,11 @@ section.prepos h4 {
    padding: 2vw;
 }
 
-li {
+.postreino li {
+   padding: 0.7vw;
+}
+
+.pretreino li {
    padding: 0.7vw;
 }
 
