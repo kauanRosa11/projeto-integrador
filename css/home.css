@@ -4,10 +4,7 @@ html {
     text-decoration: none;
     overflow-x: hidden;
 }
-::selection {
-    background-color: #007777;
-    color: white;
-}
+
 body {
     background-color: #F9E6D0;
 
@@ -86,12 +83,12 @@ header {
 .dropdown {
   display: none;
   position: absolute;
-  background-color: #ffffff;
-  color: #ad8484;
+  background: #1a6a6a;
+  color: #FFF;
   top: 30px;
   list-style: none;
   padding: 10px 0;
-  border-radius: 1vw;
+  border-radius: 4px;
   box-shadow: 0 2px 10px rgba(0,0,0,0.15);
 }
 
@@ -103,15 +100,8 @@ header {
   display: block;
   padding: 10px 20px;
   white-space: nowrap;
-  color: #1a6a6a;
 }
-.dropdown li a:hover{
-    background-color: #1a6a6a;
-    color: #fff;
-    padding: 1vw;
-    border-radius: 1vw;
-    margin: 0 0.5vw;
-}
+
 .hamburger {
   display: none;
   font-size: 28px;
@@ -152,18 +142,11 @@ header {
     display: none;
     padding-left: 15px;
     box-shadow: none;
-        background: #165858 !important;  
-          color: #1a6a6a;
   }
 
   li:hover .dropdown {
     display: block;
   }
-   .dropdown li a{
-    display: block;
-    color: #1a6a6a;
-  }
-
 
   .nav-menu {
     display: flex !important;
@@ -330,7 +313,7 @@ section.parteDois div ul.dois li a {
     text-align: center;
     width: 112px;
     font-size: 1rem;
-    padding: 0.4vw 2.3vw;
+    padding: 1vw;
     color: #ffffff;
     background: linear-gradient(135deg, #368884, #3c8383);
         border: 1px solid #fff;
@@ -352,12 +335,19 @@ section.parteDois div ul.dois p {
     line-height: 2vw;
 }
 
-.parteDois div ul.um ul.dois ul.tres ul.quatro ul.cinco {
+.parteDois div ul {
+
+    .um,
+    .dois,
+    .tres,
+    .quatro,
+    .cinco {
         text-align: center;
         background-color: #1a6a6a;
         border-radius: 50px;
         line-height: 2.3rem;
     }
+}
 
 .um {
     margin-bottom: 2vw;
@@ -589,23 +579,7 @@ footer .insta:hover {
     color: red
 }
 
-.topo {
-      background: white;
-      color: #237470;
-      border: none;
-      font-size: 20px;
-      padding: 0.5vw;
-      margin-top: 1vw;
-      width: 5vw;
-      border-radius: 0.3vw;
-      transition: 0.5s;
-    }
 
-    .topo:hover {
-      background: #237470;
-      color: white;
-      box-shadow: 0 0 10px white;
-    }
 /* === Responsividade === */
 @media (max-width: 768px) {
     .parteUm ul li {
@@ -644,44 +618,44 @@ footer .insta:hover {
         font-size: 3rem;
     }
     .parteDois div ul.dois li.um h4 {
-        padding: 1.5vw 0 1vw 0;
+        padding: 1.5vw 0 0 0;
         font-size: 1rem;
             }
 
     .parteDois div ul.dois li.um p {
         padding: 0vw 2vw 1vw 2vw;
-        line-height: 1.5rem;
+        line-height: 4vw;
         margin: 3vw 2vw 1vw 3vw;
     }
 
     .parteDois div ul.dois li.tres h4 {
-        padding: 1.5vw 0 1vw 0;
+        padding: 1.5vw 0 0 0;
         font-size: 1rem;
             }
 
     .parteDois div ul.dois li.tres p {
         padding: 0vw 2vw 1vw 2vw;
-        line-height: 1.5rem;
+        line-height: 4vw;
         margin: 3vw 2vw 1vw 3vw;
     }
     .parteDois div ul.dois li.quatro h4 {
-        padding: 1.5vw 0 1vw 0;
+        padding: 1.5vw 0 0 0;
         font-size: 1rem;
             }
 
     .parteDois div ul.dois li.quatro p {
         padding: 0vw 2vw 1vw 2vw;
-        line-height: 1.5rem;
+        line-height: 4vw;
         margin: 3vw 2vw 1vw 3vw;
     }
     .parteDois div ul.dois li.cinco h4 {
-        padding: 1.5vw 0 1vw 0;
+        padding: 1.5vw 0 0 0;
         font-size: 1rem;
             }
 
     .parteDois div ul.dois li.cinco p {
         padding: 0vw 2vw 1vw 2vw;
-        line-height: 1.5rem;
+        line-height: 5vw;
         margin: 3vw 2vw 1vw 3vw;
     }
     section.parteDois div ul.dois li a {
@@ -757,7 +731,8 @@ footer .insta:hover {
         padding: 0 1rem;
     }
 
-    .topo {
+
+   .topo {
         padding: 2vw;
         width: 15vw;
         font-size: 1rem;
