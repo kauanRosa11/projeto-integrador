@@ -4,7 +4,10 @@ html {
     text-decoration: none;
     overflow-x: hidden;
 }
-
+::selection {
+    background-color: #007777;
+    color: white;
+}
 body {
     background-color: #F9E6D0;
 
@@ -389,7 +392,23 @@ footer  {
         width: auto;
         height: auto;
     }
-    
+    .topo {
+      background: white;
+      color: #237470;
+      border: none;
+      font-size: 20px;
+      padding: 0.5vw;
+      margin-top: 1vw;
+      width: 5vw;
+      border-radius: 0.3vw;
+      transition: 0.5s;
+    }
+
+    .topo:hover {
+      background: #237470;
+      color: white;
+      box-shadow: 0 0 10px white;
+    }
     /* === Responsividade === */
     
     @media (max-width: 768px) {

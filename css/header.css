@@ -4,7 +4,10 @@ html {
     text-decoration: none;
     overflow-x: hidden;
 }
-
+::selection {
+    background-color: #007777;
+    color: white;
+}
 body {
     background-color: #F9E6D0;
 

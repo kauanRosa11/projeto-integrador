@@ -347,6 +347,24 @@ footer .insta:hover {
     color: red
 }
 
+.topo {
+      background: white;
+      color: #237470;
+      border: none;
+      font-size: 20px;
+      padding: 0.5vw;
+      margin-top: 1vw;
+      width: 5vw;
+      border-radius: 0.3vw;
+      transition: 0.5s;
+    }
+
+    .topo:hover {
+      background: #237470;
+      color: white;
+      box-shadow: 0 0 10px white;
+    }
+
 @media (max-width: 768px) {
     .banner h2 {
         font-size: 2rem;
@@ -365,3 +383,4 @@ footer .insta:hover {
         width: 150px;
     }
 }
+
