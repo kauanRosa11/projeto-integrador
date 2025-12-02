@@ -101,6 +101,7 @@ header {
     display: block;
     cursor: pointer;
     z-index: 9999;
+    color: #FFF;
   }
 
   .nav-menu {
@@ -172,7 +173,8 @@ section.parteUm ul li {
 .parteUm div.img {
     border-radius: 25px;
     height: min-content;
-    margin-top: 5vw;
+    margin-top: 8rem;
+    margin-left: 4vw;
 
 }
 .img img{
@@ -191,6 +193,9 @@ section.parteUm div h2 {
     line-height: 6vw;
     margin-top: 2vw;
 }
+.parteUm .texto {
+    margin-top: 1rem;
+}
 
 section.parteUm div p {
     color: #8C6A5B;
@@ -206,7 +211,16 @@ section.parteUm div button {
     border-radius: 26px;
     font-size: 0.7rem;
     color: white;
+    cursor: pointer;
 }
+section.parteUm div button:hover{
+    background-color: #fff;
+    color: #237470;
+    transition: 0.3s;
+    border: 2px solid #237470;
+}
+
+
 
 section.parteUm div button a {
     text-decoration: none;
@@ -321,7 +335,7 @@ section.parteDois div ul.dois p {
     .quatro,
     .cinco {
         text-align: center;
-        background-color: #237470;
+        background-color: #1a6a6a;
         border-radius: 50px;
         line-height: 2.3rem;
     }

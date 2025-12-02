@@ -105,6 +105,8 @@ box-sizing: border-box;
       display: block;
       cursor: pointer;
       z-index: 9999;
+      color: #FFF;
+
   }
 
   .nav-menu {
