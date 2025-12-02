@@ -12,8 +12,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
 </head>
-<body>
-    <script>
+<script>
     document.addEventListener('DOMContentLoaded', () => {
         const btnMobile = document.getElementById('hamburger');
         const menu = document.getElementById('nav-menu');
@@ -23,7 +22,9 @@
             btnMobile.classList.toggle("active");
         });
     });
-    </script>
+</script>
+</body>
+
    <header>
     <nav class="navbar">
         <h1>
@@ -33,18 +34,17 @@
             </a>
         </h1>
 
-        <!-- Botão hambúrguer (mobile) -->
         <div class="hamburger" id="hamburger">
             <i class="fa-solid fa-bars"></i>
         </div>
 
-        <!-- Menu -->
+
         <ul class="nav-menu" id="nav-menu">
             <li>
                 <a class="Home" href="index.html">Início</a>
                 <ul class="dropdown">
                     <li><a href="saudeFisica.html">Saúde física</a></li>
-                    <li><a href="alimentacaosaudavel.html">Alimentação saudável</a></li>
+                    <li><a class="atual" href="alimentacaosaudavel.html">Alimentação saudável</a></li>
                     <li><a href="saudemental.html">Saúde mental</a></li>
                     <li><a href="beneficios.html">Natureza</a></li>
                 </ul>
