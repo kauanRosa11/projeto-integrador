@@ -301,14 +301,9 @@ footer  {
     
         .nos {
             font-size: 25px;
-           padding: 1vw;header {
-    padding: 2vw 6vw 2vw 8vw;
-    background-color: #237470;
-    position: relative;
-    z-index: 99999 !important;
-    pointer-events: auto;
-}
-        }
+           padding: 1vw;
+          }
+        
         .social {
       text-align: center;
       display: flex;

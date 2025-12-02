@@ -186,7 +186,7 @@ section.saudefisica ul {
 }
 
 section.saudefisica div.texto {
-   padding: 0vw 0 4vw 9vw;
+   padding: 9vw 0 4vw 9vw;
 }
 
 section.saudefisica div img {
@@ -224,7 +224,6 @@ section.saudefisica div a {
    text-decoration: none;
    color: #8C6A5B;
    font-size: 1.3vw;
-   padding-bottom: auto;
 }
 
 /* ATIVIDADE FISICA*/

@@ -349,19 +349,12 @@ section.parteDois div ul.dois p {
     line-height: 2vw;
 }
 
-.parteDois div ul {
-
-    .um,
-    .dois,
-    .tres,
-    .quatro,
-    .cinco {
+.parteDois div ul.um ul.dois ul.tres ul.quatro ul.cinco {
         text-align: center;
         background-color: #1a6a6a;
         border-radius: 50px;
         line-height: 2.3rem;
     }
-}
 
 .um {
     margin-bottom: 2vw;
