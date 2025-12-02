@@ -13,10 +13,10 @@ font-weight: 200;
 font-style: normal;
 }
 header {
-max-width: 100vw; /* nunca ultrapassa a largura da tela */
-width: 100%;       /* ocupa 90% da largura da tela, ajustável */
-margin: 0 auto;   /* centraliza horizontalmente */
-box-sizing: border-box; /* garante que padding e border fiquem dentro da largura */
+max-width: 100vw; 
+width: 100%;
+margin: 0 auto;   
+box-sizing: border-box; 
 }
 
 
@@ -25,7 +25,7 @@ width: 100%;
 box-sizing: border-box;
 }
 
-/* ==== NAVBAR BASE ==== */
+/* NAVBAR BASE */
 .navbar {
   width: 100%;
   display: flex;
@@ -52,7 +52,7 @@ box-sizing: border-box;
   height: 40px;
 }
 
-/* ==== MENU DESKTOP ==== */
+/* MENU DESKTOP */
 .nav-menu {
   list-style: none;
   display: flex;

@@ -124,7 +124,9 @@ header {
         transform: translateY(-20px);
         transition: .25s ease;
     }
-
+    .atual {
+        font-weight: 900 !important;
+    }
     .nav-menu.active {
         opacity: 1;
         pointer-events: auto;
@@ -141,8 +143,6 @@ header {
         display: block;
     }
 
-
-    /* mostra apenas o mobile */
     .nav-menu {
         display: flex !important;
     }
