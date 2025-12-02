@@ -610,4 +610,11 @@ footer .insta:hover {
    .prepos h4{
       text-shadow: 0.02vw 0.01vw 0.01vw #8C6A5B;
    }
+
+    .topo {
+        padding: 2vw;
+        width: 15vw;
+        font-size: 1rem;
+        border-radius: 2.5vw;
+    }
 } 

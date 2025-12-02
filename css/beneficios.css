@@ -347,7 +347,7 @@ footer  {
       color: white;
       box-shadow: 0 0 10px white;
     }
-    
+
 /* RESPONSIVIDAde */
 @media (max-width: 768px) {
 
@@ -370,5 +370,11 @@ footer  {
     .beneficios h2{
         font-size: 1rem;
         margin-bottom: 2rem;
+    }
+     .topo {
+        padding: 2vw;
+        width: 15vw;
+        font-size: 1rem;
+        border-radius: 2.5vw;
     }
   }
