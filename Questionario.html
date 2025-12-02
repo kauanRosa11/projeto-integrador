@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>saúde mental</title>
+    <title>Saúde Mental</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/Questionario.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -12,94 +12,84 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
 </head>
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const btnMobile = document.getElementById('hamburger');
-        const menu = document.getElementById('nav-menu');
 
-        btnMobile.addEventListener("click", () => {
-            menu.classList.toggle("active");
-            btnMobile.classList.toggle("active");
-        });
-    });
-</script>
-</body>
+<body>
 
-   <header>
-    <nav class="navbar">
-        <h1>
-            <a class="home" href="home.html">
-                <img src="src/images/logo.png" alt="">
-                <strong>CoreSync</strong>
-            </a>
-        </h1>
+    <header>
+        <nav class="navbar">
+            <h1>
+                <a class="home" href="home.html">
+                    <img src="src/images/logo.png" alt="">
+                    <strong>CoreSync</strong>
+                </a>
+            </h1>
 
-        <!-- Botão hambúrguer (mobile) -->
-        <div class="hamburger" id="hamburger">
-            <i class="fa-solid fa-bars"></i>
+            
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+           
+            <ul class="nav-menu" id="nav-menu">
+                <li>
+                    <a class="Home" href="index.html">Início</a>
+                    <ul class="dropdown">
+                        <li><a href="saudeFisica.html">Saúde física</a></li>
+                        <li><a href="alimentacaosaudavel.html">Alimentação saudável</a></li>
+                        <li><a href="saudemental.html">Saúde mental</a></li>
+                        <li><a href="beneficios.html">Natureza</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="Questionario.html">Questionário</a></li>
+                <li><a href="referencias.html">Referências</a></li>
+                <li><a class="atual" href="sobreNos.html">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div>
+                <h1>
+                    Questionário sobre a sua rotina
+                </h1>
+            </div>
+        </section>
+
+        <div class="perguntas">
+            <h2 class="titulo">Precisamos saber!</h2>
+            <div id="quiz"></div>
+            <div id="feedback" class="hidden">
+                <p id="mensagem"></p>
+                <button id="proxima">Próxima pergunta</button>
+            </div>
         </div>
 
-        <!-- Menu -->
-        <ul class="nav-menu" id="nav-menu">
-            <li>
-                <a class="Home" href="index.html">Início</a>
-                <ul class="dropdown">
-                    <li><a href="saudeFisica.html">Saúde física</a></li>
-                    <li><a href="alimentacaosaudavel.html">Alimentação saudável</a></li>
-                    <li><a href="saudemental.html">Saúde mental</a></li>
-                    <li><a href="beneficios.html">Natureza</a></li>
-                </ul>
-            </li>
-
-            <li><a href="Questionario.html">Questionário</a></li>
-            <li><a href="referencias.html">Referências</a></li>
-            <li><a class="atual" href="sobreNos.html">Sobre nós</a></li>
-        </ul>
-    </nav>
-</header>
-    <main>
-  <section class="banner">
-    <div>    
-    <h1>
-            Questionario sobre a sua rotina
-        </h1>
-</div>
-        
-</section>
-<div class="perguntas">
-    <h2 class="titulo">Precisamos saber!</h2>
-    <div id="quiz"></div>
-    <div id="feedback" class="hidden">
-    <p id="mensagem"></p>
-    <button id="proxima">Próxima pergunta</button>
-</div>
-
-</div>
-<div id="resultado-final" class="hidden">
-    <h2>Resultado Final</h2>
-    <p id="resultado"></p>
-    <button onclick="recomecar()" class="recomeca">Recomeçar</button>
-</div>
-<script src="questionario.js"> </script>
-
+        <div id="resultado-final" class="hidden">
+            <h2>Resultado Final</h2>
+            <p id="resultado"></p>
+            <button onclick="recomecar()" class="recomeca">Recomeçar</button>
+        </div>
+        <script src="questionario.js"></script>
     </main>
-    
+
     <footer>
         <div class="social">
-          <p class="nos">Estamos nas plataformas</p>
-          <div class="icons">
-            <a href="https://www.facebook.com/profile.php?id=61581283343654" class="face"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/pjtocoresync/" class="insta"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://x.com/pjtocoresync" class="X"><i class="fa-brands fa-x-twitter"></i></a>
-          </div>
-      
-          <div class="direitos">
-          <p>© 2025 CoreSync — Todos os direitos reservados.</p>
-      <p>Desenvolvido com <i class="fa-solid fa-heart"></i>
-       no IFC</p>
-       </div>
+            <p class="nos">Estamos nas plataformas</p>
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=61581283343654" class="face"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/pjtocoresync/" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://x.com/pjtocoresync" class="X"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+
+            <div class="direitos">
+                <p>© 2025 CoreSync — Todos os direitos reservados.</p>
+                <p>Desenvolvido com <i class="fa-solid fa-heart"></i> no IFC</p>
+            </div>
         </div>
-      </footer>
-</body>
+    </footer>
+
+</body> 
 
 </html>
