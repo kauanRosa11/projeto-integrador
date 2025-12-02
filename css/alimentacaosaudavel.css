@@ -248,41 +248,86 @@ main {
 }
 
 footer {
-    background-color: #007777;
-    color: var(--footer-text);
-    padding: 2rem;
+    display: flex;
+ color: #FFFFFF;
+    gap: 20px;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    background-color: #237470;
+    padding: 1vw;
+
 }
 
-.social .nos {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    color: #1a6a6a;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background: linear-gradient(135deg, #00b7ff, #007777);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00b7ff;
+}
+
+footer .insta:hover {
+    background: radial-gradient(circle at 30% 107%,
+            #fdf497 0%,
+            #fdf497 5%,
+            #fd5949 45%,
+            #d6249f 60%,
+            #285AEB 90%);
+    color: white;
+    box-shadow: 0 0 15px rgba(253, 89, 73, 0.6);
+}
+
+
+.X:hover {
+    background: linear-gradient(135deg, #302f2f, #000);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #000;
+}
+
+.nos {
+    font-size: 25px;
+    padding: 1vw;
+}
+
+.social {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .icons {
     display: flex;
     justify-content: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-
-.icons a {
-    color: var(--footer-text);
-    font-size: 1.5rem;
-    transition: color 0.3s;
-}
-
-.icons a:hover {
-    color: var(--accent-color);
+    gap: 20px;
 }
 
 .direitos {
-    font-size: 0.9rem;
-    opacity: 0.8;
+    padding: 1vw;
 }
 
 .direitos i {
-    color: #FF5722;
+    transition: 0.3s;
+}
+
+.direitos i:hover {
+    color: red
 }
 
 @media (max-width: 768px) {
