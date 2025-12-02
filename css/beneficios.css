@@ -184,7 +184,7 @@ section.beneficios {
     background: #FFFFFF;
     border-radius: 20px;
     padding: 2.5rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     text-align: left;
     border: 5px solid #123a3a;
 }
@@ -199,7 +199,7 @@ section.beneficios h2 {
 section.img {
     display: flex;
     justify-content: center;
-    margin: 10vw 0;
+    margin: 5vw 0;
     border: none;
 }
 
