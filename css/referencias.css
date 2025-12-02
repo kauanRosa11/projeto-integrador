@@ -174,10 +174,11 @@ main section.b {
     border-radius: 40px 40px 0 0;
 }
 
-main section.b h2 {
+main section.b h3 {
     font-size: clamp(2rem, 4vw, 4rem);
-    color: black;
+    color: #236c74;
     margin-top: 5vw;
+    font-weight: 400;
 }
 
 main section.b div {
@@ -190,7 +191,7 @@ main section.b div {
 main section.b a {
     text-decoration: none;
     font-size: 1.4rem;
-    color: #236c74;
+    color: #007777;
 }
 
 .refe p{
@@ -215,13 +216,12 @@ footer  {
     }
     
     footer a {
-         display: flex;
+        display: flex;
         align-items: center;
         justify-content: center;
         width: 45px;
         height: 45px;
         background-color: white;
-      
         border-radius: 50%;
         font-size: 1.3rem;
         transition: all 0.3s ease;

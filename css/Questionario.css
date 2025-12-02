@@ -383,6 +383,16 @@ footer  {
             max-width: 100%;
         }
         .perguntas #quiz{
-            padding-bottom: 2vw;
+            padding-bottom: 0vw;
         }
+          .opcao {
+    background: #f2f2f2;
+    padding: 1vw;
+    margin: 2.5vw 0;
+    font-size: 3.7vw;
+    padding: 2vw 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
     }

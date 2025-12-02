@@ -4,7 +4,10 @@ html {
   text-decoration: none;
   overflow-x: hidden;
 }
-
+select {
+  background-color: white;
+  color: #007777;
+}
 body {
   background-color: #F9E6D0;
 

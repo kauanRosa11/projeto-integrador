@@ -4,7 +4,9 @@ html {
     text-decoration: none;
     overflow-x: hidden;
 }
-
+strong {
+    font-weight: bold;
+}
 body {
     background-color: #F9E6D0;
 
