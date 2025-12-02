@@ -184,6 +184,7 @@ main {
     text-align: center;
     border-radius: 0 0 10px 10px;
     margin-bottom: 2rem;
+    margin-top: 6vw;
 }
 
 .banner h2 {
@@ -223,6 +224,7 @@ main {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
+    color: white;
 }
 
 .sugestoes {
@@ -245,6 +247,8 @@ main {
     box-shadow: 0 2px 5px var(--shadow);
     margin-bottom: 2rem;
     gap: 2rem;
+    color: white;
+    font-weight: 400;
 }
 
 .container:nth-child(even) {
@@ -366,6 +370,7 @@ footer .insta:hover {
     }
 
 @media (max-width: 768px) {
+
     .banner h2 {
         font-size: 2rem;
     }
@@ -388,5 +393,6 @@ footer .insta:hover {
         font-size: 1rem;
         border-radius: 2.5vw;
     }
+    
 }
 
