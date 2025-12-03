@@ -227,6 +227,28 @@ section.natureza p {
 }
 
 /* FOOTER */
+a.topo {
+color: white;
+    width: 5vw;
+    padding: 0.8vw;
+    border-radius: 15px;
+    font-size: 17px;
+    position: fixed;
+  bottom: 2vw;
+    right: 2vw;
+    background: #236C74 ;
+    box-shadow: 0 0 10px black;
+    
+}
+
+a.topo:hover {
+transition: 0.2s;
+background: #236C74;
+box-shadow: 0 0 10px black;
+transform: scale(1.1);
+}
+
+
 footer  {
     display: flex;
        
@@ -318,6 +340,18 @@ footer  {
 /* RESPONSIVIDAde */
 @media (max-width: 768px) {
 
+ a.topo {
+        position: relative;
+        padding: 1vw;
+        font-size: 15px;
+        width: 15vw;
+ 
+        left: 0.1vw;
+        box-shadow: none;
+        border: 1px solid #FFFFFF;
+        background: #236C74;
+    }
+
     header nav {
         display: none;
     }
@@ -340,10 +374,5 @@ footer  {
     }
 
 
-   .topo {
-        padding: 2vw;
-        width: 15vw;
-        font-size: 1rem;
-        border-radius: 2.5vw;
-    }
+ 
   }

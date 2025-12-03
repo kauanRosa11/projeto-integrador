@@ -99,6 +99,27 @@ header {
     font-size: 28px;
     cursor: pointer;
 }
+a.topo {
+color: white;
+    width: 5vw;
+    padding: 0.8vw;
+    border-radius: 15px;
+    font-size: 17px;
+    position: fixed;
+  bottom: 2vw;
+    right: 2vw;
+    background: #236C74 ;
+    box-shadow: 0 0 10px black;
+    
+}
+
+a.topo:hover {
+transition: 0.2s;
+background: #236C74;
+box-shadow: 0 0 10px black;
+transform: scale(1.1);
+}
+
 
 @media (max-width: 820px) {
     .hamburger {
@@ -107,6 +128,18 @@ header {
         z-index: 9999;
         color: #FFF;
 
+    }
+
+     a.topo {
+        position: relative;
+        padding: 1vw;
+        font-size: 15px;
+        width: 15vw;
+ 
+        left: 0.1vw;
+        box-shadow: none;
+        border: 1px solid #FFFFFF;
+        background: #236C74;
     }
 
     .nav-menu {

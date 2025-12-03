@@ -94,6 +94,8 @@ header {
 
 .nav-menu li:hover .dropdown {
   display: block;
+  border-radius: 20px;
+  background: #007777;
 }
 
 .dropdown li a {
@@ -312,8 +314,8 @@ section.parteDois div ul.dois li a {
     text-decoration: none;
     text-align: center;
     width: 112px;
-    font-size: 1rem;
-    padding: 1vw;
+    font-size: 0.8rem;
+    padding: 2px;
     color: #ffffff;
     background: linear-gradient(135deg, #368884, #3c8383);
         border: 1px solid #fff;
@@ -348,7 +350,13 @@ section.parteDois div ul.dois p {
         line-height: 2.3rem;
     }
 }
+.parteDois a {
+    transition: 0.3s;
+}
+.parteDois a:hover {
+    transform: scale(1.1);
 
+}
 .um {
     margin-bottom: 2vw;
     padding-bottom: 1vw;
@@ -356,10 +364,6 @@ section.parteDois div ul.dois p {
 
 }
 
-.um:hover {
-    transform: scale(1.03);
-
-}
 
 .tres {
     margin-bottom: 2vw;
@@ -367,10 +371,7 @@ section.parteDois div ul.dois p {
     transition: 0.4s;
 }
 
-.tres:hover {
-    transform: scale(1.03);
 
-}
 
 .quatro {
     margin-bottom: 2vw;
@@ -378,10 +379,7 @@ section.parteDois div ul.dois p {
     transition: 0.4s;
 }
 
-.quatro:hover {
-    transform: scale(1.03);
 
-}
 
 .cinco {
     margin-bottom: 2vw;
@@ -389,9 +387,7 @@ section.parteDois div ul.dois p {
     transition: 0.4s;
 }
 
-.cinco:hover {
-    transform: scale(1.03);
-}
+
 
 
 /*   PARTE TRES    */
@@ -508,6 +504,27 @@ footer {
 
 }
 
+a.topo {
+color: white;
+    width: 5vw;
+    padding: 0.8vw;
+    border-radius: 15px;
+    font-size: 17px;
+    position: fixed;
+  bottom: 2vw;
+    right: 2vw;
+    background: #236C74 ;
+    box-shadow: 0 0 10px black;
+    
+}
+
+a.topo:hover {
+transition: 0.2s;
+background: #236C74;
+box-shadow: 0 0 10px black;
+transform: scale(1.1);
+}
+
 footer a {
     display: flex;
     align-items: center;
@@ -582,6 +599,18 @@ footer .insta:hover {
 
 /* === Responsividade === */
 @media (max-width: 768px) {
+
+    a.topo {
+        position: relative;
+        padding: 1vw;
+        font-size: 15px;
+        width: 15vw;
+ 
+        left: 0.1vw;
+        box-shadow: none;
+        border: 1px solid #FFFFFF;
+        background: #236C74;
+    }
     .parteUm ul li {
         height: auto;
         padding: 1.5rem 1rem 2rem 1rem;
@@ -733,10 +762,8 @@ footer .insta:hover {
 
 
    .topo {
-        padding: 2vw;
-        width: 15vw;
-        font-size: 1rem;
-        border-radius: 2.5vw;
+        padding: 1vw;
+        
     }
 
 
