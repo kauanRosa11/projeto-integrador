@@ -6,7 +6,7 @@ const perguntas = [
       feedbacks: [
         "Excelente! Isso facilita muito na práticas de atividades físicas",
         "Poxa! Vamos te recomendar alguns vídeos pra ajudar com essas condições",
-        "Putsss! Aqui estão algumas sugestões de alongamento pra corrigir esses problemas: link do videos rs",
+        "Putsss! Aqui estão algumas sugestões de alongamento pra corrigir esses problemas.",
         "Cuidado! Recomendamos você a procurar um médicos, pois esses problemas podem ser muito graves."
       ]
     },
@@ -161,9 +161,9 @@ const perguntas = [
     resultadoFinal.classList.remove("hidden");
   
     let texto = "";
-    if (pontuacao >= 8) {
+    if (pontuacao >= 25) {
       texto = "🎉 Parabéns! Sua rotina está muito saudável!";
-    } else if (pontuacao >= 5 && pontuacao < 8) {
+    } else if (pontuacao >= 19 && pontuacao < 25) {
       texto = "🙂 Você está indo bem, mas dá pra melhorar alguns hábitos!";
     } else {
       texto = "⚠️ Atenção: sua rotina pode estar afetando sua saúde. Que tal cuidar um pouco mais?";
