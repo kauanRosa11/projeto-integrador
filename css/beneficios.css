@@ -419,6 +419,7 @@ footer  {
         margin: 0 auto;    
         line-height: 3rem; 
         text-align: left;   
+        padding: 4vw;
     }
   
     section.beneficios {
