@@ -4,10 +4,10 @@ html {
    text-decoration: none;
    overflow-x: hidden;
  }
- select {
-   background-color: white;
-   color: #007777;
- }
+::selection{
+    background-color: #007777;
+    color: white;
+}
  body {
    background-color: #F9E6D0;
  
@@ -216,43 +216,48 @@ html {
 
 /*SAUDE FISICA*/
 
+
+.saudefisica {
+   padding: 0 9vw;
+}
 section.saudefisica ul {
    display: flex;
    justify-content: space-between;
    background-color: #F9E6D0;
    height: auto;
    border-radius: 0 0 6vw 6vw;
-
+   
 }
 
 section.saudefisica div.texto {
    padding: 0vw 0 4vw 9vw;
 }
 
-section.saudefisica div img {
-   height: max-content;
-
+.saudefisica div.img {
+   margin: 5vw 6vw 0 4vw;
+   
 }
 
 section.saudefisica .img img {
-   
-   width: 60vw ;
-   height: max-content;
+   border: solid 5px #1a6a6a;
+   border-radius: 1rem;
    padding: 0;
+   height: 25vw;
+   width: auto;
 }
 
 section.saudefisica div h2 {
-   font-size: 5rem;
+   font-size: 4.5rem;
    color: #007777;
    font-weight: bold;
-   line-height: 8.5vw;
+   line-height: 7.5vw;
    margin-top: 2vw;
 
 }
 
 section.saudefisica div p {
    color: #8C6A5B;
-   font-size: 2rem;
+   font-size: 1.5rem;
    margin-bottom: 0.7rem;
    padding: 3vw 3vw 0 0;
 }
@@ -288,6 +293,7 @@ strong {
 .info p {
    margin-bottom: 3vw;
    font-size: 2vw;
+   padding-left: 12vw;
 }
 
 

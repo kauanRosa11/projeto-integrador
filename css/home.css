@@ -4,7 +4,10 @@ html {
     text-decoration: none;
     overflow-x: hidden;
 }
-
+::selection{
+    background-color: #007777;
+    color: white;
+}
 body {
     background-color: #F9E6D0;
 
@@ -200,13 +203,13 @@ section.parteUm {
     margin: 2rem auto;
 }
 
-section.parteUm ul li {
+    section.parteUm ul li {
     background-color: #F9E6D0;
     display: flex;
     justify-content: space-around;
     height: max-content;
     z-index: 0;
-
+    margin-bottom: 2vw;
 }
 
 .parteUm div.img {
@@ -245,6 +248,7 @@ section.parteUm div p {
 section.parteUm div a.btn {
     padding: 0.7vw 3vw 0.7vw 3vw;
     margin-top: 1vw;
+    margin-bottom: 1vw;
     background: #237470;
     border: none;
     border-radius: 26px;
