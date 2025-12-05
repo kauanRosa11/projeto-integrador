@@ -6,7 +6,7 @@ const perguntas = [
       feedbacks: [
         "Excelente! Isso facilita muito na práticas de atividades físicas",
         "Poxa! Vamos te recomendar alguns vídeos pra ajudar com essas condições",
-        "Putsss! Aqui estão algumas sugestões de alongamento pra corrigir esses problemas.",
+        "Eita! Aqui estão algumas sugestões de alongamento pra corrigir esses problemas.",
         "Cuidado! Recomendamos você a procurar um médicos, pois esses problemas podem ser muito graves."
       ]
     },
@@ -16,10 +16,10 @@ const perguntas = [
       valores: [4, 3, 2, 1, 0],
       feedbacks: [
         "Sem comentários!! Só se cuida pra não se lesionar e desejamos um boa sorte na sua carreira!",
-        "EXCELENTE! Mas aqui vão alguns cuidados a mais pra evitar lesões",
+        "EXCELENTE! Mas aqui vão alguns cuidados a mais para evitar lesões",
         "Legal, tente aumentar a frequência!",
         "Importante se movimentar um pouco mais 🚶‍♂️",
-        "Aí não, campeão! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos."
+        "Aí não! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos."
       ]
     },
     {
