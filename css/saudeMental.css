@@ -419,6 +419,17 @@ footer .insta:hover {
         font-size: 2rem;
     }
 
+    a.topo {
+        position: relative;
+        padding: 0.5vw 4vw;
+        font-size: 15px;
+        width: 15vw;
+        margin-top: 4vw;
+        left: 0.1vw;
+        box-shadow: none;
+        background: linear-gradient(135deg, #368884, #3c8383);
+        border: 1px solid #fff;
+    }
     .banner-saude .banner-texto {
         text-align: center;
         margin: 0 auto;

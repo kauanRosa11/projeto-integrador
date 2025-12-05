@@ -145,18 +145,18 @@ html {
   
     }
   
-    
+  
     a.topo {
-          position: relative;
-          padding: 1vw;
-          font-size: 15px;
-          width: 15vw;
-   
-          left: 0.1vw;
-          box-shadow: none;
-          border: 1px solid #FFFFFF;
-          background: #236C74;
-      }
+        position: relative;
+        padding: 0.5vw 4vw;
+        font-size: 15px;
+        width: 15vw;
+        margin-top: 4vw;
+        left: 0.1vw;
+        box-shadow: none;
+        background: linear-gradient(135deg, #368884, #3c8383);
+        border: 1px solid #fff;
+    }
     .nav-menu {
         position: absolute;
         top: 70px; 
@@ -263,6 +263,7 @@ main {
     text-align: center;
     font-size: 1.1rem;
     font-weight: 500;
+    color: #FFF;
 }
 
 .sugestoes {
@@ -296,6 +297,7 @@ main {
 .container ul li {
     font-size: 1.1rem;
     line-height: 1.8;
+    color: #FFF;
 }
 
 .container img {
@@ -416,6 +418,17 @@ transform: scale(1.1);
         font-size: 2rem;
     }
 
+    a.topo {
+        position: relative;
+        padding: 0.5vw 4vw;
+        font-size: 15px;
+        width: 15vw;
+        margin-top: 4vw;
+        left: 0.1vw;
+        box-shadow: none;
+        background: linear-gradient(135deg, #368884, #3c8383);
+        border: 1px solid #fff;
+    }
     .container {
         flex-direction: column;
         text-align: center;
@@ -429,16 +442,5 @@ transform: scale(1.1);
         width: 150px;
     }
 
- a.topo {
-        position: relative;
-        padding: 1vw;
-        font-size: 15px;
-        width: 15vw;
- 
-        left: 0.1vw;
-        box-shadow: none;
-        border: 1px solid #FFFFFF;
-        background: #236C74;
-    }
    
 }

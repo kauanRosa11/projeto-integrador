@@ -234,16 +234,17 @@ transform: scale(1.1);
 
 @media (max-width: 768px) {
 
-     a.topo {
+   
+    a.topo {
         position: relative;
-        padding: 1vw;
+        padding: 0.5vw 4vw;
         font-size: 15px;
         width: 15vw;
- 
+        margin-top: 4vw;
         left: 0.1vw;
         box-shadow: none;
-        border: 1px solid #FFFFFF;
-        background: #236C74;
+        background: linear-gradient(135deg, #368884, #3c8383);
+        border: 1px solid #fff;
     }}
 main h2.ref {
     font-size: clamp(2.5rem, 6vw, 6rem);

@@ -145,18 +145,18 @@ html {
  
    }
  
-   
-   a.topo {
-         position: relative;
-         padding: 1vw;
-         font-size: 15px;
-         width: 15vw;
   
-         left: 0.1vw;
-         box-shadow: none;
-         border: 1px solid #FFFFFF;
-         background: #236C74;
-     }
+    a.topo {
+        position: relative;
+        padding: 0.5vw 4vw;
+        font-size: 15px;
+        width: 15vw;
+        margin-top: 4vw;
+        left: 0.1vw;
+        box-shadow: none;
+        background: linear-gradient(135deg, #368884, #3c8383);
+        border: 1px solid #fff;
+    }
    .nav-menu {
        position: absolute;
        top: 70px; 
@@ -587,7 +587,7 @@ footer .insta:hover {
 
 @media (max-width: 768px) {
    .saudefisica {
-      height: 90vw;
+      height: max-content;
       text-align: center;
    }
    .saudefisica ul li .texto{
@@ -596,8 +596,8 @@ footer .insta:hover {
    }
    .saudefisica ul li div h2 {
       font-size: calc(5rem * 0.9);
-      line-height: 17vw;
-      padding: 4vw;
+      line-height: 4.5rem;
+      padding: 1vw;
       
    }
    .saudefisica ul li div p {

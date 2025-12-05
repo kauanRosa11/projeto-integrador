@@ -242,7 +242,7 @@ section.parteUm div p {
     font-size: 1.5rem;
 }
 
-section.parteUm div button {
+section.parteUm div a.btn {
     padding: 0.7vw 3vw 0.7vw 3vw;
     margin-top: 1vw;
     background: #237470;
@@ -251,6 +251,7 @@ section.parteUm div button {
     font-size: 0.7rem;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 section.parteUm div button:hover{
     background-color: #fff;

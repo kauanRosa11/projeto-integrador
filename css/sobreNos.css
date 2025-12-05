@@ -128,13 +128,6 @@ color: white;
     
 }
 
-a.topo:hover {
-transition: 0.2s;
-background: #236C74;
-box-shadow: 0 0 10px black;
-transform: scale(1.1);
-}
-
 
 @media (max-width: 820px) {
   .hamburger {
@@ -146,17 +139,6 @@ transform: scale(1.1);
   }
 
   
-  a.topo {
-        position: relative;
-        padding: 1vw;
-        font-size: 15px;
-        width: 15vw;
- 
-        left: 0.1vw;
-        box-shadow: none;
-        border: 1px solid #FFFFFF;
-        background: #236C74;
-    }
   .nav-menu {
       position: absolute;
       top: 70px; 
@@ -404,6 +386,17 @@ footer  {
         line-height: 3vw;
         }
 
+    a.topo {
+        position: relative;
+        padding: 0.5vw 4vw;
+        font-size: 15px;
+        width: 15vw;
+        margin-top: 4vw;
+        left: 0.1vw;
+        box-shadow: none;
+        background: linear-gradient(135deg, #368884, #3c8383);
+        border: 1px solid #fff;
+    }
         .sobrenos div p{
         line-height: 1.5rem;
         padding: 0;
