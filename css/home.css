@@ -643,6 +643,7 @@ footer .insta:hover {
         background: linear-gradient(135deg, #368884, #3c8383);
         border: 1px solid #fff;
     }
+    
     .parteUm ul li {
         height: auto;
         padding: 1.5rem 1rem 2rem 1rem;
@@ -672,8 +673,12 @@ footer .insta:hover {
         padding: 0.5rem 0;
         line-height: 1.6rem;
     }
-    .parteUm .texto button{
-        margin-top: 0.7rem;
+    
+    .parteUm .texto a:hover{
+        background-color: #FFF;
+        border: 2px solid #1a6a6a;
+        color: #1a6a6a;
+        font-weight: 500;
     }
     .parteDois div h3.titulo{
         font-size: 3rem;

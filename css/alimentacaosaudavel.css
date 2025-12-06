@@ -218,12 +218,13 @@ main {
 }
 
 .banner {
-    background: #007777;
-    color: #fff;
+    background: #FFF;
+    color: #1a6a6a;
     padding: 4rem 2rem;
     text-align: center;
     border-radius: 0 0 10px 10px;
     margin-bottom: 2rem;
+    box-shadow: 0 0 10px #000;
 }
 
 .banner h2 {

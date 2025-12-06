@@ -1,26 +1,21 @@
 const perguntas = [
-    {
-      texto: "Você tem alguma restrição para alguma atividade física?",
-      opcoes: ["Nenhuma", "Lesão ou dor nas articulações", "Problemas na coluna ou postura", "Problema cárdiaco ou respiratório"],
-      valores: [3, 2, 1, 0],
-      feedbacks: [
-        "Excelente! Isso facilita muito na práticas de atividades físicas",
-        "Poxa! Vamos te recomendar alguns vídeos pra ajudar com essas condições",
-        "Eita! Aqui estão algumas sugestões de alongamento pra corrigir esses problemas.",
-        "Cuidado! Recomendamos você a procurar um médicos, pois esses problemas podem ser muito graves."
-      ]
-    },
-    {
-      texto: "Qual seu nível de atividade física?",
-      opcoes: ["Atleta / alta performance", "Ativo(a) — treino 4–5x por semana","Moderadamente ativo(a) — pratico exercícios leves 2–3x por semana", "Levemente ativo(a) — caminho ou me movimento durante o dia", "Sedentário(a) — quase não pratico atividades físicas"],
-      valores: [4, 3, 2, 1, 0],
-      feedbacks: [
-        "Sem comentários!! Só se cuida pra não se lesionar e desejamos um boa sorte na sua carreira!",
-        "EXCELENTE! Mas aqui vão alguns cuidados a mais para evitar lesões",
-        "Legal, tente aumentar a frequência!",
-        "Importante se movimentar um pouco mais 🚶‍♂️",
-        "Aí não! Mas tudo bem, vamos começar a ajeitar essa rotina aos poucos."
-      ]
+  {
+    texto: "Você tem alguma restrição para alguma atividade física?",
+    opcoes: ["Nenhuma", "Lesão ou dor nas articulações", "Problemas na coluna ou postura", "Problema cardíaco ou respiratório"],
+    valores: [3, 2, 1, 0],
+    feedbacks: [
+      "Excelente! Isso facilita muito nas práticas de atividades físicas",
+      "Poxa! Vamos te recomendar alguns vídeos pra ajudar com essas condições",
+      "Eita! Aqui estão algumas sugestões de alongamento pra corrigir esses problemas.",
+      "Cuidado! Recomendamos você procurar um médico."
+    ],
+
+    videos: [
+      null,
+      "https://www.youtube.com/embed/sOuKeVuej9E",
+      "https://www.youtube.com/embed/ujCdhVYJXHM", 
+      "https://www.youtube.com/embed/yourVideoID3" 
+    ]
     },
     {
       texto: "Você tem preferência por alguma atividade física?",
@@ -37,7 +32,14 @@ const perguntas = [
         "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
         "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
         "Poxa! Experimenta fazer um pouco de cada, até que você encontre alguma que você identifique."
-      ]
+      ],
+      
+    videos: [
+      null,
+      "https://www.youtube.com/embed/pglsLBYp7r0",
+      "https://www.youtube.com/embed/yourVideoID2", 
+      "https://www.youtube.com/embed/yourVideoID3" 
+    ]
     },
     {
         texto: "Como anda a qualidade do sono?",
@@ -142,8 +144,19 @@ const perguntas = [
   
     quiz.classList.add("hidden");
     feedback.classList.remove("hidden");
-    mensagem.textContent = p.feedbacks[i];
-  }
+    mensagem.innerHTML = `
+    <p>${p.feedbacks[i]}</p>
+    ${p.videos && p.videos[i] ? `
+      <iframe 
+        width="100%" 
+        height="200" 
+        style="border-radius: 10px; margin-top: 15px;"
+        src="${p.videos[i]}" 
+        frameborder="0" 
+        allowfullscreen>
+      </iframe>
+    ` : ""}
+  `;  }
   
   btnProxima.addEventListener("click", () => {
     feedback.classList.add("hidden"); 

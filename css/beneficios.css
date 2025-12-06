@@ -223,7 +223,7 @@ section.beneficios {
     padding: 2.5rem;
     margin-top: 2rem;
     text-align: left;
-    border: 5px solid #123a3a;
+    border: 5px solid #1a6a6a;
 }
 
 section.beneficios h2 {
@@ -399,18 +399,17 @@ footer  {
     }
 /* RESPONSIVIDAde */
 @media (max-width: 768px) {
-
- a.topo {
-        position: relative;
-        padding: 1vw;
-        font-size: 15px;
-        width: 15vw;
- 
-        left: 0.1vw;
-        box-shadow: none;
-        border: 1px solid #FFFFFF;
-        background: #236C74;
-    }
+  a.topo {
+    position: relative;
+    padding: 0.5vw 4vw;
+    font-size: 15px;
+    width: 15vw;
+    margin-top: 4vw;
+    left: 0.1vw;
+    box-shadow: none;
+    background: linear-gradient(135deg, #368884, #3c8383);
+    border: 1px solid #fff;
+}
 
     header nav {
         display: none;
