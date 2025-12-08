@@ -24,6 +24,19 @@ position: fixed;
 }
 
 
+/**** setinhaaaaaaa ****/
+.nav-menu > li > a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.flechinha {
+    font-size: 18px;
+    transition: transform 0.3s ease;
+}
+.nav-menu > li:hover .flechinha {
+    transform: rotate(-180deg);
+}
 .navbar {
 width: 100%;
 box-sizing: border-box;
