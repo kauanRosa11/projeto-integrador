@@ -13,8 +13,8 @@ const perguntas = [
     videos: [
       null,
       "https://www.youtube.com/embed/sOuKeVuej9E",
-      "https://www.youtube.com/embed/ujCdhVYJXHM", 
-      "https://www.youtube.com/embed/yourVideoID3" 
+      "https://www.youtube.com/embed/z_-tqr0Nfgo", 
+      null
     ]
     },
     {
@@ -32,14 +32,7 @@ const perguntas = [
         "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
         "Legall! Fazer o que nos sentimos dispostos a fazer é a melhor coisa!",
         "Poxa! Experimenta fazer um pouco de cada, até que você encontre alguma que você identifique."
-      ],
-      
-    videos: [
-      null,
-      "https://www.youtube.com/embed/pglsLBYp7r0",
-      "https://www.youtube.com/embed/yourVideoID2", 
-      "https://www.youtube.com/embed/yourVideoID3" 
-    ]
+      ]
     },
     {
         texto: "Como anda a qualidade do sono?",
@@ -51,7 +44,14 @@ const perguntas = [
           "Seus despertares estão prejudicando a qualidade do descanso.",
           "Você dorme, mas não recupera bem as energias durante a noite.",
           "Seu sono está comprometido e merece atenção ou acompanhamento especializado."
-        ]
+        ],
+
+    videos: [
+      null,
+      null,
+      "https://www.youtube.com/embed/LxQToylvY9I", 
+      "https://www.youtube.com/embed/jpSZJDl8p3A" 
+    ]
       },
       {
         texto: "Quantas horas você dorme?",
@@ -62,9 +62,16 @@ const perguntas = [
           "Você está quase lá, um tempinho extra de sono pode fazer maravilhas no seu dia!",
           "Uau, sono em dia e caprichado, talvez seu corpo esteja pedindo um cuidado extra!",
           "Parece que suas noites estão curtinhas, seu corpo pode gostar de um pouquinho mais de descanso!"
-        ]
-      },
-      {
+        ],
+
+    videos: [
+      null,
+      null,
+      null,
+      "https://www.youtube.com/embed/maRBEvsp4nM" 
+    ]
+    },
+       {
         texto: "Qual é o seu principal objetivo neste momento?",
         opcoes: ["Melhorar a saúde física", "Reduzir o estresse e a ansiedade", "Melhorar minha alimentação", "Ter mais energia e disposição", "Emagrecer ou ganhar massa", "Melhorar o equilíbrio entre corpo e mente"],
         valores: [5, 4, 3, 2, 1, 0],
@@ -76,7 +83,7 @@ const perguntas = [
           "Muito bom, seu corpo agradece cada esforço rumo à sua melhor versão!",
           "Perfeito, buscar harmonia interna é um presente poderoso para sua vida!",
         ]
-      },
+    },
       {
         texto: "Como você descreveria sua rotina diária?",
         opcoes: ["Muito corrida, com pouco tempo para mim", "Equilibrada, consigo manter pausas e descanso", "Irregular, varia bastante de um dia para outro", "Tranquila, consigo controlar bem meus horários"],
@@ -87,7 +94,7 @@ const perguntas = [
           "Sua rotina é imprevisível, mas pequenos ajustes podem trazer mais estabilidade!",
           "Maravilha, ter esse controle deixa o dia muito mais leve e fluido!"
         ]
-      },
+    },
       {
         texto: "Como você avalia seu nível de estresse?",
         opcoes: ["Baixo — me sinto tranquilo(a) na maior parte do tempo", "Moderado — tenho momentos de tensão, mas consigo lidar", "Alto — me sinto frequentemente sobrecarregado(a)", "Muito alto — tenho dificuldade em relaxar ou dormir bem"],
@@ -97,8 +104,15 @@ const perguntas = [
           "Você lida bem com as tensões do dia, e pequenos respiros podem ajudar ainda mais!",
           "Você está carregando bastante coisa, merece cuidado e pausas de verdade!",
           "Seu corpo está pedindo descanso, acolher isso é um passo importante para se sentir melhor!"
-        ]
-      },
+        ],
+
+    videos: [
+      null,
+      null,
+      "https://www.youtube.com/embed/uzoYtmHck00", 
+      "https://www.youtube.com/shorts/KvHLjpgQ-Ok" 
+    ]
+    },
       {
         texto: "O que mais ajuda você a relaxar ou recarregar as energias?",
         opcoes: ["Atividades físicas", "Meditação ou respiração", "Passar tempo com amigos ou família", "Momentos sozinho(a)", "Hobbies (leitura, música, arte, etc.)", "Terapia ou acompanhamento psicológico"],
@@ -111,8 +125,8 @@ const perguntas = [
           "Incrível, seus hobbies nutrem sua criatividade e sua alma!",
           "Muito bom, buscar apoio é um gesto forte e cheio de cuidado com você!"
         ]
-      },
-  ];
+    },
+   ];
   
   let indice = 0;
   let pontuacao = 0;
