@@ -245,74 +245,134 @@ box-shadow: 0 0 10px black;
 transform: scale(1.1);
 }
 
-@media (max-width: 768px) {
 
-   
-    a.topo {
-        position: relative;
-        padding: 0.5vw 4vw;
-        font-size: 15px;
-        width: 15vw;
-        margin-top: 4vw;
-        left: 0.1vw;
-        box-shadow: none;
-        background: linear-gradient(135deg, #368884, #3c8383);
-        border: 1px solid #fff;
-    }}
-main h2.ref {
-    font-size: clamp(2.5rem, 6vw, 6rem);
-    font-weight: bold;
+/* main */
+
+main h1 {
+    font-size: 4rem;
     text-align: center;
-    color: #236c74;
-    margin-top: 8vw;
-    margin-bottom: 2vw;
+    background-color: #007777;
+    border-radius: 2vw;
+    padding: 4vw 3vw;
+    color: white;
 }
 
-
-main .j p {
-    text-align: center;
-    font-size: clamp(1rem, 1.5vw, 2rem);
-    color: #236c74;
-    opacity: 0.7;
-    margin-bottom: 6vw;
+.banner {
+    background-color: #F9E6D0;
+    border-radius: 5vw;
+    margin-bottom: 5vw;
 }
 
+.banner div {
+    margin: 5vw 5vw 5vw 8vw;
+}
 
-main section.b {
+body {
     background: #F9E6D0;
-    padding: 5vw 8vw;
-    border-radius: 40px 40px 0 0;
-    margin-left: 14.3vw;
-    margin-right: 14.3vw;
+
 }
 
-main section.b h3 {
-    font-size: clamp(2rem, 4vw, 4rem);
-    color: #236c74;
-    margin-top: 5vw;
-    font-weight: 400;
+.main {
+    padding: 2vw 6vw 2vw 8vw;
 }
+    
 
-main section.b div {
-    background: white;
-    padding: 2vw;
+.perguntas {
+    background-color: #007777;
+    width: 90%;
+    max-width: 600px;
+    margin: 10vw auto;
+    padding: 30px;
     border-radius: 25px;
-    margin: 2vw 0;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 40vw;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-align: left ;  
 }
-
-main section.b a {
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: #007777;
-}
-
-.refe p{
-    text-align: center;
+#proxima {
+    margin-top: 2vw;
     padding: 1vw;
-    color: #236c74;
-    opacity: 0.8;
+}
+.recomeca{
+    width: auto;
+    padding: 8px 18px;
+    border-radius: 15px;
+    border: 2px solid #2e8b57;
+    background-color: transparent;
+    color: #2e8b57;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: 0.3s, color 0.3s;
+}
+#proximo {
+    background: #14B351;
+    color: white;
+    font-size: 20px;
+    width: 130px;
+    border: none;
+    padding: 1vw;
+    border-radius: 5px;
+    margin: 20px 0 auto;
+    text-align: center;
+    cursor: pointer;
+    display: none;
+}
+h2.titulo {
+  text-align: center;
+  margin-bottom: 2vw;
+  font-weight: bold;
+}
+h2{
+    text-align: center;
+    margin-bottom: 1vw;
+}
+button {
+  width: auto;
+  padding: 1.5vw 2vw;
+  background: white;
+  color: #4CAF50;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
+button:hover {
+  background: #4CAF50;
+  color: white;
+}
+#resultado-final {
+    margin-bottom: 3vw;
+}
+#resultado {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.hidden {
+    display: none;
+  }
+  
+  .opcao {
+    background: #f2f2f2;
+    padding: 1vw;
+    margin: 0.8vw 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .opcao:hover {
+    background: #e0e0e0;
+  }  
 /* FOOTER */
 footer  {
     display: flex;
@@ -328,12 +388,13 @@ footer  {
     }
     
     footer a {
-        display: flex;
+         display: flex;
         align-items: center;
         justify-content: center;
         width: 45px;
         height: 45px;
         background-color: white;
+        color: #1a6a6a;
         border-radius: 50%;
         font-size: 1.3rem;
         transition: all 0.3s ease;
@@ -379,14 +440,9 @@ footer  {
     }
     
     .icons {
-        
       display: flex;
       justify-content: center;
       gap: 20px; 
-    }
-
-    .icons  i {
-        color: #236c74;
     }
     .direitos {
         padding: 1vw;
@@ -402,4 +458,51 @@ footer  {
     }
 
     
+    
+    
+    .perguntas {
+        width: auto;
+        height: auto;
+    }
+    
+    /* === Responsividade === */
+    
+    @media (max-width: 768px) {
+        main{
+            margin: 0 10vw;
+        }
+        .banner div {
+            display: flex;
+            border-radius: 15px;
+        }
+        .banner div h1 {
+            font-size: 2.7rem;
+            max-width: 100%;
+        }
+        .perguntas #quiz{
+            padding-bottom: 0vw;
+        }
+          .opcao {
+    background: #f2f2f2;
+    padding: 1vw;
+    margin: 2.5vw 0;
+    font-size: 3.7vw;
+    padding: 2vw 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
 
+
+    a.topo {
+        position: relative;
+        padding: 0.5vw 4vw;
+        font-size: 15px;
+        width: 15vw;
+        margin-top: 4vw;
+        left: 0.1vw;
+        box-shadow: none;
+        background: linear-gradient(135deg, #368884, #3c8383);
+        border: 1px solid #fff;
+    }
+    }

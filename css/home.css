@@ -5,8 +5,8 @@ html {
     overflow-x: hidden;
 }
 ::selection{
-    background-color: #007777;
-    color: white;
+    background-color: white;
+    color: #007777;
 }
 body {
     background-color: #F9E6D0;
@@ -73,7 +73,7 @@ header {
     display: flex;
     align-items: center;
     gap: 8px;
-    width: min-content;
+    
     
 }
 .flechinha {
@@ -374,7 +374,7 @@ section.parteDois div ul.dois p {
 .parteDois div ul {
 
     .um,
-    .dois,
+.dois,
     .tres,
     .quatro,
     .cinco {
