@@ -4,7 +4,7 @@ html {
     text-decoration: none;
     overflow-x: hidden;
   }
-  select {
+  ::selection {
     background-color: white;
     color: #007777;
   }
@@ -251,7 +251,7 @@ section {
     flex-wrap: wrap;
     background-color: #007777;
     border-radius: 1.2vw;
-    margin: 2rem auto 0 auto;
+    margin: 2rem 14.3vw 0 14.3vw;
     max-width: 80vw;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
@@ -274,7 +274,7 @@ section {
     padding: 2vw 4vw;
 }
 
-.lista h2 {
+.lista h3 {
     text-align: center;
     color: #007777;
     font-size: 2rem;
@@ -285,13 +285,13 @@ section {
 .lista div {
     background-color: #ffffff;
     margin: 1.5rem auto 0 auto;
-    padding: 2rem;
+    padding: 4vw;
     border-radius: 1.2vw;
     max-width: 900px;
     box-shadow: 0 0.2vw 0.8vw rgba(0, 0, 0, 0.05);
 }
 
-.lista h3 {
+.lista h4 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -300,7 +300,7 @@ section {
     font-size: 1.4rem;
 }
 
-.lista h3 img {
+.lista h4 img {
     height: 24px;
 }
 

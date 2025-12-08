@@ -269,6 +269,8 @@ main section.b {
     background: #F9E6D0;
     padding: 5vw 8vw;
     border-radius: 40px 40px 0 0;
+    margin-left: 14.3vw;
+    margin-right: 14.3vw;
 }
 
 main section.b h3 {

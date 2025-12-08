@@ -393,7 +393,7 @@ section.integrar {
 }
 
 
-.como h3 {
+.como h4 {
    color: #ffffff;
    line-height: 1.6vw;
    font-size: 3vw;
@@ -452,7 +452,7 @@ section.prepos h4 {
 .pretreino {
    background-color: #007777;
    padding: 6vw;
-   margin: 1vw 8vw;
+   margin: 1vw 14.3vw;
    border-radius: 2vw;
    color: white;
 }
@@ -483,7 +483,7 @@ section.prepos h4 {
 .postreino {
    background-color: #007777;
    padding: 6vw;
-   margin: 1vw 8vw;
+   margin: 1vw 14.3vw;
    border-radius: 2vw;
    color: white;
 }

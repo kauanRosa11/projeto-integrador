@@ -450,10 +450,11 @@ section.parteTres div ol {
     padding: 2rem;
     max-width: fit-content;
 }
-section.parteTres div ol li h4 {
+section.parteTres div ol li h3 {
     font-size: 2rem;
     line-height: 2.5rem;
     padding: 1rem 0;
+    font-weight: bold;
 }
 
 .parteTres div ol li p{
@@ -488,8 +489,8 @@ section.parteQuatro div {
     padding: 2rem 1rem 3rem;
 }
 
-section.parteQuatro div h4 {
-    color: #236C74;
+section.parteQuatro div h3 {
+    color: #007777;
     font-size: 3.5rem;
     line-height: 3.8rem;
     font-weight: bold;
