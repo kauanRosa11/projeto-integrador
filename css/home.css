@@ -73,6 +73,8 @@ header {
     display: flex;
     align-items: center;
     gap: 8px;
+    width: min-content;
+    
 }
 .flechinha {
     font-size: 18px;
