@@ -137,7 +137,9 @@ const perguntas = [
   const btnProxima = document.getElementById("proxima");
   const resultadoFinal = document.getElementById("resultado-final");
   const resultadoTexto = document.getElementById("resultado");
-  
+  const proxPerguntas = document.getElementById("proxPergunta");
+   
+
   function mostrarPergunta() {
     feedback.classList.add("hidden");
     resultadoFinal.classList.add("hidden");
@@ -186,14 +188,15 @@ const perguntas = [
   function mostrarResultado() {
     feedback.classList.add("hidden");
     resultadoFinal.classList.remove("hidden");
+    proxPerguntas.classList.add('hidden')
   
     let texto = "";
     if (pontuacao >= 25) {
-      texto = "🎉 Parabéns! Sua rotina está muito saudável!";
+      texto = "Parabéns! Sua rotina está muito saudável!";
     } else if (pontuacao >= 19 && pontuacao < 25) {
-      texto = "🙂 Você está indo bem, mas dá pra melhorar alguns hábitos!";
+      texto = "Você está indo bem, mas dá pra melhorar alguns hábitos!";
     } else {
-      texto = "⚠️ Atenção: sua rotina pode estar afetando sua saúde. Que tal cuidar um pouco mais?";
+      texto = "Atenção: sua rotina pode estar afetando sua saúde. Que tal cuidar um pouco mais?";
     }
   
     resultadoTexto.textContent = texto;
