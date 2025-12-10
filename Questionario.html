@@ -25,18 +25,19 @@
                 </a>
             </h1>
 
-            
+
             <div class="hamburger" id="hamburger">
                 <i class="fa-solid fa-bars"></i>
             </div>
 
-           
+
             <ul class="nav-menu" id="nav-menu">
                 <li>
-                <div>
-                <a class="Home" id="atual" href="index.html">Início</a>
-                <span style="color: #fff;" class="flechinha Home"><i class="fa-solid fa-chevron-down"></i></span>
-                </div>
+                    <div>
+                        <a class="Home" id="atual" href="index.html">Início</a>
+                        <span style="color: #fff;" class="flechinha Home"><i
+                                class="fa-solid fa-chevron-down"></i></span>
+                    </div>
                     <ul class="dropdown">
                         <li><a href="saudeFisica.html">Saúde física</a></li>
                         <li><a href="alimentacaosaudavel.html">Alimentação saudável</a></li>
@@ -76,13 +77,15 @@
             <button onclick="recomecar()" class="recomeca">Recomeçar</button>
         </div>
     </main>
-    
+
     <footer>
         <div class="social">
             <p class="nos">Estamos nas plataformas</p>
             <div class="icons">
-                <a href="https://www.facebook.com/profile.php?id=61581283343654" class="face"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/pjtocoresync/" class="insta"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61581283343654" class="face"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/pjtocoresync/" class="insta"><i
+                        class="fa-brands fa-instagram"></i></a>
                 <a href="https://x.com/pjtocoresync" class="X"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
 
@@ -91,29 +94,29 @@
                 <p>Desenvolvido com <i class="fa-solid fa-heart"></i> no IFC</p>
             </div>
 
+        </div>
+        <div>
 
-         <div>
-           
-        <a class="topo" href="Questionario.html"> <i class="fa-solid fa-arrow-up"></i> Voltar ao topo</a>
-       
+            <a class="topo" href="Questionario.html"> <i class="fa-solid fa-arrow-up"></i> Voltar ao topo</a>
+
         </div>
         </div>
     </footer>
     
     <script src="questionario.js"></script>
 
-        <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const btnMobile = document.getElementById('hamburger');
-        const menu = document.getElementById('nav-menu');
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const btnMobile = document.getElementById('hamburger');
+            const menu = document.getElementById('nav-menu');
 
-        btnMobile.addEventListener("click", () => {
-            menu.classList.toggle("active");
-            btnMobile.classList.toggle("active");
+            btnMobile.addEventListener("click", () => {
+                menu.classList.toggle("active");
+                btnMobile.classList.toggle("active");
+            });
         });
-    });
     </script>
 
-</body> 
+</body>
 
 </html>

@@ -226,7 +226,11 @@ html {
   }
 
   main{
+<<<<<<< HEAD
     padding: 12vw 1vw;
+=======
+    padding: 8vw 14.3vw;
+>>>>>>> add76bba1746eed2da51ad3a3d3f15d72cb08f52
   }
 a.topo {
 color: white;
