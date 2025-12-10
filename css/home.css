@@ -374,16 +374,12 @@ section.parteDois div ul.dois p {
 
 .parteDois div ul {
 
-    .um,
-.dois,
-    .tres,
-    .quatro,
-    .cinco {
+ 
         text-align: center;
         background-color: #1a6a6a;
         border-radius: 50px;
         line-height: 2.3rem;
-    }
+    
 }
 .parteDois a {
     transition: 0.3s;

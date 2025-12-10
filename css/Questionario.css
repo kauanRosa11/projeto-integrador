@@ -226,7 +226,7 @@ html {
   }
 
   main{
-    padding: 15vw 14.3vw;
+    padding: 12vw 1vw;
   }
 a.topo {
 color: white;
@@ -482,14 +482,17 @@ footer  {
         .banner div {
             display: flex;
             border-radius: 15px;
+      justify-content: center;
+         
         }
         .banner div h1 {
-            font-size: 2.7rem;
+            font-size: 1.7rem;
             max-width: 100%;
+            margin-top: 5vw;
+     
+
         }
-        .perguntas #quiz{
-            padding-bottom: 0vw;
-        }
+      
           .opcao {
     background: #f2f2f2;
     padding: 1vw;
@@ -500,7 +503,12 @@ footer  {
     cursor: pointer;
     transition: 0.3s;
   }
+.perguntas {
+  justify-content: center;
 
+  padding: 5vw;;
+ 
+}
 
     a.topo {
         position: relative;
