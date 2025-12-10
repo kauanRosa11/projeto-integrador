@@ -238,6 +238,7 @@ main {
     border-radius: 0 0 10px 10px;
     margin-bottom: 2rem;
     box-shadow: 0 0 10px #000;
+    margin-top: 5vw;
 }
 
 .banner h2 {

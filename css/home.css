@@ -236,7 +236,7 @@ section.parteUm div h2 {
     color: #237470;
     font-weight: bold;
     line-height: 6vw;
-    margin-top: 2vw;
+    margin-top: 15vw;
 }
 .parteUm .texto {
     margin-top: 1rem;
@@ -372,7 +372,7 @@ section.parteDois div ul.dois p {
     line-height: 2vw;
 }
 
-<<<<<<< HEAD
+
 .parteDois div ul {
 
  
@@ -380,18 +380,11 @@ section.parteDois div ul.dois p {
         background-color: #1a6a6a;
         border-radius: 50px;
         line-height: 2.3rem;
-    
-=======
-.parteDois div ul .um,
-.parteDois div ul .dois,
-.parteDois div ul .tres,
-.parteDois div ul .quatro,
-.parteDois div ul .cinco {
     text-align: center;
     background-color: #1a6a6a;
     border-radius: 50px;
     line-height: 2.3rem;
->>>>>>> add76bba1746eed2da51ad3a3d3f15d72cb08f52
+
 }
 
 .parteDois a {
