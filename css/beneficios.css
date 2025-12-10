@@ -21,6 +21,9 @@ html {
   margin: 0 auto;   
   box-sizing: border-box; 
   }
+  main{
+    padding: 15vw 14.3vw;
+  }
   
 /**** setinhaaaaaaa ****/
 .nav-menu > li > a {
@@ -227,7 +230,6 @@ html {
 main {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 2rem 1rem;
 }
 
 section.beneficios {

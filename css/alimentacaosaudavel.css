@@ -147,7 +147,7 @@ html {
   box-shadow: 0 0 10px black;
   transform: scale(1.1);
   }
-  
+
   
   @media (max-width: 820px) {
     .hamburger {
@@ -227,7 +227,7 @@ html {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 15vw 14.3vw 0 14.3vw;
 }
 
 .banner {

@@ -140,7 +140,9 @@ html {
      box-shadow: 0 0 10px black;
      
  }
- 
+ main{
+   padding-top: 15vw;
+ }
  a.topo:hover {
  transition: 0.2s;
  background: #236C74;

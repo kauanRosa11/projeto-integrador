@@ -113,7 +113,9 @@ html {
     font-size: 28px;
     cursor: pointer;
   }
-  
+  main{
+    padding: 8vw 14.3vw;
+  }
   a.topo {
   color: white;
       width: 5vw;
