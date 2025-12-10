@@ -114,7 +114,7 @@ html {
     cursor: pointer;
   }
   main{
-    padding: 8vw 14.3vw;
+    padding: 5vw 14.3vw;
   }
   a.topo {
   color: white;
@@ -274,6 +274,7 @@ section {
     border: solid 1px #FFFFFF;
     border-radius: 10px;
     padding: 2vw 4vw;
+    font-weight: 300;
 }
 
 .lista h3 {
@@ -304,6 +305,8 @@ section {
 
 .lista h4 img {
     height: 24px;
+    background-color: #007777;
+    border-radius: 0.4vw;
 }
 
 .lista ul {

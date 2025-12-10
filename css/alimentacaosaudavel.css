@@ -227,7 +227,7 @@ html {
 main {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15vw 14.3vw 0 14.3vw;
+    padding: 6vw 14.3vw 0 14.3vw;
 }
 
 .banner {
@@ -258,6 +258,14 @@ main {
 .banners {
     background: none;
     color: #8C6A5B;
+}
+.banners a{
+  text-decoration: none;
+  color: #8C6A5B;
+}
+.banners a:hover{
+  text-decoration: underline;
+  background-color: white;
 }
 
 .alimentacao .banner {
@@ -312,6 +320,7 @@ main {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #FFF;
+    font-weight: 300;
 }
 
 .container img {

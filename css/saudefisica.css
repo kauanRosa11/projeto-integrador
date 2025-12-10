@@ -141,7 +141,7 @@ html {
      
  }
  main{
-   padding-top: 15vw;
+   padding-top: 8vw;
  }
  a.topo:hover {
  transition: 0.2s;
@@ -427,6 +427,8 @@ div.lis ul {
    flex-wrap: wrap;
    gap: 4vw;
    justify-content: center;
+   padding: 0 15vw;
+
 }
 
 div.lis ul li {
@@ -434,7 +436,7 @@ div.lis ul li {
    border-radius: 2vw;
    padding: 2vw;
    height: auto;
-   width: 29vw;
+   width: 26vw;
    margin: 0vw;
    transition: 0.4s;
 }
@@ -466,8 +468,8 @@ section.prepos h4 {
 
 .pretreino {
    background-color: #007777;
-   padding: 6vw;
-   margin: 1vw 14.3vw;
+   padding: 6vw ;
+   margin: 1vw 17vw;
    border-radius: 2vw;
    color: white;
 }
@@ -498,7 +500,7 @@ section.prepos h4 {
 .postreino {
    background-color: #007777;
    padding: 6vw;
-   margin: 1vw 14.3vw;
+   margin: 1vw 17vw;
    border-radius: 2vw;
    color: white;
 }
